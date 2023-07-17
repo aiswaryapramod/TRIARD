@@ -1,0 +1,12 @@
+.navbar h1{
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
