@@ -1,18 +1,28 @@
+import React from 'react';
 import './App.css';
-import Banner from './components/banner/Banner';
-import Content from './components/content/Content';
-import Header from './components/header/Header';
-import Navbar from './components/navbar/Navbar';
-import Slider from './components/slider/Slider';
+import Faq from './components/faq/Faq';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from './components/home/Home';
+import ContactUs from './components/contactUs/ContactUs';
 
 function App() {
   return (
-    <div >
-      {/* <Header/> */}
-      <Navbar/>
-      <Banner/>
-      <Content/>
-      <Slider/>
+    <div>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+
+        <Routes>
+          <Route path='/faq' element={<Faq />} />
+        </Routes>
+
+        <Routes>
+          <Route path='/contactUs' element={<ContactUs />} />
+        </Routes>
+
+
+      </Router>
     </div>
   );
 }

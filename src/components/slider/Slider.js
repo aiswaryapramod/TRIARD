@@ -51,18 +51,22 @@
 
 
 
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import "./Slider.css";
 
 function Slider() {
   const viewerRef = useRef(null);
+
+  useEffect(() => {
+    showCarModel(); // Set Car.glb as the default model on component mount
+  }, []);
 
   function showCarModel() {
     viewerRef.current.src = '/model/Car.glb';
   }
 
   function showTableModel() {
-    viewerRef.current.src = 'Table.glb';
+    viewerRef.current.src = '/model/Glove.glb';
   }
 
   return (
@@ -95,17 +99,8 @@ function Slider() {
         </div>
 
       </div>
-
-      {/* <div>
-          <h3>3d customization</h3>
-          <p>
-          Stay ahead of the competition by providing a unique and engaging shopping experience. From furniture and home decor to automotive accessories and fashion apparel, our customizer spans across multiple industries, catering to diverse business needs.
-          </p>
-        </div>
- */}
     </div>
   );
 }
-
 
 export default Slider;
