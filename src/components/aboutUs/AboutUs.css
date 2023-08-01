@@ -1,0 +1,399 @@
+.aboutus_navbar_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.aboutus_navbar_image {
+  width: 200px;
+  height: auto;
+}
+
+.aboutus_boy_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+.aboutus_boy_image {
+  width: 50%;
+  height: auto;
+}
+
+.aboutus_container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aboutus_ourvision_main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1400px;
+  margin-left: auto;
+  overflow: initial;
+  margin-right: auto;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.aboutus_ourvision_main_container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1400px;
+  margin-left: auto;
+  overflow: initial;
+  margin-right: auto;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.aboutus_ourvision_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+  flex: 0.9 1;
+  color: white;
+}
+.aboutus_ourvision_text_container_h3 {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
+}
+.aboutus_ourvision_text_container_p {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 95%;
+  font-weight: 100;
+  margin-top: 28px;
+}
+.aboutus_ourvision_image_container_img {
+  width: 30%;
+}
+.aboutus_ourcommitment_aboutus_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 5rem;
+  flex: 0.9 1;
+  color: white;
+  background-color: transparent;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(356px, 1fr));
+
+  justify-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 5rem;
+  padding-top: 5rem;
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .aboutus_ourvision_main_container {
+    flex-direction: column;
+  }
+  .aboutus_ourvision_image_container_img {
+    width: 70%;
+  }
+  .aboutus_ourcommitment_text_container1 {
+    padding: 4rem 4rem;
+  }
+  .aboutus_ourvision_main_container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .aboutus_letsshapethefuture_container {
+    padding: 1rem 0rem 1rem 0 !important;
+  }
+  .aboutus_letsshapethefuture_text_container {
+    top: -5% !important;
+  }
+
+  .aboutus_ourcommitmenttoyou_container {
+    padding: 1rem 1rem 1rem 0 !important;
+  }
+  .aboutus_ourcommitmenttoyou_text_container {
+    top: 5% !important;
+  }
+  .card-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    padding-top: 2rem;
+  }
+  .aboutus_whychoose_traiad_container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .aboutus_ourcommitment_aboutus_text_container {
+    padding: 1rem 1rem;
+  }
+  .aboutus_ourvision_text_container {
+    padding: 1rem;
+  }
+  .aboutus_ourvision_main_container3 {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 480px) {
+  .aboutus_letsshapethefuture_text_container {
+    top: -10% !important;
+  }
+}
+
+.aboutus_whychoose_traiad_image {
+  width: 100px;
+  height: 100px;
+}
+.aboutus_whychoose_traiad_container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.aboutus_ourcommitment_text_container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 7rem;
+  flex: 0.9 1;
+  color: white;
+  background-color: transparent;
+}
+.aboutus_ourcommitment_text_container_h31 {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 48px;
+  background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
+}
+
+.aboutus_ourcommitment_main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.aboutus_ourcommitment_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0 20px 50px;
+  flex: 1;
+  color: white;
+
+  background-color: transparent;
+}
+
+.aboutus_ourcommitment_text_container_h3 {
+  font-size: 48px;
+  color: white;
+  background-color: transparent;
+}
+
+.aboutus_ourcommitment_text_container_p {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 90%;
+  font-weight: 100;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.aboutus_ourcommitment_image_container_img {
+  width: 40%;
+}
+
+.aboutus_ourcommitmenttoyou_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  position: relative;
+}
+
+.aboutus_ourcommitmenttoyou_text_container {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  z-index: 1;
+  color: #fff;
+  background-color: transparent;
+  width: 50%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+.aboutus_ourcommitmenttoyou_background_image {
+  max-width: 1560px;
+  height: auto;
+  flex-basis: 100%;
+}
+
+.aboutus_ourcommitmenttoyou_image {
+  background-color: transparent;
+
+  transform: translateX(-10%);
+  width: 50%;
+  height: auto;
+}
+.aboutus_ourcommitmenttoyou_text_container_h3 {
+  font-size: 48px;
+  color: white;
+  background-color: transparent;
+  font-size: 2.8vw;
+  padding-top: 3rem;
+}
+.aboutus_ourcommitmenttoyou_text_container_p {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 90%;
+  font-weight: 100;
+  margin-top: 10px;
+  background-color: transparent;
+  font-size: 1.6vw;
+}
+.aboutus_ourcommitmenttoyou_text_container {
+  background-color: transparent;
+  width: 50%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 0 50px 50px 0;
+  background: linear-gradient(235deg, rgba(0, 122, 223, 0) 0%, #00ecbc 100%); */
+}
+/* .aboutus_letsshapethefuture_image {
+  padding-right: 6rem;
+
+  background-color: transparent;
+
+  transform: translateX(25%);
+  width: 50%;
+  height: auto;
+} */
+.aboutus_letsshapefuture_text_container {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  z-index: 1;
+  color: #fff;
+  background-color: transparent;
+  width: 50%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+.aboutus_letsshapethefuture_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  position: relative;
+  flex-direction: row-reverse;
+}
+.aboutus_letsshapethefuture_text_container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  z-index: 1;
+  color: #fff;
+  background-color: transparent;
+  width: 50%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+.aboutus_letsshapethefuture_image {
+  background-color: transparent;
+  transform: translateX(10%);
+  width: 50%;
+  height: auto;
+}
+
+.aboutus_gridcontainer {
+  display: flex;
+  padding-bottom: 12rem;
+  padding-top: 12rem;
+}
+.aboutus_background_gridcontainer {
+  border-radius: 246.5px 0 0 246.5px;
+  background-image: linear-gradient(
+    235deg,
+    rgba(0, 122, 223, 0) 0%,
+    #00ecbc 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1542px;
+  height: 542px;
+  flex: 4 1;
+  position: relative;
+}
+
+.aboutus_image_gridcontainer {
+  max-width: 473px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.aboutus_letsshapethefuture_gridimage {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  transform: translateX(35%);
+  background-color: transparent;
+  z-index: 2;
+}
+
+.aboutus_text_gridcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+  flex: 0.9 1;
+  color: white;
+  background-color: transparent;
+  width: 80%;
+}
+.aboutus_ourcommitmenttoyou_text_grid_p {
+  background-color: transparent;
+
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
+.aboutus_ourcommitmenttoyou_text_grid_h3 {
+  color: white;
+  background-color: transparent;
+
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: right;
+}
