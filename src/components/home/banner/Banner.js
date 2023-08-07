@@ -64,7 +64,7 @@
 
 import React, { useRef,useEffect } from 'react';
 // import bannerVideo from "../../assets/banner2.mp4";
-import bannerVideo from "../../../assets/banner2.mp4"
+import bannerVideo from "../../../assets/banner4.webm"
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './Banner.css';

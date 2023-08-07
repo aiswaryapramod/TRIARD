@@ -36,11 +36,11 @@ function Footer() {
                     <a href='/'><img src={logo}></img></a>
                     <p class="footer-links">
 
-					<a href="/">Home</a>&nbsp;
+					<a className='a_home' href="/">Home</a>&nbsp;
 					
-					<a href="#">AboutUs</a>&nbsp;
+					<a href="#">About Us</a>&nbsp;
 									
-					<Link to="/faq">Faq</Link>&nbsp;
+					<Link to="/faq">FAQ</Link>&nbsp;
 					
 					<a href="/contactUs">Contact</a>&nbsp;
 				</p>

@@ -7,6 +7,7 @@ import img2 from "../../../assets/img2.png"
 import img5 from "../../../assets/img5.png"
 import img6 from "../../../assets/img6.png"
 import img7 from "../../../assets/img7.png"
+import brand from "../../../assets/brand.png"
 
 // import Video1 from "../../assets/video1.mp4";
 
@@ -276,7 +277,7 @@ function Content() {
                         vision to life.</p>
 
                         <div>
-                        <iframe className='iframe' src="https://phpstack-947027-3563759.cloudwaysapps.com/glove" title="Iframe Example"></iframe>
+                        {/* <iframe className='iframe' src="https://phpstack-947027-3563759.cloudwaysapps.com/glove" title="Iframe Example"></iframe> */}
                 </div>
 
                 </div>
@@ -286,7 +287,7 @@ function Content() {
 
             <div className='content_cra'>
                 <div className='cra_text'>Integrate seamlessly with the top ecommerce platforms</div>
-                <img src='https://www.digitalbuddha.net/static/media/Shopify.ad9ae5bddca9d95e4e08.svg'></img>
+                <img src={brand}></img>
             </div>
 
 

@@ -483,7 +483,7 @@
   display: grid;
   grid-template-columns: 54% 47%;
   /* background-color: rgb(255, 255, 255); */
-  margin-top: 90px;
+  margin-top: 77px;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -491,7 +491,10 @@
 
 .banner_info {
     padding: 47px;
-    margin-top: -133px;
+    margin-top: -116px;
+    background-image: url("../../../assets/graph1.png");
+    background-size: 101%;
+    background-position: -26px -59px;
 }
 
 .banner_info h1 {
@@ -504,7 +507,7 @@
     font-size: 55px;
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: 900;
-    background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
+    background-image: var( --theme-color);
 }
 
 .banner_info h3 {
@@ -515,16 +518,17 @@
     width: 90%;
     margin-right: auto;
     color: #ffffffb5;
+    background-color: transparent;
 }
 
 .banner_video {
   overflow-y: hidden;
-  margin-top: 137px;
-  margin-bottom: 64px;
+  margin-top: -73px;
+  /* margin-bottom: 64px; */
 }
 
 .banner_video video {
-  width: 90%;
+  width: 100%;
 }
 
 .banner_info button {
@@ -533,16 +537,16 @@
     font-size: 14px;
     margin-top: 45px;
     background-color: black;
-    background: linear-gradient(to bottom right, #6dc185, #1aabd5);
+    background: var( --theme-color);
     border-radius: 5px;
     border: none;
     font-weight: 700;
-    background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
+    background-image: var( --theme-color);
 }
 
 .banner_info a {
     text-decoration: none;
-    color: white;
+    color: var( --primary-color);
     background-color: transparent;
 }
 
@@ -606,6 +610,10 @@ model-viewer {
   }
   .banner_info {
     padding: 15px;
+        margin-top: -116px;
+        background-image: url('../../../assets/graph2.png');
+        background-size: 142%;
+        background-position: -56px -361px;    
   }
   .banner_info h1 {
     margin-top: 157px !important;
