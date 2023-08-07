@@ -43,6 +43,7 @@
   display: block;
   padding: 30px;
   font-family: "Roboto", sans-serif;
+  color: var(--white);
 }
 .menu a:hover {
   background-color: var(--gray);
