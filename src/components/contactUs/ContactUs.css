@@ -13,20 +13,20 @@
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
-  margin-bottom: 90px;
+  background-image: var(--theme-color);
+  margin-bottom: 50px;
   font-size: 35px;
 }
 
 .contact_section p {
-  color: white;
-  font-size: 20px;
+  color: var(--primary-color);
+  font-size: 22px;
   line-height: 1.4;
   text-align: center;
 }
 
 .gridContent_section {
-  color: white;
+  color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@
 .form-horizontal {
   /*float: left;*/
   max-width: 400px;
-  font-family: "Lato";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -50,7 +50,7 @@
 textarea {
   max-width: 400px;
   background-color: #000;
-  color: #fff;
+  color: var(--primary-color);
   letter-spacing: 1px;
 }
 
@@ -121,7 +121,7 @@ textarea {
 }
 
 .contact-text a:hover {
-  color: #fff;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -136,7 +136,7 @@ textarea {
 }
 
 .social-media-list li a {
-  color: #fff;
+  color: var(--primary-color);
 }
 
 .social-media-list li {
@@ -147,7 +147,7 @@ textarea {
   margin: 10px 3px;
   line-height: 60px;
   border-radius: 50%;
-  color: #fff;
+  color: var(--primary-color);
   background-color: rgb(27, 27, 27);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -163,12 +163,12 @@ textarea {
   line-height: 60px;
   border-radius: 50%;
   opacity: 0;
-  box-shadow: 0 0 0 1px #fff;
+  box-shadow: 0 0 0 1px var(--primary-color);
   transition: all 0.2s ease-in-out;
 }
 
 .social-media-list li:hover {
-  background-color: #fff;
+  background-color: var(--primary-color);
 }
 
 .social-media-list li:hover:after {
@@ -196,7 +196,7 @@ hr {
 textarea {
   max-width: 547px;
   background-color: #000;
-  color: #fff;
+  color: var(--primary-color);
   letter-spacing: 1px;
 }
 
@@ -220,7 +220,7 @@ textarea {
   color: rgb(255 255 255 / 86%);
 }
 
-.contact-email{
+.contact-email {
   margin-top: 0 !important;
   margin-bottom: 20px;
 }
@@ -239,7 +239,7 @@ textarea {
   margin-top: 59px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
+  background-image: var(--theme-color);
 }
 
 .description_detail p {
@@ -251,7 +251,12 @@ textarea {
   text-decoration: underline;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
+  background-image: var(--theme-color);
+}
+
+.contact_section img {
+  /* width: 100%; */
+  margin-top: -8px;
 }
 
 @media (max-width: 500px) {
@@ -260,6 +265,13 @@ textarea {
     padding-top: 3rem;
     width: 28.15px;
     height: 26.72px;
+  }
+  .contact_main {
+    margin-top: 80px;
+  }
+  .contact_main img {
+    margin-top: 12px;
+    width: 100%;
   }
 }
 
@@ -274,7 +286,7 @@ textarea {
 }
 .enquiry_detail h1 {
   font-size: 24px;
-  color: var(--para-color);
+  color: var(--primary-color);
   font-weight: 400;
 }
 
@@ -286,7 +298,7 @@ textarea {
 
 .enquiry_detail p {
   font-size: 24px;
-  color: var(--color-accent);
+  color: var(--primary-color);
   font-weight: 700;
 }
 
@@ -308,7 +320,7 @@ textarea {
 
 .call_detail h1 {
   font-size: 24px;
-  color: var(--para-color);
+  color: var(--primary-color);
   font-weight: 400;
 }
 
@@ -320,7 +332,7 @@ textarea {
 
 .call_detail p {
   font-size: 24px;
-  color: var(--color-accent);
+  color: var(--primary-color);
   font-weight: 700;
 }
 
@@ -332,7 +344,7 @@ textarea {
 
 .description_detail p {
   font-size: 16px;
-  color: var(--para-color);
+  color: var(--primary-color);
   font-weight: 400;
   padding-top: 60px;
   /* width:364px; */
@@ -346,32 +358,36 @@ textarea {
 }
 
 @media (max-width: 500px) {
-   .gridForm_section{
+  .gridForm_section {
     display: block;
-   }      
+  }
 
-   .enquiry_detail h1{
+  .enquiry_detail h1 {
     font-size: 26px !important;
-   }
+  }
 
-   .call_detail p{
+  .call_detail p {
     font-size: 15px !important;
-   }
+  }
 
-   .contact_heading{
+  .contact_heading {
     margin-top: 24px;
     margin-bottom: 50px;
-   }
+  }
 
-   .contact_section p{
+  .contact_section p {
     font-size: 18px;
-   }
+  }
 
   .contact_detail {
     /* width: 100%; */
     display: grid;
     place-items: center;
     text-align: center;
+  }
+
+  .formbold-main-wrapper {
+    padding: 0px;
   }
 }
 

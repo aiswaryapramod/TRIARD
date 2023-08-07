@@ -64,7 +64,7 @@ function ContactUs() {
 
     return (
         <div className='container' style={{ overflow: 'hidden' }}>
-            <h2 className='contactUs_h2'>ContactUs</h2>
+            <h2 className='contactUs_h2'>Request a Demo</h2>
 
             <div id='contactus' className='contactUs_info'>
 

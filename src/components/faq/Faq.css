@@ -4,16 +4,16 @@
 
 .faq_heading {
   text-align: center;
-  color: white;
+  color: var( --primary-color);
   font-size: 35px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
+  background-image: var( --theme-color);
   font-weight: 700;
 }
 
 .faq_content {
-  color: white;
+  color: var( --primary-color);
   max-width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -21,6 +21,7 @@
 }
 
 .faq_content summary {
+  font-family: "Roboto", sans-serif;
   margin-bottom: 15px;
   background-color: transparent;
   color: #ffffffcf;
@@ -29,6 +30,7 @@
 }
 
 .faq_content p {
+  font-family: "Roboto", sans-serif;
   margin-top: 25px;
   background-color: transparent;
   color: #8fc5ff;
@@ -45,6 +47,7 @@
 }
 
 .faq_cta h4 {
+  font-family: "Roboto", sans-serif;
   max-width: 57%;
   margin-left: auto;
   margin-right: auto;
@@ -56,19 +59,20 @@
 }
 
 .faq_cta h2 {
+  font-family: "Roboto", sans-serif;
   text-align: center;
   margin-top: 115px;
   margin-bottom: 20px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
+  background-image: var( --theme-color);
 }
 
 .faq_btn button {
-  background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
+  background-image: var( --theme-color);
   padding: 15px;
   border-radius: 10px;
-  color: white;
+  color: var( --primary-color);
   font-size: 17px;
   cursor: pointer;
 

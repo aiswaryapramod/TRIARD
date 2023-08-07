@@ -13,13 +13,14 @@ function Navbar() {
       <header class="header">
         <a href='/'><img src={logo}></img></a>
         <input class="side-menu" type="checkbox" id="side-menu" />
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span> <span class="hamb-line"></span><span class="hamb-line"></span></label>
+
         <nav class="nav">
           <ul class="menu">
-            <li><a href="#">AboutUs</a></li>
-            <li><a href="#">Products</a> </li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">UseCase</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="/usecases">USE CASES</a></li>
+            <li><a href="/demo">DEMOS</a> </li>
+            <li><a href="/contactUs">CONTACT US</a></li>
 
           </ul>
         </nav>
