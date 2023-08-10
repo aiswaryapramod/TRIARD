@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import Faq from "./components/faq/Faq";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from './components/home/Home';
-import ContactUs from './components/contactUs/ContactUs';
+// import Home from './components/home/Home';
+// import ContactUs from './components/contactUs/ContactUs';
 import Usecase from './components/usecase/Usecase';
 import Demo from './components/demos/Demo';
 import Home from "./components/home/Home";
@@ -29,7 +29,7 @@ function App() {
 
         <Routes>
           <Route path='/faq' element={<Faq />} />
-          <Route path="/faq" element={<Faq />} />
+          {/* <Route path="/faq" element={<Faq />} /> */}
         </Routes>
 
         <Routes>

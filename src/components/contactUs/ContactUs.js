@@ -5,15 +5,15 @@ import Footer from '../footer/Footer';
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import gsap from 'gsap';
+// import gsap from 'gsap';
 import contactimg from "../../assets/contact1.png";
 
 
 function ContactUs() {
   const formRef = useRef();
   // const containerContact = useRef(null);
-  const contactDetail = useRef(null);
-  const contactForm = useRef(null);
+  // const contactDetail = useRef(null);
+  // const contactForm = useRef(null);
 
 
   const notify = (e) => {
@@ -36,48 +36,32 @@ function ContactUs() {
 
   };
 
+
   // useEffect(() => {
-  //   gsap.fromTo(containerContact.current, { scale: 0.5 }, {
+  //   gsap.fromTo(contactDetail.current, { translateX: '100%' }, {
   //     scrollTrigger: {
-  //       trigger: containerContact.current,
+  //       trigger: contactDetail.current,
   //       immediateRender: false,
   //       scrub: true,
-  //       start: 80,
-  //       smooth: 2,
-  //       start: 'top 80%'
+  //       start: 'top 70%',
+  //       end: '+=300',
   //     },
-  //     scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+  //     translateX: '0%'
+  //   });
+
+  //   gsap.fromTo(contactForm.current, { translateX: '-100%' }, {
+  //     scrollTrigger: {
+  //       trigger: contactForm.current,
+  //       immediateRender: false,
+  //       scrub: true,
+  //       start: 'top 70%',
+  //       end: '+=300',
+  //     },
+  //     translateX: '0%'
   //   });
 
 
   // }, []);
-
-
-  useEffect(() => {
-    gsap.fromTo(contactDetail.current, { translateX: '100%' }, {
-      scrollTrigger: {
-        trigger: contactDetail.current,
-        immediateRender: false,
-        scrub: true,
-        start: 'top 70%',
-        end: '+=300',
-      },
-      translateX: '0%'
-    });
-
-    gsap.fromTo(contactForm.current, { translateX: '-100%' }, {
-      scrollTrigger: {
-        trigger: contactForm.current,
-        immediateRender: false,
-        scrub: true,
-        start: 'top 70%',
-        end: '+=300',
-      },
-      translateX: '0%'
-    });
-
-
-  }, []);
 
 
 
@@ -87,7 +71,7 @@ function ContactUs() {
       <Navbar />
       <div className='contact_main'>
         <div className='contact_section'>
-          <img src={contactimg}></img>
+          <img></img>
 
           <h2 className="contact_heading">Contact Us</h2>
           <p >
@@ -135,7 +119,7 @@ function ContactUs() {
             </div> */}
 
 
-            <div className="formbold-main-wrapper" ref={contactForm}>
+            <div className="formbold-main-wrapper" >
               <div className="formbold-form-wrapper">
                 <form action="https://formbold.com/s/FORM_ID" method="POST" ref={formRef} onSubmit={(e) => notify(e)} >
                   <div className="formbold-mb-5">
@@ -205,7 +189,7 @@ function ContactUs() {
 
 
 
-            <div className='contact_detail' ref={contactDetail} >
+            <div className='contact_detail'  >
               <div className='contact_div1'>
                 <div className='enquiry_detail'>
                   <h1>
@@ -232,7 +216,7 @@ function ContactUs() {
                   </p>
 
                   <p className='contact-email'>
-                    Email: &nbsp; info@triard.io
+                    Email: &nbsp; <a href='mailto:info@triard.io'>info@triard.io</a>
                   </p>
 
                 </div>
@@ -242,7 +226,7 @@ function ContactUs() {
                 <div className='description_detail'>
                   <p>
                     <b>Customer Support:</b><br></br><br></br>
-                    For any technical assistance or support-related inquiries, reach out to our dedicated customer support team at support@triard.io. We're committed to ensuring your experience with Triard is seamless and successful.
+                    For any technical assistance or support-related inquiries, reach out to our dedicated customer support team at <a href='mailto:support@triard.io'>support@triard.io</a>. We're committed to ensuring your experience with Triard is seamless and successful.
                   </p>
                 </div>
               </div>

@@ -13,23 +13,9 @@ function ContactUs() {
 
     const formRef = useRef();
     const contactUsInfoRef = useRef();
-    const contactUsImgRef = useRef();
 
     useEffect(() => {
-        gsap.fromTo(contactUsInfoRef.current, { translateY: '100%' }, {
-            scrollTrigger: {
-                trigger: '.contactUs_h2',
-                immediateRender: false,
-                scrub: true,
-                start: 'top 80%'
-            },
-            translateY: '0%'
-        });
-    }, []);
-
-
-    useEffect(() => {
-        gsap.fromTo(contactUsImgRef.current, { translateX: '100%' }, {
+        gsap.fromTo(contactUsInfoRef.current, { translateX: '-100%' }, {
             scrollTrigger: {
                 trigger: '.contactUs_h2',
                 immediateRender: false,
@@ -39,6 +25,8 @@ function ContactUs() {
             translateX: '0%'
         });
     }, []);
+
+
 
 
     const notify = (e) => {
@@ -128,8 +116,8 @@ function ContactUs() {
                 </div>
                 <style></style>
 
-                <div className='contactUs' ref={contactUsImgRef}>
-                    <img src={img8} ref={contactUsImgRef}/>
+                <div className='contactUs' >
+                    <img src={img8} />
                 </div>
 
 

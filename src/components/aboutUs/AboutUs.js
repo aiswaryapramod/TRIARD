@@ -1,28 +1,42 @@
-import React from "react";
+import React ,{useRef,useEffect} from "react";
 import logo from "../../assets/logo2.png";
 import "./AboutUs.css";
-import boywearingar from "../../assets/boy-wearing-pair-vr-glasses-with-word-vr-front.png";
-import mixedreality from "../../assets/mixed_reality_mr.png";
-import whomweare from "../../assets/whom-we-are.png";
-import virtualclothing from "../../assets/virtual_clothing.png";
-import ourcommitment from "../../assets/our-commitment-to-you.png";
-import fistbump from "../../assets/3d-rendering-cartoon-hand.png";
+import boywearingar from "../../assets/aboutus_banner.png";
+import mixedreality from "../../assets/aboutus1.png";
+import whomweare from "../../assets/aboutus2.png";
+import virtualclothing from "../../assets/aboutus3.png";
 import "./Card.css";
 import Card from "./Cards";
 import Footer from "../footer/Footer";
-
 import whychooseus from "../../assets/whychooseus3.png";
-/* import whychooseustriard from "../../assets/whychoosetriadg.png"; */
-
 import innovation from "../../assets/innovation1.png";
 import expertise from "../../assets/expertise.png";
 import customer from "../../assets/customer.png";
 import support from "../../assets/support.png";
 import seamless from "../../assets/seamless.png";
-import rectangleright from "../../assets/Rectangle-background-right.png";
-import rectangleleft from "../../assets/Rectangle-background-left.png";
+import Navbar from '../navbar/Navbar';
+import commitment from "../../assets/commitment.png";
+import future from "../../assets/future.png"
+import { gsap } from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+import Aos from 'aos';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const AboutUs = () => {
+
+  const containerAboutus2 = useRef(null);
+  const containerAboutus4 = useRef(null);
+  const containerAboutus3 = useRef(null);
+  const containerAboutusimg1 = useRef(null);
+  const containerAboutusimg2 = useRef(null);
+  const containerAboutusimg3 = useRef(null);
+  const aboutBottom1 = useRef(null);
+  const aboutBottom2 = useRef(null);
+  const containerCard = useRef(null);
+
+  Aos.init();
+
   const data = [
     {
       icon: innovation,
@@ -55,27 +69,142 @@ const AboutUs = () => {
         " We ensure that integrating Triard into your existing e-commerce platform is a smooth and seamless process.",
     },
   ];
+
+
+  useEffect(() => {
+
+    gsap.fromTo(containerAboutus2.current, { scale: 0.5 }, {
+      scrollTrigger: {
+        trigger: containerAboutus2.current,
+        immediateRender: false,
+        scrub: true,
+        start:80,
+        smooth: 2,
+        start: 'top 80%'
+      },
+      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+    });
+ 
+    gsap.fromTo(containerAboutusimg1.current, { scale: 0.5 }, {
+      scrollTrigger: {
+        trigger: containerAboutusimg1.current,
+        immediateRender: false,
+        scrub: true,
+        start:80,
+        smooth: 2,
+        start: 'top 80%'
+      },
+      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+    });
+
+    gsap.fromTo(containerAboutusimg2.current, { scale: 0.5 }, {
+      scrollTrigger: {
+        trigger: containerAboutusimg2.current,
+        immediateRender: false,
+        scrub: true,
+        start:80,
+        smooth: 2,
+        start: 'top 80%'
+      },
+      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+    });
+
+    gsap.fromTo(containerAboutusimg3.current, { scale: 0.5 }, {
+      scrollTrigger: {
+        trigger: containerAboutusimg3.current,
+        immediateRender: false,
+        scrub: true,
+        start:80,
+        smooth: 2,
+        start: 'top 80%'
+      },
+      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+    });
+
+    gsap.fromTo(containerAboutus3.current, { scale: 0.5 }, {
+      scrollTrigger: {
+        trigger: containerAboutus3.current,
+        immediateRender: false,
+        scrub: true,
+        start:80,
+        smooth: 2,
+        start: 'top 80%'
+      },
+      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+    });
+
+
+    gsap.fromTo(containerAboutus4.current, { scale: 0.5 }, {
+      scrollTrigger: {
+        trigger: containerAboutus4.current,
+        immediateRender: false,
+        scrub: true,
+        start:80,
+        smooth: 2,
+        start: 'top 80%'
+      },
+      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+    });
+
+    gsap.fromTo(containerCard.current, { scale: 0.7 }, {
+      scrollTrigger: {
+        trigger: containerCard.current,
+        immediateRender: false,
+        scrub: true,
+        start:80,
+        smooth: 2,
+        start: 'top 80%'
+      },
+      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+    });
+
+
+
+
+  }, []);
+
+
+  useEffect(() => {
+    gsap.fromTo(aboutBottom1.current, { translateX: '-100%' }, {
+        scrollTrigger: {
+            trigger: aboutBottom1.current,
+            immediateRender: false,
+            scrub: true,
+            start: 'top 70%',
+            end: '+=300',
+        },
+        translateX: '0%'
+    });
+
+    gsap.fromTo(aboutBottom2.current, { translateX: '100%' }, {
+      scrollTrigger: {
+          trigger: aboutBottom2.current,
+          immediateRender: false,
+          scrub: true,
+          start: 'top 70%',
+          end: '+=300',
+      },
+      translateX: '0%'
+  });
+
+}, []);
+
+
+
+
   return (
     <div>
-      <header className="aboutus_navbar_image_container">
-        <a href="/">
-          <img
-            className="aboutus_navbar_image"
-            alt="Triard logo"
-            src={logo}
-          ></img>
-        </a>
-      </header>
-      <div className="aboutus_boy_image_container">
+      <Navbar />
+      <div className="aboutus_boy_image_container" >
         <img
           className="aboutus_boy_image"
           src={boywearingar}
           alt="boy wearing ar"
         />
       </div>
-      <div className="aboutus_ourcommitment_aboutus_text_container">
+      <div className="aboutus_ourcommitment_aboutus_text_container" >
         <h3 className="aboutus_ourcommitment_text_container_h31">About Us</h3>
-        <p className="aboutus_ourvision_text_container_p ">
+        <p className="aboutus_info">
           Welcome to Triard, where innovation meets technology to redefine
           digital experiences. We are a dynamic team of passionate minds at
           DigitalBuddha, committed to empowering businesses with transformative
@@ -83,8 +212,8 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="aboutus_container">
-        <div className="aboutus_ourvision_main_container">
-          <div className="aboutus_ourvision_text_container">
+        <div className="aboutus_ourvision_main_container"ref={containerAboutus2}>
+          <div className="aboutus_ourvision_text_container" >
             <h3 className="aboutus_ourvision_text_container_h3">Our Vision</h3>
             <p className="aboutus_ourvision_text_container_p">
               At Triard, we envision a future where customers can unleash their
@@ -99,11 +228,11 @@ const AboutUs = () => {
             className="aboutus_ourvision_image_container_img"
             src={mixedreality}
             alt="mixed reality"
-          />
+           />
         </div>
-        <div className="aboutus_ourvision_main_container3">
+        <div className="aboutus_ourvision_main_container3"  ref={containerAboutus4}>
           <img
-            className="aboutus_ourvision_image_container_img"
+            className="aboutus_ourvision_image_container_img "
             src={whomweare}
             alt="whom we are"
           />
@@ -118,8 +247,8 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="aboutus_ourvision_main_container">
-          <div className="aboutus_ourvision_text_container">
+        <div className="aboutus_ourvision_main_container" ref={containerAboutus3}>
+          <div className="aboutus_ourvision_text_container" >
             <h3 className="aboutus_ourvision_text_container_h3">TRIARD</h3>
             <p className="aboutus_ourvision_text_container_p">
               A Game-Changing Solution: Our flagship product, Triard, is the
@@ -136,28 +265,23 @@ const AboutUs = () => {
             alt="virtual clothing"
           />
         </div>
-        \
-        <div className="aboutus_whychoose_traiad_container">
+        <div className="aboutus_whychoose_traiad_container" >
           <div className="aboutus_whychoose_traiad_header">
             <img
               className="aboutus_whychoose_traiad_image"
               src={whychooseus}
               alt="why choose us"
-              style={{
-                width: "100%",
-                height: "auto",
-              }}
             />
           </div>
         </div>
-        <div className="card-container">
+        <div className="card-container" ref={containerCard}>
           {data.map((item, index) => (
             <Card key={index} data={item} />
           ))}
         </div>
       </div>
 
-      <div className="aboutus_ourcommitmenttoyou_container">
+      {/* <div className="aboutus_ourcommitmenttoyou_container">
         <div className="aboutus_ourcommitmenttoyou_text_container">
           <h1 className="aboutus_ourcommitmenttoyou_text_container_h3">
             OUR COMMITMENT TO YOU
@@ -173,10 +297,6 @@ const AboutUs = () => {
           className="aboutus_ourcommitmenttoyou_background_image"
           src={rectangleleft}
           alt="why choose us"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
         />
 
         <img
@@ -184,8 +304,8 @@ const AboutUs = () => {
           src={ourcommitment}
           alt="why choose us"
         />
-      </div>
-      <div className="aboutus_letsshapethefuture_container">
+      </div> */}
+      {/* <div className="aboutus_letsshapethefuture_container">
         <div className="aboutus_letsshapethefuture_text_container">
           <h1 className="aboutus_ourcommitmenttoyou_text_container_h3">
             LET'S SHAPE THE FUTURE TOGETHER
@@ -201,13 +321,9 @@ const AboutUs = () => {
           </p>
         </div>
         <img
-          className="aboutus_ourcommitmenttoyou_background_image"
+          className="aboutus_ourcommitmenttoyou_background_image2"
           src={rectangleright}
           alt="why choose us"
-          /*  style={{
-            width: "100%",
-            height: "auto",
-          }} */
         />
 
         <img
@@ -215,7 +331,52 @@ const AboutUs = () => {
           src={fistbump}
           alt="why choose us"
         />
+      </div> */}
+
+
+
+      {/* <div className="aboutus_bottom_section">
+        <div className="aboutus_div1">
+          <div className="aboutus_commitment">
+            <h3>OUR COMMITMENT TO YOU</h3>
+            <p>At Triard, we believe in the transformative power of technology to elevate customer experiences. We are dedicated to helping you stay ahead of the competition, enhance customer satisfaction, and drive business growth.</p>
+          </div>
+          <div className="commitment_img">
+            <img src={commitment}></img>
+          </div>
+        </div>
       </div>
+ */}
+
+      <div className='aboutus_bottom_section' ref={aboutBottom1} >
+        <div className='aboutus_content'>
+          <p>
+            <h3>OUR COMMITMENT TO YOU</h3>
+            At Triard, we believe in the transformative power of technology to elevate customer experiences. We are dedicated to helping you stay ahead of the competition, enhance customer satisfaction, and drive business growth.
+          </p>
+        </div>
+        <div className='aboutus_img'>
+          <img src={commitment}></img>
+        </div>
+
+      </div>
+
+      <div className='aboutus_bottom_section2' ref={aboutBottom2}>
+        <div className='aboutus_content2'>
+          <p>
+            <h3>LET’S SHAPE THE FUTURE TOGETHER</h3>
+            We invite you to embark on this exciting journey with us. Experience the endless possibilities of 3D visualization and AR integration with Triard. Together, let's shape the future of e-commerce and create unforgettable customer journeys. Join us in transforming the way your customers interact with your products. Get in touch with our team today to explore how Triard can elevate your digital experiences.
+          </p>
+        </div>
+        <div className='aboutus_img2'>
+          <img src={future}></img>
+        </div>
+
+      </div>
+
+
+
+
 
       <Footer />
     </div>
