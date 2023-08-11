@@ -1,0 +1,61 @@
+.card {
+  border-radius: 8px;
+  padding: 16px;
+  width: 84%;
+  height: 100%;
+  background-color:var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.card-icon {
+  width: 94px;
+  height: 94px;
+  margin-bottom: 8px;
+  background-color: var(--primary-color);
+  margin-top: 20px
+}
+
+.card-title {
+  font-family:"Roboto", sans-serif;
+  margin-top: 17px;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #070b28;
+  background-color:var(--primary-color);
+}
+
+.card-description {
+  font-family:"Roboto", sans-serif;
+  color:var(--secondary-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 18px;
+  background-color: var(--primary-color);
+}
+
+@media(max-width:500px){
+  .card{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+  .card-title{
+    margin-top: 0px;
+  }
+  .card-description{
+    margin-top: 13px;
+  }
+
+}
+
+
+@media(max-width:768px){
+  .card{
+    width: 90%;
+  }
+}
