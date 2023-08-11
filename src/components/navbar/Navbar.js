@@ -17,7 +17,8 @@ function Navbar() {
 
         <nav class="nav">
           <ul class="menu">
-            <li><a href="#">ABOUT US</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/aboutUs">ABOUT US</a></li>
             <li><a href="/usecases">USE CASES</a></li>
             <li><a href="/demo">DEMOS</a> </li>
             <li><a href="/contactUs">CONTACT US</a></li>

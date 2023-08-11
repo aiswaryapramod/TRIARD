@@ -119,7 +119,7 @@ function Demo() {
                         {/* <button>see it in demo</button> */}
                     </div>
                 </div>
-                <div className='demo_wrapper' ref={containerDemo2}>
+                {/* <div className='demo_wrapper' ref={containerDemo2}>
                     <div className='demo_info'>
                         <div className='demo_img2'>
                             <img src={ferrari}></img>
@@ -127,10 +127,9 @@ function Demo() {
                         <div className='demo_btn'>
                             <h3><a href=''>see it in demo</a></h3>
                         </div>
-                        {/* <button>see it in demo</button> */}
                     </div>
                 </div>
-
+ */}
             </div>
             <Footer />
         </div>

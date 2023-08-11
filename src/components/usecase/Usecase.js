@@ -28,10 +28,8 @@ function Usecase() {
   const containerUsecase5 = useRef(null);
   const containerUsecase6 = useRef(null);
   const containerUsecase7 = useRef(null);
-  const experianceSec = useRef(null);
   const revolutionsec = useRef(null);
   const headingPara1 = useRef(null);
-  const containerHead= useRef(null);
 
 
   useEffect(() => {
@@ -128,18 +126,6 @@ function Usecase() {
 
   }, []);
 
-  useEffect(() => {
-    gsap.fromTo(experianceSec.current, { translateX: '100%' }, {
-        scrollTrigger: {
-            trigger: experianceSec.current,
-            immediateRender: false,
-            scrub: true,
-            start: 'top 70%',
-            end: '+=300',
-        },
-        translateX: '0%'
-    });
-}, []);
 
 useEffect(() => {
   gsap.fromTo(revolutionsec.current, { translateX: '-100%' }, {
@@ -183,18 +169,6 @@ useEffect(() => {
   });
 
 
-  gsap.fromTo(containerHead.current, { scale: 0.5 }, {
-    scrollTrigger: {
-      trigger: containerHead.current,
-      immediateRender: false,
-      scrub: true,
-      start:80,
-      smooth: 2,
-      start: 'top 80%'
-    },
-    scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
-  });
-
 
 }, []);
 
@@ -213,7 +187,7 @@ useEffect(() => {
         </div>
 
         <div className='usecase_heading'>
-          <h2 ref={containerHead}>Use cases or industries</h2>
+          <h2>Use cases or industries</h2>
           <p ref={headingPara1}>Discover How Triard Elevates Different Industries and Realizes Unique Use Cases</p>
         </div>
 
@@ -316,7 +290,7 @@ useEffect(() => {
 
         </div>
 
-        <div className='usecase_experience' ref={experianceSec}>
+        <div className='usecase_experience' >
           <h2>EXPERIENCE THE IMPACT OF TRIARD</h2>
           <p>These real-world use cases demonstrate the transformative power of Triard across diverse industries. By enhancing product personalization, customer engagement, and overall shopping experiences, Triard empowers businesses to thrive in the digital age.
           </p>

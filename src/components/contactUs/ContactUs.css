@@ -8,6 +8,18 @@
   margin-right: auto;
 }
 
+.contact-email a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.description_detail a{
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+}
+
 .contact_heading {
   margin-top: 37px;
   text-align: center;
@@ -244,6 +256,7 @@ textarea {
 
 .description_detail p {
   padding-top: 25px !important;
+  width: 99%;
 }
 
 .description_detail b {
@@ -255,7 +268,7 @@ textarea {
 }
 
 .contact_section img {
-  /* width: 100%; */
+  width: 100%;
   margin-top: -8px;
 }
 
@@ -387,7 +400,7 @@ textarea {
   }
 
   .formbold-main-wrapper {
-    padding: 0px;
+    padding: 14px;
   }
 }
 

@@ -167,4 +167,9 @@
   .hamb {
     display: none;
   }
+    .header img {
+      width: 220px;
+      padding: 28px 20px 0px 70px;
+  }
+
 }

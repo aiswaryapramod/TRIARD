@@ -15,146 +15,152 @@ import brand from "../../../assets/brand.png"
 gsap.registerPlugin(ScrollTrigger);
 
 function Content() {
-    const containerImage = useRef(null);
-    const containerImage2 = useRef(null);
-    const containerinfo = useRef(null);
-    const containerinfo2 = useRef(null);
-    const containerImage3 = useRef(null);
-    const containerinfo3 = useRef(null);
-    const containerinfo4 = useRef(null);
-    const containerImage4 = useRef(null);
-    const containerImage5 = useRef(null);
-    const containerinfo5 = useRef(null);
+    // const containerImage = useRef(null);
+    // const containerImage2 = useRef(null);
+    // const containerinfo = useRef(null);
+    // const containerinfo2 = useRef(null);
+    // const containerImage3 = useRef(null);
+    // const containerinfo3 = useRef(null);
+    // const containerinfo4 = useRef(null);
+    // const containerImage4 = useRef(null);
+    // const containerImage5 = useRef(null);
+    // const containerinfo5 = useRef(null);
     const containerWhyus = useRef(null);
+    const containerhome1 = useRef(null);
+    const containerhome2 = useRef(null);
+    const containerhome3 = useRef(null);
+    const containerhome4 = useRef(null);
+    const containerhome5 = useRef(null);
+
     // const containerhead = useRef(null);
 
-    useEffect(() => {
-        gsap.fromTo(containerImage.current, { translateX: '-20%' }, {
-            scrollTrigger: {
-                trigger: containerImage.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 70%',
-                end: '+=300',
-            },
-            translateX: '0%'
-        });
-    }, []);
+    // useEffect(() => {
+    //     gsap.fromTo(containerImage.current, { translateX: '-20%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerImage.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 70%',
+    //             end: '+=300',
+    //         },
+    //         translateX: '0%'
+    //     });
+    // }, []);
 
-    useEffect(() => {
-        gsap.fromTo(containerImage2.current, { translateX: '20%' }, {
-            scrollTrigger: {
-                trigger: containerImage2.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 70%',
-                end: '+=300',
-            },
-            translateX: '0%'
-        });
-    }, []);
-
-
-    useEffect(() => {
-        gsap.fromTo(containerinfo.current, { translateX: '10%' }, {
-            scrollTrigger: {
-                trigger: containerinfo.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 80%'
-            },
-            translateX: '0%'
-        });
-    }, []);
+    // useEffect(() => {
+    //     gsap.fromTo(containerImage2.current, { translateX: '20%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerImage2.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 70%',
+    //             end: '+=300',
+    //         },
+    //         translateX: '0%'
+    //     });
+    // }, []);
 
 
-    useEffect(() => {
-        gsap.fromTo(containerinfo2.current, { translateX: '-20%' }, {
-            scrollTrigger: {
-                trigger: containerinfo2.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 80%',
-                end:'top 50%'
-            },
-            translateX: '0%'
-        });
-    }, []);
+    // useEffect(() => {
+    //     gsap.fromTo(containerinfo.current, { translateX: '10%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerinfo.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 80%'
+    //         },
+    //         translateX: '0%'
+    //     });
+    // }, []);
 
-    useEffect(() => {
-        gsap.fromTo(containerImage3.current, { translateX: '-30%' }, {
-            scrollTrigger: {
-                trigger: containerImage3.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 70%',
-                end: '+=300',
-            },
-            translateX: '0%'
-        });
-    }, []);
 
-    useEffect(() => {
-        gsap.fromTo(containerinfo3.current, { translateX: '10%' }, {
-            scrollTrigger: {
-                trigger: containerinfo3.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 80%'
-            },
-            translateX: '0%'
-        });
-    }, []);
+    // useEffect(() => {
+    //     gsap.fromTo(containerinfo2.current, { translateX: '-20%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerinfo2.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 80%',
+    //             end:'top 50%'
+    //         },
+    //         translateX: '0%'
+    //     });
+    // }, []);
 
-    useEffect(() => {
-        gsap.fromTo(containerinfo4.current, { translateX: '-10%' }, {
-            scrollTrigger: {
-                trigger: containerinfo4.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 80%'
-            },
-            translateX: '0%'
-        });
-    }, []);
+    // useEffect(() => {
+    //     gsap.fromTo(containerImage3.current, { translateX: '-30%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerImage3.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 70%',
+    //             end: '+=300',
+    //         },
+    //         translateX: '0%'
+    //     });
+    // }, []);
 
-    useEffect(() => {
-        gsap.fromTo(containerImage4.current, { translateX: '20%' }, {
-            scrollTrigger: {
-                trigger: containerImage4.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 70%',
-                end: '+=300',
-            },
-            translateX: '0%'
-        });
-    }, []);
+    // useEffect(() => {
+    //     gsap.fromTo(containerinfo3.current, { translateX: '10%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerinfo3.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 80%'
+    //         },
+    //         translateX: '0%'
+    //     });
+    // }, []);
 
-    useEffect(() => {
-        gsap.fromTo(containerImage5.current, { translateX: '-30%' }, {
-            scrollTrigger: {
-                trigger: containerImage5.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 70%',
-                end: '+=300',
-                },
-            translateX: '0%'
-        });
-    }, []);
+    // useEffect(() => {
+    //     gsap.fromTo(containerinfo4.current, { translateX: '-10%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerinfo4.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 80%'
+    //         },
+    //         translateX: '0%'
+    //     });
+    // }, []);
 
-    useEffect(() => {
-        gsap.fromTo(containerinfo5.current, { translateX: '10%' }, {
-            scrollTrigger: {
-                trigger: containerinfo5.current,
-                immediateRender: false,
-                scrub: true,
-                start: 'top 80%'
-            },
-            translateX: '0%'
-        });
-    }, []);
+    // useEffect(() => {
+    //     gsap.fromTo(containerImage4.current, { translateX: '20%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerImage4.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 70%',
+    //             end: '+=300',
+    //         },
+    //         translateX: '0%'
+    //     });
+    // }, []);
+
+    // useEffect(() => {
+    //     gsap.fromTo(containerImage5.current, { translateX: '-30%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerImage5.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 70%',
+    //             end: '+=300',
+    //             },
+    //         translateX: '0%'
+    //     });
+    // }, []);
+
+    // useEffect(() => {
+    //     gsap.fromTo(containerinfo5.current, { translateX: '10%' }, {
+    //         scrollTrigger: {
+    //             trigger: containerinfo5.current,
+    //             immediateRender: false,
+    //             scrub: true,
+    //             start: 'top 80%'
+    //         },
+    //         translateX: '0%'
+    //     });
+    // }, []);
 
 
     // why us//
@@ -168,9 +174,76 @@ function Content() {
                 smooth:2,
                 start: 'top 80%'
             },
-            scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+            scale: 1
         });
     }, []);
+
+
+    useEffect(() => {
+        gsap.fromTo(containerhome1.current, { scale: 0.5 }, {
+          scrollTrigger: {
+            trigger: containerhome1.current,
+            immediateRender: false,
+            scrub: true,
+            start:80,
+            smooth: 2,
+            start: 'top 80%'
+          },
+          scale: 1 
+        });
+
+        gsap.fromTo(containerhome2.current, { scale: 0.5 }, {
+            scrollTrigger: {
+              trigger: containerhome2.current,
+              immediateRender: false,
+              scrub: true,
+              start:80,
+              smooth: 2,
+              start: 'top 80%'
+            },
+            scale: 1 
+          });
+  
+          gsap.fromTo(containerhome3.current, { scale: 0.5 }, {
+            scrollTrigger: {
+              trigger: containerhome3.current,
+              immediateRender: false,
+              scrub: true,
+              start:80,
+              smooth: 2,
+              start: 'top 80%'
+            },
+            scale: 1 
+          });
+
+          gsap.fromTo(containerhome4.current, { scale: 0.5 }, {
+            scrollTrigger: {
+              trigger: containerhome4.current,
+              immediateRender: false,
+              scrub: true,
+              start:80,
+              smooth: 2,
+              start: 'top 80%'
+            },
+            scale: 1 
+          });
+  
+          gsap.fromTo(containerhome5.current, { scale: 0.5 }, {
+            scrollTrigger: {
+              trigger: containerhome5.current,
+              immediateRender: false,
+              scrub: true,
+              start:80,
+              smooth: 2,
+              start: 'top 80%'
+            },
+            scale: 1 
+          });
+
+  
+    }, []);
+
+    
 
 
     // useEffect(() => {
@@ -188,13 +261,13 @@ function Content() {
 
     return (
         <div className='container'>
-            <div className='content_wrapper1'>
+            <div className='content_wrapper1' ref={containerhome1}>
                 {/* <div className='content_img' ref={containerImage} > */}
-                    <img src={img4} alt='' ref={containerImage} />
+                    <img src={img4} alt=''  />
                     {/* <video width={'100%'} height={'100%'} autoPlay playsInline muted loop ><source src={Video1} type='video/mp4'></source></video> */}
                 {/* </div> */}
 
-                <div className='content_info' ref={containerinfo}>
+                <div className='content_info'>
                     <h3>Real-time & Personalised</h3>
                     <p>Visualise & Customise every aspect of products in real-time with TRIARD. Enables your
                         customers to choose from an extensive range of options, from colours and materials to
@@ -203,9 +276,9 @@ function Content() {
 
             </div>
 
-            <div className='content_wrapper2'>
+            <div className='content_wrapper2' ref={containerhome2}>
 
-                <div className='content_info' ref={containerinfo2}>
+                <div className='content_info'>
                     <h3>Dynamic Actions</h3>
                     <p>Our advanced rendering technology ensures realistic and dynamic representations that
                         leave a lasting impact. Helps customers to experiment with various customization
@@ -213,18 +286,18 @@ function Content() {
                 </div>
 
                 {/* <div className='content_img2' > */}
-                <img src={img2}  ref={containerImage2}/>
+                <img src={img2} />
                 {/* </div> */}
 
             </div>
 
-            <div className='content_wrapper3'>
+            <div className='content_wrapper3' ref={containerhome3}>
 
                 {/* <div className='content_img' ref={containerImage3}> */}
-                <img src={img7} alt=''ref={containerImage3}/>
+                <img src={img7} alt=''/>
                 {/* </div> */}
 
-                <div className='content_info' ref={containerinfo3}>
+                <div className='content_info' >
                     <h3>Get a Competitive Edge</h3>
                     <p>Stay ahead of the competition by providing a unique and engaging shopping
                         experience. From furniture and home decor to automotive accessories and fashion
@@ -234,9 +307,9 @@ function Content() {
 
             </div>
 
-            <div className='content_wrapper2'>
+            <div className='content_wrapper2' ref={containerhome4}>
 
-                <div className='content_info' ref={containerinfo4}>
+                <div className='content_info' >
                     <h3>Wallet-friendly Solution</h3>
                     <p>Hassle-free & budget-friendly 3D visualiser for your eCommerce site. We offer
                         seamless integration, ensuring a smooth and uninterrupted customer journey. Elevate
@@ -244,18 +317,18 @@ function Content() {
                 </div>
 
                 {/* <div className='content_img2' ref={containerImage4}> */}
-                <img src={img5} ref={containerImage4}/>
+                <img src={img5} />
                 {/* </div> */}
 
             </div>
 
-            <div className='content_wrapper3'>
+            <div className='content_wrapper3' ref={containerhome5}>
 
                 {/* <div className='content_img' */}
-                <img src={img6}  ref={containerImage5}/>
+                <img src={img6} />
                 {/* </div> */}
 
-                <div className='content_info' ref={containerinfo5}>
+                <div className='content_info'>
                     <h3>Powered with AR</h3>
                     <p>Augmented Reality (AR) integration with TRIARD allows customers to visualise and
                         customise products in real-world environments.</p>
