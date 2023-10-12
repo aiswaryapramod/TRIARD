@@ -7,9 +7,25 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 // import gsap from 'gsap';
 import contactimg from "../../assets/contact1.png";
+import { useParams } from 'react-router';
+
 
 
 function ContactUs() {
+
+  const { slug } = useParams();
+
+  useEffect(() => {
+    window.scrollTo({
+        behavior: 'smooth',
+        top: 0,
+        left: 0
+    });
+}, [ slug ]);
+
+
+
+
   const formRef = useRef();
   // const containerContact = useRef(null);
   // const contactDetail = useRef(null);
@@ -70,8 +86,9 @@ function ContactUs() {
     <>
       <Navbar />
       <div className='contact_main'>
+      <img src={contactimg}></img>
+
         <div className='contact_section'>
-          <img></img>
 
           <h2 className="contact_heading">Contact Us</h2>
           <p >
@@ -172,7 +189,7 @@ function ContactUs() {
 
                   <div>
                     <button className="formbold-btn">Submit</button>
-                    <ToastContainer />
+                    <ToastContainer  bodyStyle={{backgroundColor: "#fff"}} />
                   </div>
                 </form>
               </div>

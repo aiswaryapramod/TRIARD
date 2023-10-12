@@ -1,0 +1,142 @@
+.bloginner2 {
+  margin-top: 130px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 67px;
+}
+
+.bloginner2 img {
+  width: 100%;
+}
+
+.bloginner2 h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  margin-top: 77px;
+  margin-bottom: 20px;
+}
+
+.bloginner2 p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 150px;
+}
+
+.bloginner2_sub_contents {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner2_sub img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.inner2_sub h3 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.inner2_sub p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 160px;
+  margin-top: 14px;
+}
+
+ .inner2_key h2 {
+  font-size: 50px;
+    text-align: center;
+    margin-bottom: 110px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: var(--theme-color);
+} 
+
+.inner2_why h2 {
+  color: #00ecbc;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  margin-top: 50px;
+}
+
+.inner2_why p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  margin-top: 30px;
+}
+
+.inner2_bottom h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-top: 160px;
+}
+
+.inner2_bottom span {
+  background-image: var(--theme-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.inner2_bottom p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+
+@media(max-width:500px){
+  .inner2_key h2{
+    font-size: 40px !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: var(--theme-color);
+    margin-bottom: 48px;
+  
+  }
+
+  .inner2_sub p{
+    margin-bottom: 61px;
+  }
+}
