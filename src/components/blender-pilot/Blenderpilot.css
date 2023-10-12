@@ -1,0 +1,507 @@
+
+
+body {
+    --progress-bar-color: transparent;
+    margin:0px;
+  }
+
+.blender-pilot-page{
+    background-color: white;
+}
+
+  
+  .pilot-custom-camera-controls {
+    cursor: grab !important;
+  }
+  
+  .pilot-custom-camera-controls[interaction-prompt] {
+    cursor: grab !important;
+  }
+  
+  .pilot-slider_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 75vh;
+    max-width: 69%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 138px;
+  }
+  
+  .pilot-buttons {
+    display: grid;
+    /* justify-content: center;
+      margin-top: 20px; */
+  }
+  
+  .pilot-buttons button {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 82px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 52px;
+  }
+  
+  #viewerpilot {
+    width: 100%;
+    height: 100%;
+    margin-top: -41px;
+  }
+  
+  .pilot-threeD {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 102px !important;
+    height: 485px;
+    max-width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffffff14;
+    border-radius: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #8080803d ;
+    padding: 65px;
+  }
+  
+  .pilot-threed_content {
+    margin-top: 13%;
+    margin-bottom: 95px;
+  }
+  
+  .pilot-threed_content h3 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 23px;
+  }
+  
+  .pilot-threed_content p {
+    color: white;
+    font-size: 23px;
+    line-height: 1.5;
+    width: 84%;
+  }
+  
+  /* .threed_content2 {
+      margin-top: 107px;
+      margin-bottom: 104px;
+    } */
+  
+  
+  
+    .pilot-threed_content2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+  .pilot-threed_content2 p {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 1.5
+  }
+  
+  .pilot-threed_content2 h3 {
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    margin-bottom: 23px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1;
+  }
+  
+  .pilot-controls_chair {
+    position: absolute;
+    margin-top: 15px;
+    /* display: grid;
+      grid-row-gap: 31px;
+      bottom: 43%;
+      width: 20px */
+  }
+  
+  .pilot-btn_chair1 {
+    padding: 15px;
+    position: absolute;
+    top: -17px;
+    left: 13px;
+    /* width: 5%;
+    height: 5%; */
+    border-radius: 50px;
+    background-color: #996515;
+    border: none;
+  }
+  
+  .pilot-btn_chair2 {
+    position: absolute;
+    padding: 15px;
+    left: 53px;
+    bottom: -13px;
+    /* width: 5%;
+    height: 5%; */
+    border-radius: 50px;
+    background-color: blue;
+    border: none;
+  }
+  
+  .pilot-btn_chair3 {
+    position: absolute;
+    padding: 14.7px;
+    left: 92px;
+    bottom: -12px; 
+    /* width: 5%;
+    height: 5%; */
+    border-radius: 50px;
+    background-color: #cfb53b;
+    border: none;
+  }
+  
+  .pilot-btn_chair4 {
+    position: absolute;
+    padding: 15px;
+    left: 131px;
+    bottom: -13px;
+    border-radius: 50px;
+    background-color: pink;  
+    /* width: 5%;
+    height: 5%; */
+    border-radius: 50px;
+    border: none;
+  }
+  
+  
+  .pilot-btn_chair5 {
+    position: absolute;
+    padding: 15px;
+    left: 92px;
+    bottom: -12px; 
+    /* width: 5%;
+    height: 5%; */
+    border-radius: 50px;
+    background-color: #cfb53b;
+    border: none;
+  }
+  
+  
+  .pilot-custom-button {
+    float: right;
+    margin-top: -8px;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: transparent;
+    width: 26%;
+    background-color: transparent;
+  }
+  
+  .pilot-close-button img{
+    margin: 12px 0px 3px 4px;
+  }
+  
+  .pilot-ar-cube{
+    width: 14%;
+    margin: 0px 0px -4px 0px;
+  }
+
+
+  .pilot-btn_chair1 {
+    cursor: pointer;
+  }
+
+  .pilot-btn_chair2 {
+    cursor: pointer;
+  }
+
+  .pilot-btn_chair3 {
+    cursor: pointer;
+  }
+
+  .pilot-btn_chair4 {
+    cursor: pointer;
+  }
+
+
+  
+  /* qr code */
+  
+  .pilot-singlepage-qr-popup {
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    background-color: transparent;
+    z-index: 1;
+  
+    .pilot-qr-content {
+      width: 315px;
+      height: 250px;
+      padding: 20px;
+      background-color: white;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+  
+    .pilot-qr-content p {
+      margin-bottom: 35px;
+      margin-top: 40px;
+    }
+  
+    .pilot-close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      background: none;
+      border: none;
+      color: #333;
+      padding: 0;
+    }
+  }
+
+
+
+  .blender_pilot_header_img img{
+    width: 12%;
+}
+
+.blender_pilot_header{
+    border-bottom: 1px solid #00000038;
+    padding: 13px;
+    text-align: center;
+}
+
+
+.blender_pilot_contactus_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    padding-bottom: 70px;
+  }
+  
+  .blender_pilot_contactus_btn button {
+    padding: 10px;
+    width: 144px;
+    height: 47px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: transparent;
+    background-color: rgb(54, 129, 131);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .blender_pilot_contactus_btn button:hover {
+    background-color: rgb(38, 79, 80);
+  }
+  
+  .blender_pilot_contactus_btn a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .blender_pilot_contact h3 {
+    text-align: center;
+    font-size: 32px;
+    font-family: math;
+    margin-bottom: -10px;
+    margin-top: 90px;
+  }
+  
+  .blender_pilot_contact p {
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-top: 20px;
+  }
+  
+  .blender_pilot_contact h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 7px;
+  }
+.blender_pilot_contact{
+    margin-top: -90px;
+    background-color: white;
+}
+
+.blender_pilot_contact h3{
+    padding-top: 85px;
+}
+
+
+  
+  @media (max-width: 500px) {
+    .blender_pilot_contact h3 {
+      margin-top: 244px;
+      font-size: 29px;
+    }
+    .blender_pilot_contact p {
+      max-width: 100%;
+      text-align: center;
+      font-size: 19px;
+      line-height: 1.5;
+    }
+    }
+  
+
+
+
+@media(max-width:500px){
+    .blender_pilot_header_img img{
+        width: 40%;
+    }
+}
+  
+  @media (max-width: 500px) {
+    body {
+      --progress-bar-color: transparent;
+    }
+  
+  
+    .pilot-threed_content2{
+      display: block;
+    }
+    .pilot-threeD {
+      background-color: transparent;
+      border: none;
+      display: grid;
+      grid-template-columns: none;
+      grid-template-rows: 50% 50%;
+      margin-top: 0px;
+      padding: 0px;
+    }
+  
+    #viewerpilot{
+      width: 100%;
+      height: 121%;
+      margin-top: -4%;
+      }
+  
+    .pilot-controls {
+      margin-top: -35px;
+    }
+  
+  
+    .pilot-btn_chair1 {
+      padding: 15px;
+      position: absolute;
+      top: -17px;
+      left: 20px;
+      width: 5%;
+      height: 5%;
+      border-radius: 50px;
+      background-color: #996515;
+      border: none;
+    }
+    .pilot-btn_chair2 {
+      position: absolute;
+      padding: 15px;
+      left: 95px;
+      bottom: -14px;
+      width: 5%;
+      height: 5%;
+      border-radius: 50px;
+      background-color: blue;
+      border: none;
+    }
+    .pilot-btn_chair3 {
+      position: absolute;
+      padding: 15px;
+      left: 58px;
+      bottom: -13px;
+      width: 5%;
+      height: 5%;
+      border-radius: 50px;
+      background-color: #cfb53b;
+      border: none;
+    }
+    .pilot-controls_chair {
+      margin-top: 35px;
+    }
+  
+    .pilot-header_img img {
+      width: 40%;
+    }
+    .pilot-threed_content2 {
+      margin-top: 128px;
+    }
+    .pilot-threed_content2 h3 {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 31px;
+    }
+    .pilot-threed_content2 p {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 17px;
+    }
+    .pilot-threeD {
+      box-shadow: none;
+    }
+
+    .blender_pilot_contact {
+        margin-top: 27px;
+    }
+  
+    .pilotsinglepage-qr-popup {
+      display: none;
+    }
+  
+    .pilot-custom-button {
+      display: none !important;
+    }
+  }
+  
+@media(min-width:446px) and (max-width:768px){
+    .pilot-threed_content2 {
+        margin-top: 196px;
+    }
+
+    .pilot-threeD{
+        display: grid;
+    grid-template-rows: 70% 30%;
+    grid-template-columns: none;
+    background-color:transparent;
+    border: none;
+    box-shadow: none;
+    }
+
+    .blender_pilot_contact h3 {
+        margin-top: 310px;
+    }
+    
+}
+
+
+  @media(min-width:784px) and (max-width:1056px){
+    .pilot-threed_content2 h3 {
+        color: rgb(0, 0, 0);
+        font-size: 33px;
+        margin-bottom: 23px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pilot-threed_content2 p {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+    }
+  }

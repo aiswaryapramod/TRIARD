@@ -1,0 +1,43 @@
+.terms-and-conditions{
+    color: white;
+    margin-top: 140px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.terms-head {
+    text-align: center;
+}
+
+.terms-head h1{
+    font-size: 57px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: var(--theme-color);
+    font-family: "Roboto", sans-serif;  
+}
+
+.terms-head p{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 100px;
+}
+
+.terms h4{
+    font-size: 37px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;  
+}
+
+.terms p{
+    font-size: 19px;
+    line-height: 29px;
+    font-weight: 100;
+    margin-bottom: 70px;
+    font-family: "Roboto", sans-serif;  
+}
+
+
+
+

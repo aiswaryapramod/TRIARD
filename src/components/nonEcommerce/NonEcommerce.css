@@ -1,0 +1,648 @@
+.non-ecommerce-head h2 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 62px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  margin-top: 214px;
+  text-align: center;
+}
+
+.non-ecommerce-head h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  margin-top: 7px;
+}
+
+.non-ecommerce-head p {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+  margin-bottom: 167px;
+}
+
+.adv-feat {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 62px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adv h4 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 62px;
+  margin-top: 28px;
+}
+
+.feat h4 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 62px;
+  margin-top: 28px;
+}
+
+.feat li {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.adv li {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.adv-feat-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 85px;
+}
+
+.non-ecommerce-img1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.non-ecommerce-img1 img {
+  width: 100%;
+  margin-top: 147px;
+  margin-bottom: 140px;
+}
+
+.eng_develop h2 {
+  font-weight: 500px;
+  font-size: 53px;
+  width: 90%;
+  font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.non-ecommerce-secnd-sub h2 {
+  font-size: 57px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  /* margin-left: auto;
+  width: 87%;
+  margin-right: auto; */
+  margin-top: 120px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+}
+
+.non-ecommerce-secnd-sub p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 12px;
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+}
+
+.non-ecommerce-cards-section {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 38px;
+  margin-top: 87px;
+}
+
+.non-ecommerce-crd img {
+  border-radius: 15px;
+}
+
+.non-ecommerce-crd h3 {
+  font-size: 25px;
+  margin-top: 17px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  width: 251px;
+}
+
+.non-ecommerce-crd p {
+  font-size: 19px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  width: 388px;
+}
+
+
+.ecommerce-impact h2 {
+  font-family: "Roboto", sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  font-size: 57px;
+  width: 57%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.ecommerce-impact p {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  text-align: center;
+  color: white;
+  width: 77%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 57px;
+  margin-top: 27px;
+}
+
+.non-ecom-eductn {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.non-ecom-eductn img {
+  width: 100%;
+}
+
+.non-ecommerce-icon-section {
+  margin-top: 157px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
+}
+
+.non-ecommerce-icon p {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-top: 10px;
+  margin-bottom: 141px;
+}
+
+.non-ecommerce-icon4 {
+  margin-top: 27px;
+}
+
+.non-ecommerce-icon4 p {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-top: 15px;
+  margin-bottom: 141px;
+}
+
+.non-ecommerce-bottom {
+  margin-top: 70px;
+}
+
+.non-ecommerce-bottom img {
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.ecommerce-bottom-text h4 {
+  font-size: 30px;
+  width: 774px;
+  font-weight: 400;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.ecommerce-bottom-text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  width: 767px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+}
+
+.ecommerce-bottom-text button {
+  border-radius: 15px;
+  background: linear-gradient(93deg, #007adf 2.13%, #00ecbc 99.66%);
+  padding: 14px;
+  margin-top: 37px;
+  border: none;
+}
+
+.ecommerce-bottom-text a {
+  text-decoration: none;
+  color: white;
+  font-size: 27px;
+}
+
+.ecommerce-bottom-text {
+  position: absolute;
+  top: 104px;
+  margin: 0px 0px 0px 77px;
+}
+
+.non-ecommerce-bottom {
+  position: relative;
+}
+
+.adv-feat-content ul{
+  width: 88%;
+}
+
+.ecommerce-impact {
+  margin-top: 51px !important;
+}
+
+
+@media (max-width: 500px) {
+  .adv-feat-content {
+    display: block;
+  }
+  .eng_develop h2 {
+    font-size: 35px;
+  }
+  .non-ecommerce-cards-section {
+    display: block;
+    margin-top: 22px;
+  }
+  .non-ecommerce-icon-section {
+    display: block;
+  }
+  .ecommerce-bottom-text h2 {
+    width: 20%;
+  }
+  .ecommerce-bottom-text h4 {
+    width: 20%;
+  }
+  .non-ecommerce-crd img {
+    width: 100%;
+  }
+  .non-ecommerce-crd p {
+    width: 100%;
+    font-size: 17px;
+  }
+  .ecommerce-impact h2 {
+    font-family: "Roboto", sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: var(--theme-color);
+    font-size: 34px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -14px;
+    text-align: start;
+  }
+  .ecommerce-impact p {
+    text-align: start;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ecommerce-bottom-text {
+    position: absolute;
+    top: 87px;
+    margin: 0px 0px 0px 45px;
+  }
+  .non-ecommerce-bottom img {
+    width: 100%;
+    height: 304px;
+    object-fit: cover;
+  }
+  .ecommerce-bottom-text h4 {
+    width: 100%;
+    font-size: 16px;
+  }
+  .ecommerce-bottom-text h2 {
+    width: 100%;
+    font-size: 19px;
+  }
+  .ecommerce-bottom-text a {
+    font-size: 13px;
+  }
+  .ecommerce-bottom-text button {
+    border-radius: 8px;
+    padding: 9px;
+    margin-top: 9px;
+  }
+  .ecommerce-bottom-text {
+    top: 77px;
+    margin: 0px 0px 0px 20px;
+  }
+  .non-ecommerce-head h2 {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 47px;
+    text-align: start;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .non-ecommerce-head h3 {
+    text-align: start;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 19px;
+  }
+  .non-ecommerce-head p {
+    font-size: 17px;
+    text-align: start;
+    line-height: 27px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 73px;
+  }
+  .non-ecommerce-head h2 {
+    margin-top: 83px;
+  }
+  .adv h4 {
+    font-size: 23px;
+    margin-top: -4px;
+    text-decoration: underline;
+  }
+  .adv li {
+    margin-top: 17px;
+    font-size: 17px;
+  }
+  .feat h4 {
+    font-size: 23px;
+    margin-top: 43px;
+    text-decoration: underline;
+  }
+  .feat li {
+    font-size: 17px;
+    margin-top: 17px;
+  }
+  .adv {
+    margin-top: 17px;
+  }
+  .non-ecommerce-img1 img {
+    width: 100%;
+    margin-top: 37px;
+    margin-bottom: 80px;
+  }
+  .non-ecommerce-secnd-sub h2 {
+    margin-top: 43px;
+    font-size: 30px;
+    text-align: start;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .non-ecommerce-secnd-sub p {
+    text-align: start;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .non-ecommerce-crd img {
+    margin-top: 85px;
+  }
+  .ecommerce-impact p {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .non-ecommerce-icon p {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 55px;
+  }
+  .ecomm-icon-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .non-ecommerce-icon4 p {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 94px;
+  }
+  .adv-feat-content ul{
+    width: 100%;
+  }
+  .ecommerce-impact {
+    margin-top: 51px !important;
+}
+  
+}
+
+@media (min-width: 443px) and (max-width: 869px) {
+  .ecommerce-bottom-text {
+    position: absolute;
+    top: 6px;
+  }
+  .ecommerce-bottom-text button {
+    padding: 7px;
+    margin-top: 4px;
+  }
+  .ecommerce-bottom-text a {
+    font-size: 21px;
+  }
+  .non-ecommerce-cards-section {
+    display: block;
+  }
+  .non-ecommerce-icon-section {
+    display: block;
+  }
+  .adv-feat-content{
+    display: block;
+  }
+  .ecommerce-bottom-text {
+    margin: 0px 0px 0px 7px;
+}
+.non-ecommerce-cards-section{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.non-ecommerce-crd img{
+  width: 100%;
+}
+.non-ecommerce-crd p{
+  width: 100%;
+}
+.ecommerce-impact h2 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: -77px;
+}
+.non-ecommerce-icon-section{
+  display: grid;
+  grid-template-columns: 21% 21% 21% 22%;
+}
+.non-ecommerce-icon p {
+  flex-direction: column;
+  width: 121%;
+}
+.ecommerce-impact {
+  margin-top: 100px;
+}
+.ecommerce-bottom-text h4 {
+  font-size: 23px;
+}
+.ecommerce-bottom-text h4 {
+  font-size: 25px;
+  width: 746px;
+}
+.ecommerce-bottom-text h2 {
+  font-size: 35px;
+  font-weight: 600;
+  width: 747px;
+}
+}
+
+@media (min-width: 823px) and (max-width: 1127px) {
+  .ecommerce-bottom-text {
+    position: absolute;
+    top: 26px;
+    margin: 0px 0px 0px 77px;
+  }
+  .ecommerce-bottom-text button {
+    margin-top: 13px;
+  }
+}
+
+@media (min-width: 891px) and (max-width: 1250px) {
+  .non-ecommerce-cards-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .non-ecommerce-icon-section {
+    gap: 0px;
+  }
+  .adv-feat-content {
+    gap: 30px;
+  }
+}
+
+
+@media(min-width:1600px){
+  .non-ecommerce-head{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .adv-feat-content {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .eng_develop h2{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .non-ecommerce-img1 {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.non-ecommerce-secnd-sub h2 {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.non-ecommerce-cards-section{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.non-ecommerce-secnd-sub{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ecommerce-impact{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.non-ecom-eductn{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ecommerce-impact{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.non-ecommerce-icon-section {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ecommerce-impact{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ecommerce-bottom-text {
+  margin: 190px 0px 0px 77px;
+}
+}
