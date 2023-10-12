@@ -4,10 +4,13 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import img4 from "../../../assets/img4.png"
 import img2 from "../../../assets/img2.png"
-import img5 from "../../../assets/img5.png"
+import img5 from "../../../assets/wallet.png"
 import img6 from "../../../assets/img6.png"
 import img7 from "../../../assets/img7.png"
 import brand from "../../../assets/brand.png"
+import shoe from "../../../assets/shoe.png"
+import AR from "../../../assets/AR2.png"
+import bike from "../../../assets/automotive.png"
 
 // import Video1 from "../../assets/video1.mp4";
 
@@ -25,7 +28,6 @@ function Content() {
     // const containerImage4 = useRef(null);
     // const containerImage5 = useRef(null);
     // const containerinfo5 = useRef(null);
-    const containerWhyus = useRef(null);
     const containerhome1 = useRef(null);
     const containerhome2 = useRef(null);
     const containerhome3 = useRef(null);
@@ -165,18 +167,6 @@ function Content() {
 
     // why us//
 
-    useEffect(() => {
-        gsap.fromTo(containerWhyus.current, { scale: 0.5 }, {
-            scrollTrigger: {
-                trigger: containerWhyus.current,
-                immediateRender: false,
-                scrub: true,
-                smooth:2,
-                start: 'top 80%'
-            },
-            scale: 1
-        });
-    }, []);
 
 
     useEffect(() => {
@@ -261,11 +251,8 @@ function Content() {
 
     return (
         <div className='container'>
-            <div className='content_wrapper1' ref={containerhome1}>
-                {/* <div className='content_img' ref={containerImage} > */}
-                    <img src={img4} alt=''  />
-                    {/* <video width={'100%'} height={'100%'} autoPlay playsInline muted loop ><source src={Video1} type='video/mp4'></source></video> */}
-                {/* </div> */}
+             <div className='content_wrapper1' ref={containerhome1}>
+                    <img src={shoe} alt=''  />
 
                 <div className='content_info'>
                     <h3>Real-time & Personalised</h3>
@@ -274,9 +261,10 @@ function Content() {
                         sizes and finishes, visualise products and make better purchase decisions.</p>
                 </div>
 
-            </div>
+            </div> 
 
-            <div className='content_wrapper2' ref={containerhome2}>
+
+             <div className='content_wrapper2' ref={containerhome2}>
 
                 <div className='content_info'>
                     <h3>Dynamic Actions</h3>
@@ -285,16 +273,16 @@ function Content() {
                         options and instantly visualise in real-time.</p>
                 </div>
 
-                {/* <div className='content_img2' > */}
                 <img src={img2} />
-                {/* </div> */}
 
             </div>
+            
 
+ 
             <div className='content_wrapper3' ref={containerhome3}>
 
                 {/* <div className='content_img' ref={containerImage3}> */}
-                <img src={img7} alt=''/>
+                <img src={bike} alt=''/>
                 {/* </div> */}
 
                 <div className='content_info' >
@@ -325,7 +313,7 @@ function Content() {
             <div className='content_wrapper3' ref={containerhome5}>
 
                 {/* <div className='content_img' */}
-                <img src={img6} />
+                <img src={AR} />
                 {/* </div> */}
 
                 <div className='content_info'>
@@ -342,7 +330,7 @@ function Content() {
 
             <div className='container'>
 
-                <div className='whyus_info' ref={containerWhyus} >
+                <div className='whyus_info' >
                 <h3 className='head_ing'>Why Us?</h3>
 
                     <p>TRIARD brings you a perfect juice of 3D visualisation, configuration & AR visualisation

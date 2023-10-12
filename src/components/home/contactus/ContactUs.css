@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  background-color: var(--color-accent);
 }
 .formbold-mb-5 {
   margin-bottom: 20px;
@@ -26,6 +27,11 @@ body {
   width: 100%;
   background: var( --primary-color);
 }
+
+.formbold-form-wrapper form{
+  background-color: var(--color-accent);
+}
+
 .formbold-form-label {
   display: block;
   font-weight: 500;
@@ -50,6 +56,7 @@ body {
   color: #6b7280;
   outline: none;
   resize: none;
+  background-color: var(--color-accent);
   font-family: inherit;
 }
 .formbold-form-input:focus {

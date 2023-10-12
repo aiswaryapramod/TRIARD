@@ -20,10 +20,22 @@ import future from "../../assets/future.png"
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Aos from 'aos';
+import { useParams } from 'react-router';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const AboutUs = () => {
+
+  const { slug } = useParams();
+
+  useEffect(() => {
+    window.scrollTo({
+        behavior: 'smooth',
+        top: 0,
+        left: 0
+    });
+}, [ slug ]);
+
 
   const containerAboutus2 = useRef(null);
   const containerAboutus4 = useRef(null);
@@ -31,9 +43,9 @@ const AboutUs = () => {
   const containerAboutusimg1 = useRef(null);
   const containerAboutusimg2 = useRef(null);
   const containerAboutusimg3 = useRef(null);
-  const aboutBottom1 = useRef(null);
-  const aboutBottom2 = useRef(null);
-  const containerCard = useRef(null);
+  // const aboutBottom1 = useRef(null);
+  // const aboutBottom2 = useRef(null);
+  // const containerCard = useRef(null);
 
   Aos.init();
 
@@ -82,9 +94,12 @@ const AboutUs = () => {
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+      scale: 1 
     });
+  }, []);
+
  
+    useEffect(() => {
     gsap.fromTo(containerAboutusimg1.current, { scale: 0.5 }, {
       scrollTrigger: {
         trigger: containerAboutusimg1.current,
@@ -94,9 +109,12 @@ const AboutUs = () => {
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+      scale: 1 
     });
+  }, []);
 
+
+    useEffect(() => {
     gsap.fromTo(containerAboutusimg2.current, { scale: 0.5 }, {
       scrollTrigger: {
         trigger: containerAboutusimg2.current,
@@ -106,9 +124,11 @@ const AboutUs = () => {
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+      scale: 1 
     });
+  }, []);
 
+  useEffect(() => {
     gsap.fromTo(containerAboutusimg3.current, { scale: 0.5 }, {
       scrollTrigger: {
         trigger: containerAboutusimg3.current,
@@ -118,9 +138,11 @@ const AboutUs = () => {
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+      scale: 1 
     });
+  }, []);
 
+    useEffect(() => {
     gsap.fromTo(containerAboutus3.current, { scale: 0.5 }, {
       scrollTrigger: {
         trigger: containerAboutus3.current,
@@ -130,10 +152,11 @@ const AboutUs = () => {
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+      scale: 1 
     });
+  }, []);
 
-
+    useEffect(() => {
     gsap.fromTo(containerAboutus4.current, { scale: 0.5 }, {
       scrollTrigger: {
         trigger: containerAboutus4.current,
@@ -143,20 +166,20 @@ const AboutUs = () => {
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
+      scale: 1 
     });
 
-    gsap.fromTo(containerCard.current, { scale: 0.7 }, {
-      scrollTrigger: {
-        trigger: containerCard.current,
-        immediateRender: false,
-        scrub: true,
-        start:80,
-        smooth: 2,
-        start: 'top 80%'
-      },
-      scale: 1 // The scale value you want to animate to (e.g., 1 for normal size)
-    });
+    // gsap.fromTo(containerCard.current, { scale: 0.7 }, {
+    //   scrollTrigger: {
+    //     trigger: containerCard.current,
+    //     immediateRender: false,
+    //     scrub: true,
+    //     start:80,
+    //     smooth: 2,
+    //     start: 'top 80%'
+    //   },
+    //   scale: 1 
+    // });
 
 
 
@@ -164,30 +187,30 @@ const AboutUs = () => {
   }, []);
 
 
-  useEffect(() => {
-    gsap.fromTo(aboutBottom1.current, { translateX: '-100%' }, {
-        scrollTrigger: {
-            trigger: aboutBottom1.current,
-            immediateRender: false,
-            scrub: true,
-            start: 'top 70%',
-            end: '+=300',
-        },
-        translateX: '0%'
-    });
+//   useEffect(() => {
+//     gsap.fromTo(aboutBottom1.current, { translateX: '-100%' }, {
+//         scrollTrigger: {
+//             trigger: aboutBottom1.current,
+//             immediateRender: false,
+//             scrub: true,
+//             start: 'top 70%',
+//             end: '+=300',
+//         },
+//         translateX: '0%'
+//     });
 
-    gsap.fromTo(aboutBottom2.current, { translateX: '100%' }, {
-      scrollTrigger: {
-          trigger: aboutBottom2.current,
-          immediateRender: false,
-          scrub: true,
-          start: 'top 70%',
-          end: '+=300',
-      },
-      translateX: '0%'
-  });
+//     gsap.fromTo(aboutBottom2.current, { translateX: '100%' }, {
+//       scrollTrigger: {
+//           trigger: aboutBottom2.current,
+//           immediateRender: false,
+//           scrub: true,
+//           start: 'top 70%',
+//           end: '+=300',
+//       },
+//       translateX: '0%'
+//   });
 
-}, []);
+// }, []);
 
 
 
@@ -274,7 +297,7 @@ const AboutUs = () => {
             />
           </div>
         </div>
-        <div className="card-container" ref={containerCard}>
+        <div className="card-container">
           {data.map((item, index) => (
             <Card key={index} data={item} />
           ))}
@@ -348,7 +371,7 @@ const AboutUs = () => {
       </div>
  */}
 
-      <div className='aboutus_bottom_section' ref={aboutBottom1} >
+      <div className='aboutus_bottom_section'  >
         <div className='aboutus_content'>
           <p>
             <h3>OUR COMMITMENT TO YOU</h3>
@@ -361,7 +384,7 @@ const AboutUs = () => {
 
       </div>
 
-      <div className='aboutus_bottom_section2' ref={aboutBottom2}>
+      <div className='aboutus_bottom_section2' >
         <div className='aboutus_content2'>
           <p>
             <h3>LET’S SHAPE THE FUTURE TOGETHER</h3>
