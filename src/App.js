@@ -21,6 +21,7 @@ import Advertising from "./components/advertising/Advertising";
 import Furniture from "./components/furniture/Furniture";
 import Blenderpilot from "./components/blender-pilot/Blenderpilot";
 import Terms from "./components/terms-and-services/Terms";
+import Privacy from "./components/privacy-policy/Privacy";
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
           <Route path='/faq' element={<Faq />} />
           {/* <Route path="/faq" element={<Faq />} /> */}
 
-          <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="/contact-us" element={<ContactUs />} />
 
           <Route path="/aboutUs" element={<AboutUs />} />
 
@@ -56,6 +57,8 @@ function App() {
           <Route path="/furniture" element={<Furniture />} />
 
           <Route path="/terms-and-services" element={<Terms />} />
+
+          <Route path="/privacy-policy" element={<Privacy />} />
 
           <Route path="/pilot" element={<Blenderpilot />} />
 

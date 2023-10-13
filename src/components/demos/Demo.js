@@ -132,7 +132,7 @@ function Demo() {
                     <h3>The Best AR & 3D  Solutions for Furniture Companies</h3>
                     <p>The integration of AR and 3D technology within furniture design has become an integral component of the creative and presentation processes, offering both unparalleled versatility and freedom of expression.</p>
                     <div className='demo_readmore1'>
-                    <button><a  href="/furniture">Read more</a></button>
+                    {/* <button><a  href="/furniture">Read more</a></button> */}
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@ function Demo() {
                     <h3>Transforming Jewelry Shopping: Elevate Your Experience with 3D and AR</h3>
                     <p>Discover the transformative capabilities that empower you to effortlessly create and distribute realistic 3D content and immersive AR encounters. </p>
                     <div className='demo_readmore'>
-                    <button><a  href="/jewellery">Read more</a></button>
+                    {/* <button><a  href="/jewellery">Read more</a></button> */}
                     </div>
                 </div>
                 <div className='threedring'>
@@ -188,7 +188,7 @@ function Demo() {
                     <h3>Create in 3D and Explore with Augmented Reality</h3>
                     <p>Fuel Your Creativity: Craft Masterpieces in 3D, Bring Them to Life with Augmented Reality. Our 3D Blender empowers artists, designers, and creators to push the boundaries of imagination.</p>
                     <div className='demo_readmore'>
-                    <button>Read more</button>
+                    {/* <button>Read more</button> */}
                     </div> 
                 </div>
             </div>
@@ -201,7 +201,7 @@ function Demo() {
                     <h3>The Best AR & 3D  Solutions for Furniture Companies</h3>
                     <p>The integration of AR and 3D technology within furniture design has become an integral component of the creative and presentation processes, offering both unparalleled versatility and freedom of expression.</p>
                     <div className='demo_readmore2'>
-                    <button>Read more</button>
+                    {/* <button>Read more</button> */}
                     </div>
                 </div>
 
@@ -249,7 +249,7 @@ function Demo() {
                     <h3>Revolutionize Car Shopping with 3D Configuration and AR</h3>
                     <p>Elevate Your Car Buying Experience: Unleash the Power of 3D Configuration and Augmented Reality. At our platform, we redefine the way you shop for cars.Now, you can customize every aspect of your future vehicle in three dimensions.</p>
                     <div className='demo_readmore3'>
-                    <button>Read more</button>
+                    {/* <button>Read more</button> */}
                     </div>
                 </div>
 
@@ -261,7 +261,7 @@ function Demo() {
                     <h3>Your iPhone: A Gateway to 3D Configuration and AR Magic</h3>
                     <p>Empowering Your World in 3D and Augmented Reality: Customize, Interact, and Redefine What's Possible. Our latest iPhone isn't just a phone; it's a portal to a new dimension. Personalize every facet of your device in immersive 3D, from colors to accessories.</p>
                     <div className='demo_readmore4'>
-                    <button>Read more</button>
+                    {/* <button>Read more</button> */}
                     </div>
                 </div>
 
@@ -310,7 +310,7 @@ function Demo() {
                     <h3>Precision in 3D Configuration and Augmented Reality</h3>
                     <p>Master Your Game in 3D: Precision Fit Meets Augmented Reality Training. Elevate your performance with our 3D-configurable Baseball Glove. It's not just about the perfect fit; it's about perfecting your game.</p>
                     <div className='demo_readmore4'>
-                    <button>Read more</button>
+                    {/* <button>Read more</button> */}
                     </div>
                 </div>
 

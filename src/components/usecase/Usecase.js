@@ -332,7 +332,7 @@ useEffect(() => {
           <div className='revolution_info'>
             <p>Ready to revolutionize your industry with Triard's <b>3D configurator and AR integration?</b> <br></br><br></br>
               Contact us to explore how Triard can make a significant impact on your business.
-              <a href='/contactUs'><button>Contact Us</button></a>
+              <a href='/contact-us'><button>Contact Us</button></a>
             </p>
           </div>
           <div className='revolution_img'>

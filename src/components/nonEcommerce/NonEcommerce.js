@@ -236,7 +236,7 @@ function NonEcommerce() {
         <div className='ecommerce-bottom-text'>
           <h4>Contact us today to start your own transformation and experience the Triard difference.</h4>
           <h2>Together, we'll continue redefining what's possible in your industry and beyond.</h2>
-          <button><a href='/contactUs'>Contact us</a></button>
+          <button><a href='/contact-us'>Contact us</a></button>
         </div>
       </div>
 

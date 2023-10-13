@@ -9,6 +9,7 @@ import furnigrid3 from "../../assets/furni_grid3.png";
 import furnigrid4 from "../../assets/furni_grid4.png";
 import furnigrid5 from "../../assets/furni_grid5.png";
 import furnitureimg from "../../assets/furniture_page_img.png";
+import furnivideo from "../../assets/furniture-page-video.mp4";
 
 function Furniture() {
   return (
@@ -25,9 +26,9 @@ function Furniture() {
         <p>Traditional furniture design is a lengthy and often arduous process. Designers would create sketches and 2D drawings, which would then be translated into prototypes. This method required numerous revisions, leading to longer lead times and increased costs. However, with the introduction of 3D configurators, the game has changed.</p>
       </div>
 
-      {/* <div className='furniture_video'>
-        <img src={furniturevideo}></img>
-      </div> */}
+      <div className='furniture_video'>
+                <video width={'70%'} height={'10%'} autoPlay playsInline muted loop ><source src={furnivideo} type='video/mp4'></source></video>
+      </div>
 
       <div className='furniture_industry'>
         <br></br><br></br><br></br>
@@ -78,11 +79,11 @@ function Furniture() {
           <img src={furnitureimg}></img>
         </div>
 
-        <div className='furniture_absolute'>
+        {/* <div className='furniture_absolute'>
           <p><span>Triard</span> enhances your brand's
             shopping experiences with the
             magic of <span>augmented reality</span>.</p>
-        </div>
+        </div> */}
 
         <div className='furniture_bottom_content'>
           <p>Triard's AR Viewer for Furniture takes Furniture shopping to the next level by integrating augmented reality technology.</p>

@@ -100,7 +100,7 @@ function Advertising() {
                     <br></br>
                     <h2>Get Started with <span>Triard</span> Today and Discover the <span>Future of Shopping !</span></h2>
                     <div className='advertising_cta_btn'>
-                        <button><a href='/contactUs'>Contact us</a></button>
+                        <button><a href='/contact-us'>Contact us</a></button>
                     </div>
                 </div>
             </div>

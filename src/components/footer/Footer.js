@@ -222,7 +222,7 @@ function Footer() {
                                 <a href="/privacy-policy">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="/privacy-policy">Terms & Conditions</a>
+                                <a href="/terms-and-services">Terms & Conditions</a>
                             </li>
                         </ul>
                     </li>
