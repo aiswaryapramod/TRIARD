@@ -151,7 +151,7 @@ function Footer() {
 
                         <div className='footer-address'>
                             <i class="fa-solid fa-phone"></i>
-                            <p>+91 8594 00 10 10</p>
+                            <a href='tel:+91 8594 00 10 10'>+91 8594 00 10 10</a>
                         </div>
 
                         <div className='footer-address'>
