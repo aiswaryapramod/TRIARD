@@ -46,7 +46,7 @@ body {
 }
 
 .content_info p {
-  font-size: 27px;
+  font-size: 24px;
   line-height: 1.5;
   width: 95%;
   font-weight: 100;
@@ -101,6 +101,25 @@ body {
   width: 90%;
 }
 
+#viewerhome {
+  width: 100%;
+  height: 85%;
+  margin-top: 424px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 500px) {
   .content_wrapper1 {
     display: flex !important;
@@ -122,6 +141,9 @@ body {
   }
   .content_info p {
     font-size: 20px !important;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .content_wrapper1 img {
     width: 85%;

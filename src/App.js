@@ -22,6 +22,7 @@ import Furniture from "./components/furniture/Furniture";
 import Blenderpilot from "./components/blender-pilot/Blenderpilot";
 import Terms from "./components/terms-and-services/Terms";
 import Privacy from "./components/privacy-policy/Privacy";
+import Car from "./components/car-page/Car";
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
 
           <Route path="/contact-us" element={<ContactUs />} />
 
-          <Route path="/aboutUs" element={<AboutUs />} />
+          <Route path="/about-us" element={<AboutUs />} />
 
           <Route path="/blog" element={<Blog />} />
 
@@ -55,6 +56,8 @@ function App() {
           <Route path="/advertising" element={<Advertising />} />
 
           <Route path="/furniture" element={<Furniture />} />
+
+          <Route path="/car-page" element={<Car />} />
 
           <Route path="/terms-and-services" element={<Terms />} />
 
