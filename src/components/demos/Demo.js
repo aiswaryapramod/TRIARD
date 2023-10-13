@@ -27,7 +27,7 @@ function Demo() {
     const viewerRef = useRef(null);
     const viewerRef2 = useRef(null);
     const viewerRef3 = useRef(null);
-    const viewerRef4 = useRef(null);
+    // const viewerRef4 = useRef(null);
     const viewerRef5 = useRef(null);
     const viewerRef6 = useRef(null);
     const viewerRef7 = useRef(null);
@@ -52,7 +52,7 @@ function Demo() {
         viewerRef.current.src = '/model/sofa.glb';
         viewerRef2.current.src = '/model/ring.glb';
         viewerRef3.current.src = '/model/blender.glb';
-        viewerRef4.current.src = '/model/table.glb';
+        // viewerRef4.current.src = '/model/table.glb';
         viewerRef5.current.src = '/model/Car.glb';
         viewerRef6.current.src = '/model/iphone.glb';
         viewerRef7.current.src = '/model/glove.glb';
@@ -197,19 +197,21 @@ function Demo() {
 
 
             <div className='threeD'>
-            <div className='threed_content'>
-                    <h3>The Best AR & 3D  Solutions for Furniture Companies</h3>
-                    <p>The integration of AR and 3D technology within furniture design has become an integral component of the creative and presentation processes, offering both unparalleled versatility and freedom of expression.</p>
-                    <div className='demo_readmore2'>
+
+            <div className='threed_content7'>
+                    <h3>Precision in 3D Configuration and Augmented Reality</h3>
+                    <p>Master Your Game in 3D: Precision Fit Meets Augmented Reality Training. Elevate your performance with our 3D-configurable Baseball Glove. It's not just about the perfect fit; it's about perfecting your game.</p>
+                    <div className='demo_readmore4'>
                     {/* <button>Read more</button> */}
                     </div>
                 </div>
 
+
                 <div>
                     <model-viewer
-                        ref={viewerRef4}
+                        ref={viewerRef7}
                         disable-zoom
-                        id="viewer4"
+                        id="viewer7"
                         auto-rotate
                         camera-controls
                         shadow-intensity="1"
@@ -217,11 +219,13 @@ function Demo() {
                     ></model-viewer>
 
                     <div className="controls">
-                        <button className='btn_table1' onClick={() => applyColor(viewerRef4, 'new wood', 'white')}></button>
-                        <button className='btn_table2' onClick={() => applyColor(viewerRef4, 'new wood', 'black')}></button>
-                        <button className='btn_table3' onClick={() => applyColor(viewerRef4, 'new wood', 'brown')}></button>
+                        <button className='btn_glove1' onClick={() => applyColor(viewerRef7, 'Material', '#6f1d1b')}></button>
+                        <button className='btn_glove2' onClick={() => applyColor(viewerRef7, 'Material', '#023047')}></button>
+                        <button className='btn_glove3' onClick={() => applyColor(viewerRef7, 'Material', '#99582a')}></button>
                     </div>
             </div>
+
+
             </div>
 
 
@@ -286,13 +290,21 @@ function Demo() {
 
 
 
-            <div className='threeD'>
+
+
+            {/* <div className='threeD'>
+            <div className='threed_content'>
+                    <h3>The Best AR & 3D  Solutions for Furniture Companies</h3>
+                    <p>The integration of AR and 3D technology within furniture design has become an integral component of the creative and presentation processes, offering both unparalleled versatility and freedom of expression.</p>
+                    <div className='demo_readmore2'>
+                    </div>
+                </div>
 
                 <div>
                     <model-viewer
-                        ref={viewerRef7}
+                        ref={viewerRef4}
                         disable-zoom
-                        id="viewer7"
+                        id="viewer4"
                         auto-rotate
                         camera-controls
                         shadow-intensity="1"
@@ -300,23 +312,12 @@ function Demo() {
                     ></model-viewer>
 
                     <div className="controls">
-                        <button className='btn_glove1' onClick={() => applyColor(viewerRef7, 'Material', '#6f1d1b')}></button>
-                        <button className='btn_glove2' onClick={() => applyColor(viewerRef7, 'Material', '#023047')}></button>
-                        <button className='btn_glove3' onClick={() => applyColor(viewerRef7, 'Material', '#99582a')}></button>
+                        <button className='btn_table1' onClick={() => applyColor(viewerRef4, 'new wood', 'white')}></button>
+                        <button className='btn_table2' onClick={() => applyColor(viewerRef4, 'new wood', 'black')}></button>
+                        <button className='btn_table3' onClick={() => applyColor(viewerRef4, 'new wood', 'brown')}></button>
                     </div>
             </div>
-
-            <div className='threed_content7'>
-                    <h3>Precision in 3D Configuration and Augmented Reality</h3>
-                    <p>Master Your Game in 3D: Precision Fit Meets Augmented Reality Training. Elevate your performance with our 3D-configurable Baseball Glove. It's not just about the perfect fit; it's about perfecting your game.</p>
-                    <div className='demo_readmore4'>
-                    {/* <button>Read more</button> */}
-                    </div>
-                </div>
-
-            </div>
-
-
+            </div> */}
 
 
 

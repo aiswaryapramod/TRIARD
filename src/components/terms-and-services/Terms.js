@@ -11,13 +11,13 @@ function Terms() {
         <div className='terms-and-conditions'>
                 <div className='terms-head'>
                     <h1>Terms and Condition</h1>
-                    <p>Our website address is: https://triard.io/</p>
+                    <p>Our website address is: <a href='https://triard.io/'>https://triard.io/</a></p>
                 </div>
 
                 <div className='terms'>
                     <h4>1. Terms and Condition</h4>
                     <p>Welcome to Triard!  <br></br>
-                        These terms and conditions outline the rules and regulations for the use of Triard’s Website, located at https://triard.io/.
+                        These terms and conditions outline the rules and regulations for the use of Triard’s Website, located at  <a href='https://triard.io/'>https://triard.io/</a>.
                         <br></br><br></br>
 
                         By accessing this website we assume you accept these terms and conditions. Do not continue to use triard.io if you do not agree to take all of the terms and conditions stated on this page.

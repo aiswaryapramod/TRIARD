@@ -38,6 +38,34 @@
     font-family: "Roboto", sans-serif;  
 }
 
+.terms-head a{
+    color: rgb(176, 176, 176);
+}
+
+.terms a{
+    color: rgb(176, 176, 176);
+}
 
 
 
+@media(max-width:768px){
+    .terms-head h1 {
+        font-size: 47px;
+    }
+    .terms h4 {
+        font-size: 20px;
+    }
+    .terms p {
+        font-size: 16px;
+    }
+    .terms-head p {
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 75px;
+        margin-top: 20px;
+    }
+    .terms-head h1 {
+        font-size: 47px;
+        margin-top: -39px;
+    }
+}

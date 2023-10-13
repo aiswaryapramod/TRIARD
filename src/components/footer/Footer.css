@@ -168,6 +168,10 @@ body {
   font-size: 15px;
 }
 
+.legal a{
+  color: #999;
+}
+
 
 @media screen and (min-width: 24.375em) {
   .legal .legal__links {
