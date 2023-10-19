@@ -1,0 +1,126 @@
+.privacy_head {
+    margin-top: 140px;
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 100px;
+}
+
+.privacy_head h2 {
+    font-size: 57px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: var(--theme-color);
+}
+
+
+.privacy_content {
+    margin-bottom: 100px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.privacy_content h1 {
+    font-size: 45px;
+}
+
+
+.privacy_content h2 {
+    font-size: 37px;
+    line-height: normal;
+
+}
+
+.privacy_content p {
+    font-size: 19px;
+    line-height: 29px;
+}
+
+.privacy_content h3 {
+    font-size: 25px;
+}
+
+.privacy_content ul {
+    line-height: 29px;
+    margin-left: 35px;
+}
+
+.privacy_content div {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    /* line-height: 29px; */
+
+}
+
+tr:not(:last-child) td {
+    border-bottom: 0.5px solid #ddd;
+}
+
+
+.privacy_table {
+    border: 0.5px solid #ddd;
+}
+
+
+.privacy_table tr th{
+    border-bottom:  0.5px solid #ddd;
+    border-right: 0.5px solid #ddd;
+    border-left:0.5px solid #ddd ;
+    padding: 12px;
+}
+
+.typeof_cookies{
+    width: 160px;
+}
+
+.privacy_table tr td{
+    border-right: 0.5px solid #ddd;
+    border-left: 0.5px solid #ddd;
+    padding: 10px;
+}
+
+
+
+@media(max-width:768px) {
+    .privacy_content h1 {
+        font-size: 35px;
+        text-align: start;
+    }
+
+    .privacy_content h2 {
+        font-size: 30px;
+    }
+
+    .privacy_content p {
+        font-size: 16px;
+    }
+
+    .privacy_content h3 {
+        font-size: 20px;
+
+    }
+
+    .privacy_head h2 {
+        font-size: 48px;
+    }
+
+    .privacy_content ul {
+        margin-left: 0px;
+    }
+    .privacy_head {
+        margin-bottom: 50px;
+    }
+    .privacy_tableScroll{
+        overflow-x : scroll ;
+    }
+    .privacy_table {
+        width: 700px;
+    }
+    .privacy_table tr td{
+        padding: 10px;
+    }
+    
+}
+
+

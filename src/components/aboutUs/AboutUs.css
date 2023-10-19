@@ -29,6 +29,14 @@
   margin-top: -179px;
 }
 
+.aboutus_img{
+  border-radius: 160px;
+}
+
+.aboutus_img2{
+  border-radius: 160px;
+}
+
 .aboutus_ourvision_main_container {
   display: flex;
   max-width: 1400px;
@@ -109,13 +117,14 @@
 }
 
 @media (max-width: 500px) {
+
   .card-container {
     display: block;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
-    margin-top: -170px !important;
+    margin-top: 46px !important;
   }
   .aboutus_container{
     margin-top: -53px;
@@ -780,7 +789,7 @@
       margin-right: auto;
       place-items: center;
       margin-top: 70px;
-      margin-top: 55px;
+      margin-top: 137px;
   }
   .aboutus_bottom_section {
     border-radius: 15px;
@@ -835,4 +844,61 @@
   font-size: 50px !important;
 }
  */
+}
+
+
+@media(min-width:441px) and (max-width:768px){
+  .aboutus_ourvision_main_container {
+    margin-top: 294px;
+  }
+
+
+
+}
+
+@media(min-width:1600px){
+  .aboutus_whychoose_traiad_container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboutus_bottom_section{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboutus_bottom_section2{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media(min-width:793px) and (max-width:1205px){
+  .aboutus_content h3 {
+    color: var(--primary-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+  }
+  .aboutus_content p {
+    width: 72%;
+    margin-left: auto;
+    margin-top: 50px;
+    font-size: 20px;
+}
+  .aboutus_img img {
+    display: none;
+}
+.aboutus_img2 img {
+  display: none;
+}
+.aboutus_content2 h3{
+  font-size: 40px;
+}
 }

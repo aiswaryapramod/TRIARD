@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../assets/logo2.png"
 import "./Navbar.css";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -14,14 +15,16 @@ function Navbar() {
         <a href='/'><img src={logo}></img></a>
         <input class="side-menu" type="checkbox" id="side-menu" />
         <label class="hamb" for="side-menu"><span class="hamb-line"></span> <span class="hamb-line"></span><span class="hamb-line"></span></label>
+        {/* <label class="hamb" for="side-menu"><span class="hamb-line"></span> <span class="hamb-line"></span><span class="hamb-line"></span></label> */}
 
         <nav class="nav">
           <ul class="menu">
-            <li><a href="/">HOME</a></li>
-            <li><a href="/aboutUs">ABOUT US</a></li>
-            <li><a href="/usecases">USE CASES</a></li>
-            <li><a href="/demo">DEMOS</a> </li>
-            <li><a href="/contactUs">CONTACT US</a></li>
+            <li><Link to="/">HOME</Link></li>
+            <li><Link to="/about-us">ABOUT US</Link></li>
+            <li><Link to="/usecases">USE CASES</Link></li>
+            <li><Link to="/demo">DEMOS</Link> </li>
+            <li><Link to="/blog">BLOG</Link> </li>
+            <li><Link to="/contact-us">CONTACT US</Link></li>
 
           </ul>
         </nav>

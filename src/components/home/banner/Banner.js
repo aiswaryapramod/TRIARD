@@ -138,7 +138,7 @@ function Banner() {
         <div className='banner_info'>
             <h1 ref={h1Ref}>Experience The Endless Possibilities of 3D & AR!</h1>
             <h3>A cutting-edge tool that will take your business-customer interaction to the next level.</h3>
-            <button><a href='#contactus'>Get a free demo</a></button>
+            <button><a href='/contact-us'>Get a free demo</a></button>
         </div>
         <div className='banner_video'>
         <video width={'100%'} height={'100%'} autoPlay playsInline muted loop ><source src={bannerVideo} type='video/mp4'></source></video>

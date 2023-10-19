@@ -234,7 +234,7 @@
   border-radius: 0px 610px 610px 0px;
   grid-template-columns: 65% 450px;
   background-color: var(--primary-color);
-  height: 444px;
+  height: 432px;
   margin-top: 200px;
   margin-bottom: 122px;
 }
@@ -290,12 +290,28 @@
 .revolution_img {
   background-color: var(--primary-color);
   overflow: hidden;
+  border-radius: 160px;
 }
 
 .revolution_img img {
+  width: 84%;
   background-color: var(--primary-color);
 }
 
+.usecase_experience a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.usecase_experience button {
+  padding: 17px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background: linear-gradient(93deg, #007adf 2.13%, #00ecbc 99.66%);
+}
 
 /* @media only screen and (max-width: 500px) {
   .case1 {
@@ -349,20 +365,20 @@
   }
 } */
 
-@media(max-width:500px){
-  .case1{
+@media (max-width: 500px) {
+  .case1 {
     display: block;
-    margin-top: -42px;
+    margin-top: -3px;
   }
-  .case1_info{
+  .case1_info {
     width: 100%;
   }
-  .case1_info h2{
+  .case1_info h2 {
     font-size: 35px !important;
     line-height: 40px;
     text-align: center;
   }
-  .case1_info p{
+  .case1_info p {
     font-size: 20px;
     text-align: center !important;
   }
@@ -371,21 +387,21 @@
     margin-top: 25px;
   }
 
-  .case2{
-    display:flex;
+  .case2 {
+    display: flex;
     flex-direction: column-reverse;
-    margin-top: -57px;
+    margin-top: 32px;
     gap: 15px;
   }
-  .case2_info{
+  .case2_info {
     width: 100%;
   }
-  .case2_info h2{
+  .case2_info h2 {
     font-size: 35px !important;
     line-height: 40px;
     text-align: center;
   }
-  .case2_info p{
+  .case2_info p {
     font-size: 20px;
     text-align: center !important;
   }
@@ -393,9 +409,18 @@
     width: 100%;
     margin-top: 25px;
   }
+  .usecase_experience p{
+    font-size: 17px;
+  }
+
+  .usecase_experience a{
+    padding: 0px;
+    font-size: 16px;
+  }
 
   .usecase_experience h2 {
-    font-size: 37px;
+    font-size: 35px;
+    line-height: 42px;
   }
   .usecase_experience {
     margin-top: 115px;
@@ -404,12 +429,10 @@
     margin-top: 25px;
     font-size: 50px;
   }
-  .usecase_heading p{
+  .usecase_heading p {
     padding: 20px;
   }
 }
-
-
 
 @media only screen and (max-width: 500px) {
   .usecase_revolution {
@@ -419,7 +442,7 @@
     margin-top: 77px;
     margin-bottom: 40px;
     border-radius: 610px 610px 0px 0px;
-    }
+  }
 
   .usecase_revolution .grid-template-columns {
     grid-template-columns: 100%;
@@ -445,6 +468,7 @@
   }
 
   .revolution_img {
+    display: block !important;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -453,39 +477,80 @@
   .revolution_img img {
     width: 75%;
     max-height: 295px;
-    }
+  }
 
-    .case1{
-      gap: 20px;
-    }
+  .case1 {
+    gap: 20px;
+  }
+
+  .revolution_info {
+    border-radius: 160px 160px 0px 0px;
+  }
 }
 
-@media(max-width:768px){
-  .case1{
+@media (max-width: 768px) {
+  .case1 {
     display: flex;
     flex-direction: column-reverse;
   }
   .case1_info {
     width: 100%;
+    text-align: center;
   }
-  .case1_info p{
-    text-align: start;
+  .case1_info p {
   }
-  .case1_info h2{
+  .case1_info h2 {
     font-size: 45px;
   }
 
-  .case2{
+  .case2 {
     display: block;
   }
   .case2_info {
     width: 100%;
+    text-align: center;
   }
-  .case2_info p{
-    text-align: start;
+  .case2_info p {
   }
-  .case2_info h2{
+  .case2_info h2 {
     font-size: 45px;
   }
+  .revolution_img {
+    display: none;
+  }
+}
 
+@media (min-width: 1600px) {
+  .usecase_content {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .usecase_experience {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .usecase_revolution {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 769px) and(max-width:1024px) {
+  .revolution_img {
+    width: 43%;
+    border-radius: none !important;
+  }
+  .revolution_img img {
+    width: 126%;
+  }
+}
+
+
+@media(min-width:793px) and (max-width:1205px){
+  .revolution_img img{
+    display: none;
+  }
 }
