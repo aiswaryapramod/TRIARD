@@ -53,6 +53,35 @@
 
 }
 
+tr:not(:last-child) td {
+    border-bottom: 0.5px solid #ddd;
+}
+
+
+.privacy_table {
+    border: 0.5px solid #ddd;
+}
+
+
+.privacy_table tr th{
+    border-bottom:  0.5px solid #ddd;
+    border-right: 0.5px solid #ddd;
+    border-left:0.5px solid #ddd ;
+    padding: 12px;
+}
+
+.typeof_cookies{
+    width: 160px;
+}
+
+.privacy_table tr td{
+    border-right: 0.5px solid #ddd;
+    border-left: 0.5px solid #ddd;
+    padding: 10px;
+}
+
+
+
 @media(max-width:768px) {
     .privacy_content h1 {
         font-size: 35px;
@@ -82,9 +111,16 @@
     .privacy_head {
         margin-bottom: 50px;
     }
+    .privacy_tableScroll{
+        overflow-x : scroll ;
+    }
+    .privacy_table {
+        width: 700px;
+    }
+    .privacy_table tr td{
+        padding: 10px;
+    }
     
-
-
-
-
 }
+
+

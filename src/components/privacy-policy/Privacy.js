@@ -36,7 +36,7 @@ function Privacy() {
                 <div>
                     <h2>2. Responsible Triard entity</h2><br></br><br></br>
                     <p>Triard is the controller of your Personal Data as described in this Privacy Statement, unless expressly specified otherwise.</p><br></br><br></br>
-                    <p>This Privacy Statement does not apply to the extent we offer to our customers various cloud products and services through which our customers create their own websites and applications running on our platforms, sell or offer their own products and services, send electronic communications to other individuals or collect and analyze Personal Data from individuals.</p><br></br><br></br>
+                    <p>This Privacy Statement does not apply to the extent we offer to our customers various cloud products and services through which our customers create their own websites and applications running on our platforms, sell or offer their own products and services, send electronic communications to other individuals or collect and analyze Personal Data from individuals.</p>
                 </div><br></br><br></br><br></br>
                 <div>
                     <h2>3. What Personal Data do we collect?</h2><br></br><br></br>
@@ -70,64 +70,34 @@ function Privacy() {
                     <p>When you visit our websites, we or an authorized third party may place a cookie on your browser, which collects information, including Personal Data, about your online activities over time and across different sites. Cookies allow us to track overall usage, determine your browsing preferences and improve and customize your browsing experience.</p><br></br>
                     <p>We use both session-based and persistent cookies. Session-based cookies exist only during one session and disappear from your computer when you close your browser or turn off your computer. Persistent cookies remain on your computer or device after you close your browser or turn off your computer. You can control the use of cookies at the individual browser level, but choosing to disable cookies may limit your use of certain features or functions on our websites and services.</p><br></br>
                     <p>We also use web beacons on our websites and in email communications. For example, we may place web beacons in marketing emails that notify us when you click on a link in the email that directs you to one of our websites. Such technologies are used to operate and improve our websites and email communications.</p><br></br>
-                    {/* <div>
+                    <p>The following describes how we use different categories of cookies and similar technologies and your options for managing the data collection settings of these technologies:</p><br></br>
+                    <div className='privacy_tableScroll'>
                         <div>
                         <table className='privacy_table'>
                                 <tr>
-                                    <th >Type of Cookies</th>
+                                    <th className='typeof_cookies'>Type of Cookies</th>
                                     <th >Description</th>
                                     <th>Managing Settings</th>
                                 </tr>
                                 <tr>
                                     <td>Required cookies</td>
-                                    <td>Required cookies enable you to navigate our websites and use their features, such as accessing secure areas of the websites.<br></br>If you have chosen to identify yourself to us, we may place on your browser a cookie that allows us to uniquely identify you when you are logged into the websites and to process your online transactions and requests.</td>
+                                    <td>Required cookies enable you to navigate our websites and use their features, such as accessing secure areas of the websites.<br></br><br></br>If you have chosen to identify yourself to us, we may place on your browser a cookie that allows us to uniquely identify you when you are logged into the websites and to process your online transactions and requests.</td>
                                     <td>Because required cookies are essential to operate the websites, there is no option to opt out of these cookies.</td>
                                 </tr>
                                 <tr>
                                     <td>Functional cookies</td>
-                                    <td>Functional cookies allow us to remember information you have entered or choices you make (such as your username, language and region) and provide enhanced, personalized features.<br></br>Functional cookies may also be used to improve how our websites function and to help us provide you with more relevant communications, including marketing communications. These cookies collect information about how our websites are used, including which pages are viewed most often.<br></br>We may use our own technology or third-party technology to track and analyze usage information to provide enhanced interactions and more relevant communications, and to track the performance of our advertisements.<br></br>In particular, we use Google Analytics ("Google Analytics"), a web analytics service provided by Google, Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Google Analytics uses cookies to help us analyze how our websites are used, including the number of visitors, the websites from which visitors have navigated to our websites, and the pages on our websites to which visitors navigate. This information is used by us to improve our websites.<br></br>Triard may also utilize HTML5 local storage or Flash cookies for the above-mentioned purposes. These technologies differ from browser cookies in the amount and type of data they store, and how they store it.</td>
-                                    <td></td>
+                                    <td>Functional cookies allow us to remember information you have entered or choices you make (such as your username, language and region) and provide enhanced, personalized features.<br></br><br></br>Functional cookies may also be used to improve how our websites function and to help us provide you with more relevant communications, including marketing communications. These cookies collect information about how our websites are used, including which pages are viewed most often.<br></br><br></br>We may use our own technology or third-party technology to track and analyze usage information to provide enhanced interactions and more relevant communications, and to track the performance of our advertisements.<br></br><br></br>In particular, we use Google Analytics ("Google Analytics"), a web analytics service provided by Google, Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Google Analytics uses cookies to help us analyze how our websites are used, including the number of visitors, the websites from which visitors have navigated to our websites, and the pages on our websites to which visitors navigate. This information is used by us to improve our websites.<br></br><br></br>Triard may also utilize HTML5 local storage or Flash cookies for the above-mentioned purposes. These technologies differ from browser cookies in the amount and type of data they store, and how they store it.</td>
+                                    <td>You can manage the placement of functional cookies on your browser via your individual browser settings. Note that opting out of functional cookies may impact the functionality of our websites and degrade your user experience.<br></br><br></br>To opt out from data collection by Google Analytics, you can download and install a browser add-on, which is available here.<br></br><br></br>To learn how to control functional cookies via your individual browser settings, click here.<br></br><br></br>To learn how to manage privacy and storage settings for Flash cookies, click here.</td>
                                 </tr>
                                 <tr>
-                                    <td>cart</td>
-                                    <td>Used in connection with shopping cart.</td>
+                                    <td>Targeting or Advertising cookies</td>
+                                    <td>We sometimes use cookies delivered by us or by third parties to show you ads for our products that we think may interest you on devices you use and to track the performance of our advertisements. For example, these cookies collect and remember information such as which browsers have visited our websites. The information provided to third parties does not include Personal Data, but this information may be re-associated with Personal Data after the third party receives it.<br></br><br></br>Triard also contracts with third-party advertising networks that collect IP addresses and other information from web beacons on our websites, from emails and on third-party websites. Advertising networks follow your online activities over time and across different websites or other online services by collecting device and usage data through automated means, including through the use of cookies. These technologies may recognize you across the different devices you use, such as a desktop or laptop computer, smartphone or tablet. Third parties use this information to provide advertisements about products and services tailored to your interests. You may see their advertisements on other websites or mobile applications on any of your devices. This process also helps us manage and track the effectiveness of our marketing efforts. </td>
+                                    <td>See Section 4.3, below, to learn more about these and other advertising networks and your ability to opt out of collection by certain third parties.</td>
                                 </tr>
-                                <tr>
-                                    <td>cart_sig</td>
-                                    <td>Used in connection with checkout.</td>
-                                </tr>
-                                <tr>
-                                    <td>cart_ts</td>
-                                    <td>Used in connection with checkout.</td>
-                                </tr>
-                                <tr>
-                                    <td>checkout_token</td>
-                                    <td>Used in connection with checkout.</td>
-                                </tr>
-                                <tr>
-                                    <td>secret</td>
-                                    <td>Used in connection with checkout.</td>
-                                </tr>
-                                <tr>
-                                    <td>secure_customer_sig</td>
-                                    <td>Used in connection with customer login.</td>
-                                </tr>
-                                <tr>
-                                    <td>storefront_digest</td>
-                                    <td>Used in connection with customer login.</td>
-                                </tr>
-                                <tr>
-                                    <td>_shopify_u</td>
-                                    <td>Used to facilitate updating customer account information.</td>
-                                </tr>
-
-
                             </table>
 
-                        </div>
-                        <p>The following describes how we use different categories of cookies and similar technologies and your options for managing the data collection settings of these technologies:</p>
-
-                    </div><br></br> */}
+                        </div><br></br><br></br>
+                    </div><br></br>
                     <h3>4.3 Notices on behavioral advertising and opt-out</h3><br></br><br></br>
                     <p>As described above, we or third parties may place or recognize a unique cookie on your browser when you visit our websites for the purpose of serving you targeted advertising (also referred to as “online behavioral advertising” or “interest-based advertising”). To learn more about targeted advertising and advertising networks and about your ability to opt out of collection by certain third parties, please visit the opt-out pages of the Network Advertising Initiative, here, and the Digital Advertising Alliance, here.</p><br></br>
                     <p>To manage the use of targeting or advertising cookies on this website, consult your individual browser settings for cookies. To learn how to manage privacy and storage settings for Flash cookies, click here. Various browsers may also offer their own management tools for removing HTML5 local storage.</p><br></br>
