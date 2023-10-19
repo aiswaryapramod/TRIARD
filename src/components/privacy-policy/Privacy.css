@@ -85,7 +85,7 @@ tr:not(:last-child) td {
 @media(max-width:768px) {
     .privacy_content h1 {
         font-size: 35px;
-        text-align: center;
+        text-align: start;
     }
 
     .privacy_content h2 {

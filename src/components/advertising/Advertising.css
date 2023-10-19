@@ -451,3 +451,35 @@
     }
 }
 
+
+
+
+@media(min-width:760px) and (max-width:918px){
+.advertising_section1 {
+  display: block;
+}
+.advertising_sec1_img{
+  display: flex;
+  justify-content: center;
+}
+.advertising_info{
+  display: block;
+}
+.advertising_info2{
+  display: block;
+}
+.advertising_info4{
+  display: block;
+}
+.advertising_cta button {
+  width: 35%;
+}
+.advertising_cta_info h2 {
+  color: white;
+  font-size: 38px;
+}
+.advertising_cta_info span {
+  color: white;
+  font-size: 43px;
+}
+}

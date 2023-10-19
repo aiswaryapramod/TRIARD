@@ -194,24 +194,20 @@ function Demo() {
             </div>
 
 
-
-
             <div className='threeD'>
-
-            <div className='threed_content7'>
-                    <h3>Precision in 3D Configuration and Augmented Reality</h3>
-                    <p>Master Your Game in 3D: Precision Fit Meets Augmented Reality Training. Elevate your performance with our 3D-configurable Baseball Glove. It's not just about the perfect fit; it's about perfecting your game.</p>
+            <div className='threed_content'>
+                    <h3>Your iPhone: A Gateway to 3D Configuration and AR Magic</h3>
+                    <p>Empowering Your World in 3D and Augmented Reality: Customize, Interact, and Redefine What's Possible. Our latest iPhone isn't just a phone; it's a portal to a new dimension. Personalize every facet of your device in immersive 3D, from colors to accessories.</p>
                     <div className='demo_readmore4'>
                     {/* <button>Read more</button> */}
                     </div>
                 </div>
 
-
                 <div>
                     <model-viewer
-                        ref={viewerRef7}
+                        ref={viewerRef6}
                         disable-zoom
-                        id="viewer7"
+                        id="viewer6"
                         auto-rotate
                         camera-controls
                         shadow-intensity="1"
@@ -219,14 +215,15 @@ function Demo() {
                     ></model-viewer>
 
                     <div className="controls">
-                        <button className='btn_glove1' onClick={() => applyColor(viewerRef7, 'Material', '#6f1d1b')}></button>
-                        <button className='btn_glove2' onClick={() => applyColor(viewerRef7, 'Material', '#023047')}></button>
-                        <button className='btn_glove3' onClick={() => applyColor(viewerRef7, 'Material', '#99582a')}></button>
+                        <button className='btn_iphone1' onClick={() => applyColor(viewerRef6, 'Body.001', '#FFDD43')}></button>
+                        <button className='btn_iphone2' onClick={() => applyColor(viewerRef6, 'Body.001', '#c0c0c0')}></button>
+                        <button className='btn_iphone3' onClick={() => applyColor(viewerRef6, 'Body.001', '#CC9999')}></button>
                     </div>
             </div>
-
-
             </div>
+
+
+
 
 
 
@@ -260,20 +257,23 @@ function Demo() {
             </div>
 
             
+
             <div className='threeD'>
-            <div className='threed_content'>
-                    <h3>Your iPhone: A Gateway to 3D Configuration and AR Magic</h3>
-                    <p>Empowering Your World in 3D and Augmented Reality: Customize, Interact, and Redefine What's Possible. Our latest iPhone isn't just a phone; it's a portal to a new dimension. Personalize every facet of your device in immersive 3D, from colors to accessories.</p>
+
+            <div className='threed_content7'>
+                    <h3>Precision in 3D Configuration and Augmented Reality</h3>
+                    <p>Master Your Game in 3D: Precision Fit Meets Augmented Reality Training. Elevate your performance with our 3D-configurable Baseball Glove. It's not just about the perfect fit; it's about perfecting your game.</p>
                     <div className='demo_readmore4'>
                     {/* <button>Read more</button> */}
                     </div>
                 </div>
 
+
                 <div>
                     <model-viewer
-                        ref={viewerRef6}
+                        ref={viewerRef7}
                         disable-zoom
-                        id="viewer6"
+                        id="viewer7"
                         auto-rotate
                         camera-controls
                         shadow-intensity="1"
@@ -281,11 +281,13 @@ function Demo() {
                     ></model-viewer>
 
                     <div className="controls">
-                        <button className='btn_iphone1' onClick={() => applyColor(viewerRef6, 'Body.001', '#FFDD43')}></button>
-                        <button className='btn_iphone2' onClick={() => applyColor(viewerRef6, 'Body.001', '#c0c0c0')}></button>
-                        <button className='btn_iphone3' onClick={() => applyColor(viewerRef6, 'Body.001', '#CC9999')}></button>
+                        <button className='btn_glove1' onClick={() => applyColor(viewerRef7, 'Material', '#6f1d1b')}></button>
+                        <button className='btn_glove2' onClick={() => applyColor(viewerRef7, 'Material', '#023047')}></button>
+                        <button className='btn_glove3' onClick={() => applyColor(viewerRef7, 'Material', '#99582a')}></button>
                     </div>
             </div>
+
+
             </div>
 
 

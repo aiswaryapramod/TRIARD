@@ -11,7 +11,7 @@ function Car() {
   return (
     <div>
         <Navbar/>
-           <div>
+           <div className='car_max-section'>
               
            <div className='car_top'>
                     <h3>Revolutionize Car Shopping with 3D Configuration and AR</h3>

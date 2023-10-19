@@ -14,6 +14,7 @@ function Bloginner2() {
   return (
     <>
       <Navbar />
+      <div className='bloginner_section'>
         <div className='bloginner2'>
           <img src={inner2banner}></img>
           <h2>The Power of 3D Rendering in Business</h2>
@@ -104,6 +105,7 @@ function Bloginner2() {
 
 
 
+        </div>
         </div>
       <Footer />
 

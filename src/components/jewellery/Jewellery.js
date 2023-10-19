@@ -34,7 +34,7 @@ function Jewellery() {
     return (
         <div>
             <Navbar />
-            <div>
+            <div className='jwell_max-section'>
                 <div className='jwell_top'>
                     <h3>Revolutionizing Ecommerce</h3>
                     <h4>One pixel at a time Experience the Future of Jewellery Shopping!</h4>
