@@ -227,3 +227,13 @@ body {
     display: block;
   }
 }
+
+
+
+@media(min-width:793px) and (max-width:1205px){
+  .footer-address a {
+    color: #20b2aa;
+    font-size: 11px;
+  }
+  
+}

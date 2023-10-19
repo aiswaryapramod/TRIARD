@@ -260,3 +260,12 @@
         width: 87%;
     }
 }
+
+
+@media(min-width:1600px){
+  .car_max-section{
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

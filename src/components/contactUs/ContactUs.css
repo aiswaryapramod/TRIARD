@@ -276,6 +276,12 @@ textarea {
   margin-top: -8px;
 }
 
+
+
+.call_detail a{
+  color: white;
+}
+
 @media (max-width: 500px) {
   .contact_detail svg {
     padding-left: 0;

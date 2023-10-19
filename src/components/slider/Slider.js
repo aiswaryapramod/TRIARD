@@ -80,39 +80,6 @@ function Slider() {
 
 
 
-  // useEffect(() => {
-  //   const modelViewerParameters = viewerRef.current;
-
-  //   const onLoad = () => {
-  //     let material = modelViewerParameters.model.materials[0];
-
-  //     let metalnessDisplay = document.querySelector("#metalness-value");
-  //     let roughnessDisplay = document.querySelector("#roughness-value");
-
-  //     metalnessDisplay.textContent = material.pbrMetallicRoughness.metallicFactor;
-  //     roughnessDisplay.textContent = material.pbrMetallicRoughness.roughnessFactor;
-
-  //     // // Defaults to gold
-  //     // material.pbrMetallicRoughness.setBaseColorFactor([0.7294, 0.5333, 0.0392]);
-
-  //     document.querySelector('#metalness').addEventListener('input', (event) => {
-  //       material.pbrMetallicRoughness.setMetallicFactor(event.target.value);
-  //       metalnessDisplay.textContent = event.target.value;
-  //     });
-
-  //     document.querySelector('#roughness').addEventListener('input', (event) => {
-  //       material.pbrMetallicRoughness.setRoughnessFactor(event.target.value);
-  //       roughnessDisplay.textContent = event.target.value;
-  //     });
-  //   };
-
-  //   modelViewerParameters.addEventListener("load", onLoad);
-
-  //   return () => {
-  //     modelViewerParameters.removeEventListener("load", onLoad);
-  //   };
-  // }, []);
-
 
   function showCarModel() {
     viewerRef.current.src = '/model/sofa.glb';
@@ -140,19 +107,6 @@ function Slider() {
             <button className='btn_b' onClick={() => applyColor(viewerRef, 'Body', 'rgb(184, 241, 190)')}></button>
           </div>
 
-          {/* <div className='sofa_texture'>
-            <div className='slider-container'>
-              <label className='slider-label'>Shade : </label>
-              <input type="range" id="metalness" min="0" max="1" step="0.01" className='slider-input' />
-              <span id="metalness-value" className='slider-value'>    0</span>
-            </div>
-
-            <div className='slider-container'>
-              <label className='slider-label'>Rough : </label>
-              <input type="range" id="roughness" min="0" max="1" step="0.01" className='slider-input' />
-              <span id="roughness-value" className='slider-value'>    0</span>
-            </div>
-          </div> */}
         </div>
 
 
@@ -215,7 +169,7 @@ function Slider() {
 
 
 
-{/* <div>
+      {/* <div>
   <div>
     <div>
       <div>
@@ -240,6 +194,73 @@ function Slider() {
     </div>
   </div>
 </div> */}
+
+
+
+
+      {/* new */}
+
+      <div className='test'>
+
+        <div className='demooo'>
+          <div>
+            <model-viewer
+              ref={viewerRef2}
+              disable-zoom
+              id="viewer2"
+              auto-rotate
+              camera-controls
+              shadow-intensity="1"
+            ></model-viewer>
+
+            <div className="controls_ring">
+              <button className='btn_ring1' onClick={() => applyColor(viewerRef2, 'Material_33', '#D1793B')}></button>
+              <button className='btn_ring2' onClick={() => applyColor(viewerRef2, 'Material_33', '#D4AF37')}></button>
+              <button className='btn_ring3' onClick={() => applyColor(viewerRef2, 'Material_33', '#b76e79')}></button>
+            </div>
+
+
+          </div>
+
+          <div className='threed_content2'>
+            <h3>Real-time & Personalised</h3>
+            <p>Visualise & Customise every aspect of products in real-time with TRIARD. Enables your customers to choose from an extensive range of options, from colours and materials to sizes and finishes, visualise products and make better purchase decisions.</p>
+          </div>
+
+
+
+
+        </div>
+
+        <div className='demooo'>
+          <div>
+            <model-viewer
+              ref={viewerRef3}
+              disable-zoom
+              id="viewer2"
+              auto-rotate
+              camera-controls
+              shadow-intensity="1"
+            ></model-viewer>
+
+            <div className="controls_ring">
+              <button className='btn_ring1' onClick={() => applyColor(viewerRef3, 'Material_33', '#D1793B')}></button>
+              <button className='btn_ring2' onClick={() => applyColor(viewerRef3, 'Material_33', '#D4AF37')}></button>
+              <button className='btn_ring3' onClick={() => applyColor(viewerRef3, 'Material_33', '#b76e79')}></button>
+            </div>
+
+
+          </div>
+
+          <div className='threed_content2'>
+            <h3>Real-time & Personalised</h3>
+            <p>Visualise & Customise every aspect of products in real-time with TRIARD. Enables your customers to choose from an extensive range of options, from colours and materials to sizes and finishes, visualise products and make better purchase decisions.</p>
+          </div>
+
+
+        </div>
+
+      </div>
 
 
 

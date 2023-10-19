@@ -225,7 +225,7 @@ function ContactUs() {
 
 
                   <p>
-                    Phone: &nbsp; +91 8594 00 10 10
+                    Phone: &nbsp;<a  href='tel:+91 8594 00 10 10'>+91 8594 00 10 10</a>
                   </p>
 
                   <p>

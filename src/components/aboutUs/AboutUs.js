@@ -230,7 +230,7 @@ const AboutUs = () => {
         <p className="aboutus_info">
           Welcome to Triard, where innovation meets technology to redefine
           digital experiences. We are a dynamic team of passionate minds at
-          DigitalBuddha, committed to empowering businesses with transformative
+          Digitalbuddha, committed to empowering businesses with transformative
           solutions in the digital realm.
         </p>
       </div>

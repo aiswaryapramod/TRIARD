@@ -24,7 +24,7 @@ function Navbar() {
             <li><Link to="/usecases">USE CASES</Link></li>
             <li><Link to="/demo">DEMOS</Link> </li>
             <li><Link to="/blog">BLOG</Link> </li>
-            <li><Link to="/contactUs">CONTACT US</Link></li>
+            <li><Link to="/contact-us">CONTACT US</Link></li>
 
           </ul>
         </nav>

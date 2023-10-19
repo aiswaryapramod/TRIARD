@@ -15,7 +15,7 @@ function Privacy() {
                 </div>
                 <div className='privacy_content'>
                 <div>
-                    <h1>Triard Privacy Statement, effective as of October 5, 2023</h1><br></br><br></br>
+                    <h1>Triard Privacy Statement, Effective as of October 5, 2023</h1><br></br><br></br>
                     <p>This Triard Privacy Statement ("Privacy Statement") describes our privacy practices. Please read this Privacy Statement carefully to learn how we collect, use, share and otherwise process information relating to individuals ("Personal Data"), and to learn about your rights and choices regarding our processing of your Personal Data.</p><br></br>
                     <p>A reference to “Triard,” “we,” “us” or the “Company” is a reference to triard.io , inc.</p>
                 </div><br></br><br></br><br></br>
@@ -188,11 +188,11 @@ function Privacy() {
                     <p>Therefore, your Personal Data may be processed outside the European Economic Area (EEA), and in countries which are not subject to an adequacy decision by the European Commission and which may not provide for the same level of data protection as the EEA. In this event, we will ensure that the recipient of your Personal Data offers an adequate level of protection, for instance by entering into standard contractual clauses for the transfer of data as approved by the European Commission (Art. 46 GDPR), or we will ask you for your prior consent to such international data transfers.</p>
                 </div><br></br><br></br><br></br>
                 <div>
-                    <h3>8. Children</h3><br></br><br></br>
+                    <h2>8. Children</h2><br></br><br></br>
                     <p>Our websites are not directed at children. We do not knowingly collect Personal Data from children under the age of 16. If you are a parent or guardian and believe your child has provided us with Personal Data without your consent, please contact us by using the information in the “Contacting us” section, below, and we will take steps to delete such Personal Data from our systems.</p>
                 </div><br></br><br></br><br></br>
                 <div>
-                    <h3>9. How long do we keep your Personal Data?</h3><br></br><br></br>
+                    <h2>9. How long do we keep your Personal Data?</h2><br></br><br></br>
                     <p>We may retain your Personal Data for a period of time consistent with the original purpose of collection (see the "Purposes for which we process Personal Data and the legal bases on which we rely" section, above). We determine the appropriate retention period for Personal Data on the basis of the amount, nature and sensitivity of your Personal Data processed, the potential risk of harm from unauthorized use or disclosure of your Personal Data and whether we can achieve the purposes of the processing through other means, as well as on the basis of applicable legal requirements (such as applicable statutes of limitation).</p><br></br>
                     <p>After expiry of the applicable retention periods, your Personal Data will be deleted. If there is any data that we are unable, for technical reasons, to delete entirely from our systems, we will put in place appropriate measures to prevent any further use of such data.</p><br></br>
                     <p>For further information on applicable data retention periods, please contact us by using the information in the “Contacting us” section, below.</p>

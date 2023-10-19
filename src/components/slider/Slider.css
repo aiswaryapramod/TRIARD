@@ -416,3 +416,52 @@
   }
 }
  */
+
+ /* #viewer2 {
+  width: 100%;
+  height: 39svh;
+  margin-top: 70px;
+}
+
+.controls_ring {
+  display: flex;
+  margin-top: 39px;
+  width: 78%;
+  gap: 21px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.threed_content2 {
+    margin-top: 43px;
+    margin-bottom: 104px;
+}
+
+.demooo{
+  width: 95%;
+  border: 1px solid white;
+}
+
+.test{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn_ring1{
+  padding: 13px;
+}
+
+.btn_ring2 {
+  position: absolute;
+  padding: 13px;
+  left: 6%;
+  bottom: 1px
+}
+
+.btn_ring3 {
+  position: absolute;
+  padding: 13px;
+  left: 12%;
+  bottom: 1px;
+} */

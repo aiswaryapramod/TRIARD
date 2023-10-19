@@ -15,6 +15,7 @@ function Furniture() {
   return (
     <>
       <Navbar />
+      <div className='furniture_max-section'>
 
       <div className='furniture_top_text'>
         <h2>From Concept to Creation: How 3D Configurators Simplify Furniture Design</h2>
@@ -97,6 +98,7 @@ function Furniture() {
       <div className='fur_bottom_sec'>
         <h3>Triard's 3D Configurator, Redefining Personalization</h3>
         <p>At Triard, we're committed to reshaping the furniture industry through our innovative 3D Configurator. With this powerful tool, we put the design process in your hands, allowing you to personalize every aspect of your furniture. From materials and colors to visualizing your creations in your own living spaces using augmented reality (AR), Triard's 3D Configurator empowers you to craft furniture that is uniquely yours. If you're ready to begin your furniture customization journey or have any questions, contact us.  Let's transform your living spaces into a personalized haven of style and comfort with Triard's 3D Configurator.</p>
+      </div>
       </div>
 
       <Footer />
