@@ -15,7 +15,7 @@ function Baseball() {
             <div className='sports_and_gear'>
                 <div className='sports_section'>
                     <div className='sports_main_head'>
-                        <h2>Triard's 3D Configuration and AR Services fore Baseball Glove</h2>
+                        <h2>Triard's 3D Configuration and AR Services for Baseball Glove</h2>
                         <p>Are you ready to take your baseball game to the next level? Triard presents an exciting innovation in sports gear with our
                             3D-Configurable Baseball Glove. Triard is here to revolutionize your e-commerce experience with our cutting-edge 3D Configuration and Augmented Reality (AR) services. We offer a seamless solution that can transform your website into a dynamic and interactive platform, driving more sales and customer engagement.</p>
                     </div>
