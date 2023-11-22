@@ -37,19 +37,19 @@ function Baseball() {
                         <div className='sports_card'>
                             <img src={spcard1} alt=''></img>
                             <h3>Enrich Your Product Offerings</h3>
-                            <p>Expanding your product catalog is a key strategy for e-commerce success, and Triard's 3D-configurable Baseball Glove is the perfect addition. This customizable glove empowers your customers to personalize their gloves according to their unique...</p>
+                            <p>Expanding your product catalog is a key strategy for e-commerce success, and Triard's 3D-configurable Baseball Glove is the perfect addition. This customizable glove empowers your customers to personalize their gloves according to their unique preferences.</p>
                         </div>
 
                         <div className='sports_card'>
                             <img src={spcard2} alt=''></img>
                             <h3>Enhanced Customer Engagement</h3>
-                            <p>Triard's technology isn't just about selling gloves; it's about creating an immersive shopping experience. Our 3D configurator allows customers to interact with their customized gloves in real-time, keeping them engaged on your website...</p>
+                            <p>Triard's technology isn't just about selling gloves; it's about creating an immersive shopping experience. Our 3D configurator allows customers to interact with their customized gloves in real-time, keeping them engaged on your website for longer periods.</p>
                         </div>
 
                         <div className='sports_card'>
                             <img src={spcard3} alt=''></img>
                             <h3>Reduced Returns and Increased Customer Satisfaction</h3>
-                            <p>The interactivity of our technology helps customers make more informed purchase decisions. As a result, the likelihood of returns is reduced. Happy and satisfied customers are not only...</p>
+                            <p>The interactivity of our technology helps customers make more informed purchase decisions. As a result, the likelihood of returns is reduced. Happy and satisfied customers are not only more likely to become repeat buyers but also advocates for your brand.</p>
                         </div>
                     </div>
                     <br></br>
