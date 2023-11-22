@@ -240,7 +240,7 @@
   } */
 
 
-.sports_all_content{
+/* .sports_all_content{
   background: linear-gradient(
     176deg,
     rgba(0, 122, 223, 1) 0%,
@@ -248,6 +248,33 @@
     rgb(2, 187, 150) 100%
   );
 
+} */
+
+.sports_gain{
+  margin-top: 84px;
+}
+.sports_content_sec{
+  background: linear-gradient(
+    176deg,
+    rgba(0, 122, 223, 1) 0%,
+    rgba(7, 11, 40, 1) 50%,
+    /* rgb(2, 187, 150) 100% */
+  );
+
+}
+
+.game_changer_section{
+  background: linear-gradient(
+    176deg,
+    /* rgba(0, 122, 223, 1) 0%, */
+    rgba(7, 11, 40, 1) 50%,
+    rgba(0, 236, 188, 1) 100%
+  );
+
+}
+
+.sports_card_sec{
+  margin-top: 74px;
 }
 
 .faq_content_sports h4{
@@ -324,8 +351,13 @@
         width: 100%;
       }
       .sports_card {
-        margin-top: -91px;
+        margin-top: -67px;
       }
+
+      .sports_gain {
+        margin-top: 20px;
+    }
+
       .sports_gain_blocks {
         display: flex;
         flex-direction: column;

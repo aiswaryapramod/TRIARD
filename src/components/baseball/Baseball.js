@@ -30,9 +30,9 @@ function Baseball() {
                 <div className='sports_all_content'>
                 <div className='sports_content_sec'>
                     <br></br>
-                    <div className='sports_head'>
+                    {/* <div className='sports_head'>
                         <h2>How 3D Configurator is Transforming the Furniture Industry?</h2>
-                    </div>
+                    </div> */}
                     <div className='sports_card_sec'>
                         <div className='sports_card'>
                             <img src={spcard1} alt=''></img>
