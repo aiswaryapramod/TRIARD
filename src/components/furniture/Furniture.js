@@ -43,27 +43,27 @@ function Furniture() {
           <div className='furniture_grid_sec1'>
             <img src={furnigrid1} alt=''></img>
             <h4>Streamlining the Design Process</h4>
-            <p> One of the key advantages of 3D configurators in furniture design is the simplification of the entire process. Designers can now start with a basic concept and use the configurator to create 3D models in real time...</p>
+            <p>One of the key advantages of 3D configurators in furniture design is the simplification of the entire process. Designers can now start with a basic concept and use the configurator to create 3D models in real time, allowing for quick and efficient iteractions.</p>
           </div>
           <div className='furniture_grid_sec1'>
             <img src={furnigrid2} alt=''></img>
             <h4>Customization at Your Fingertips</h4>
-            <p>Furniture is a highly personal choice, and consumers often look for pieces that reflect their unique tastes and preferences. 3D configurators empower customers to customize their furniture down to the smallest detail...</p>
+            <p>Furniture is a highly personal choice, and consumers often look for pieces that reflect their unique tastes and preferences. 3D configurators empower customers to customize their furniture down to the smallest detail, offering a level of personalization that was previously unimaginable.</p>
           </div>
           <div className='furniture_grid_sec1'>
             <img src={furnigrid3} alt=''></img>
             <h4>Enhanced Visualization</h4>
-            <p>3D configurators offer an immersive visualization experience. Users can rotate, zoom in, and inspect their furniture designs from every angle...</p>
+            <p>3D configurators offer an immersive visualization experience. Users can rotate, zoom in, and inspect their furniture designs from every angle, providing a level of engagement and detail scrutiny that traditional 2D representations cannot match.</p>
           </div>
           <div className='furniture_grid_sec1'>
             <img src={furnigrid4} alt=''></img>
             <h4>Efficient Manufacturing</h4>
-            <p>Once a design is finalized using a 3D configurator, the transition to manufacturing is seamless. The software generates precise specifications that can be sent directly to production facilities, reducing...</p>
+            <p>Once a design is finalized using a 3D configurator, the transition to manufacturing is seamless. The software generates precise specifications that can be sent directly to production facilities, reducing the risk of errors and streamlining the entire manufacturing process. </p>
           </div>
           <div className='furniture_grid_sec1'>
             <img src={furnigrid5} alt=''></img>
             <h4>Sustainability in Furniture Design</h4>
-            <p> In an era where sustainability is a top concern, 3D configurators play a role in reducing waste. Since designs are highly customizable, there is less need for mass production...</p>
+            <p>In an era where sustainability is a top concern, 3D configurators play a role in reducing waste. Since designs are highly customizable, there is less need for mass production of standardized furniture pieces that may go unsold or become outdated.</p>
           </div>
         </div>
       </div>
