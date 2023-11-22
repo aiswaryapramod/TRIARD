@@ -248,7 +248,7 @@ function Content() {
   //     });
   // }, []);
 
-  // const viewerRef0 = useRef(null);
+  // const viewerRefhome = useRef(null);
 
   // useEffect(() => {
   //   showCarModel();
@@ -267,7 +267,7 @@ function Content() {
 
 
   // function showCarModel() {
-  //     viewerRef0.current.src = '/model/sofa.glb';
+  //     viewerRefhome.current.src = '/model/tshirt.glb';
   //   }
 
 
@@ -292,9 +292,9 @@ function Content() {
         <img src={shoe} alt='' />
 
 
-        {/* <div>
+         {/* <div>
           <model-viewer
-            ref={viewerRef0}
+            ref={viewerRefhome}
             disable-zoom
             id="viewerhome"
             auto-rotate
@@ -303,14 +303,14 @@ function Content() {
             class="custom-camera-controls"
           ></model-viewer>
 
-          <div className="controls">
-            <button className='btn_r' onClick={() => applyColor(viewerRef0, 'Body', '#ffc300')}></button>
-            <button className='btn_g' onClick={() => applyColor(viewerRef0, 'Body', 'rgb(191, 181, 255)')}></button>
-            <button className='btn_b' onClick={() => applyColor(viewerRef0, 'Body', 'rgb(184, 241, 190)')}></button>
+          <div className="controls_home">
+            <button className='btn_r_home' onClick={() => applyColor(viewerRefhome, 'Body_FRONT_2664', '#ffc300')}></button>
+            <button className='btn_g_home' onClick={() => applyColor(viewerRefhome, 'Body_FRONT_2664', 'blue')}></button>
+            <button className='btn_b_home' onClick={() => applyColor(viewerRefhome, 'Body_FRONT_2664', 'red')}></button>
           </div>
 
-        </div> */}
-
+        </div> 
+ */}
 
         <div className='content_info'>
           <h3>Real-time & Personalised</h3>
@@ -331,7 +331,7 @@ function Content() {
             options and instantly visualise in real-time.</p>
         </div>
 
-        <img src={img2} />
+        <img src={img2} alt=''/>
 
       </div>
 
@@ -363,7 +363,7 @@ function Content() {
         </div>
 
         {/* <div className='content_img2' ref={containerImage4}> */}
-        <img src={img5} />
+        <img src={img5} alt=''/>
         {/* </div> */}
 
       </div>
@@ -371,7 +371,7 @@ function Content() {
       <div className='content_wrapper3' ref={containerhome5}>
 
         {/* <div className='content_img' */}
-        <img src={AR} />
+        <img src={AR} alt=''/>
         {/* </div> */}
 
         <div className='content_info'>
@@ -389,7 +389,7 @@ function Content() {
       <div className='container'>
 
         <div className='whyus_info' >
-          <h3 className='head_ing'>Why Us?</h3>
+          <h1 className='head_ing'>Why Us?</h1>
 
           <p>TRIARD brings you a perfect juice of 3D visualisation, configuration & AR visualisation
             under a single customisable platform. Let your product be anything, we bring your
@@ -406,7 +406,7 @@ function Content() {
 
       <div className='content_cra'>
         <div className='cra_text'>Integrate seamlessly with the top ecommerce platforms</div>
-        <img src={brand}></img>
+        <img src={brand} alt=''></img>
       </div>
 
 

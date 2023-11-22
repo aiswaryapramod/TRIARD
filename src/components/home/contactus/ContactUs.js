@@ -52,7 +52,7 @@ function ContactUs() {
 
     return (
         <div className='container' style={{ overflow: 'hidden' }}>
-            <h2 className='contactUs_h2'>Request a Demo</h2>
+            <h1 className='contactUs_h2'>Request a Demo</h1>
 
             <div id='contactus' className='contactUs_info'>
 
@@ -117,7 +117,7 @@ function ContactUs() {
                 <style></style>
 
                 <div className='contactUs' >
-                    <img src={img8} />
+                    <img src={img8}  alt=''/>
                 </div>
 
 

@@ -86,7 +86,7 @@ function ContactUs() {
     <>
       <Navbar />
       <div className='contact_main'>
-      <img src={contactimg}></img>
+      <img src={contactimg} alt=''></img>
 
         <div className='contact_section'>
 

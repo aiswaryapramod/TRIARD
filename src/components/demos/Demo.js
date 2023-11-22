@@ -5,6 +5,13 @@ import "./Demo.css";
 import ferrari from "../../assets/Ferrari.png";
 import banner from "../../assets/demo_banner.png";
 import gsap from 'gsap';
+import demo1 from "../../assets/demo1.png";
+import demo2 from "../../assets/demo2.png";
+import demo3 from "../../assets/demo3.png";
+import demo4 from "../../assets/demo4.png";
+import demo5 from "../../assets/demo5.png";
+import demo6 from "../../assets/demo6.png";
+
 import { useParams } from 'react-router';
 
 
@@ -31,21 +38,21 @@ function Demo() {
     const viewerRef5 = useRef(null);
     const viewerRef6 = useRef(null);
     const viewerRef7 = useRef(null);
-  
+
     useEffect(() => {
-      showCarModel();
+        showCarModel();
     }, []);
-  
+
     function applyColor(viewer, materialName, color) {
-      const model = viewer.current.model;
-      console.log(model);
-      const material = model.materials.find(mat => mat.name === materialName);
-  
-      if (material) {
-        material.pbrMetallicRoughness.setBaseColorFactor(color);
-      }
+        const model = viewer.current.model;
+        console.log(model);
+        const material = model.materials.find(mat => mat.name === materialName);
+
+        if (material) {
+            material.pbrMetallicRoughness.setBaseColorFactor(color);
+        }
     }
-  
+
 
 
     function showCarModel() {
@@ -56,17 +63,17 @@ function Demo() {
         viewerRef5.current.src = '/model/Car.glb';
         viewerRef6.current.src = '/model/iphone.glb';
         viewerRef7.current.src = '/model/glove.glb';
-      }
-    
+    }
+
 
     return (
         <div>
             <Navbar />
 
-            <img className='banner_demo' src={banner}></img>
+            <img className='banner_demo' src={banner} alt=''></img>
 
             <div className='demo_section'>
-                <h2>Demos</h2>
+                <h1>Demos</h1>
                 <p>Experience a new dimension of wonder.</p>
             </div>
             {/* <div className='demo container'>
@@ -104,6 +111,7 @@ function Demo() {
                         camera-controls
                         shadow-intensity="1"
                         class="custom-camera-controls"
+                        poster={demo1}
                     ></model-viewer>
 
                     <div className="controls">
@@ -112,19 +120,6 @@ function Demo() {
                         <button className='btn_b' onClick={() => applyColor(viewerRef, 'Body', 'rgb(184, 241, 190)')}></button>
                     </div>
 
-                    {/* <div className='sofa_texture'>
-            <div className='slider-container'>
-              <label className='slider-label'>Shade : </label>
-              <input type="range" id="metalness" min="0" max="1" step="0.01" className='slider-input' />
-              <span id="metalness-value" className='slider-value'>    0</span>
-            </div>
-
-            <div className='slider-container'>
-              <label className='slider-label'>Rough : </label>
-              <input type="range" id="roughness" min="0" max="1" step="0.01" className='slider-input' />
-              <span id="roughness-value" className='slider-value'>    0</span>
-            </div>
-          </div> */}
                 </div>
 
 
@@ -132,7 +127,7 @@ function Demo() {
                     <h3>The Best AR & 3D  Solutions for Furniture Companies</h3>
                     <p>The integration of AR and 3D technology within furniture design has become an integral component of the creative and presentation processes, offering both unparalleled versatility and freedom of expression.</p>
                     <div className='demo_readmore1'>
-                    {/* <button><a  href="/furniture">Read more</a></button> */}
+                        {/* <button><a  href="/furniture">Read more</a></button> */}
                     </div>
                 </div>
             </div>
@@ -142,7 +137,7 @@ function Demo() {
                     <h3>Transforming Jewelry Shopping: Elevate Your Experience with 3D and AR</h3>
                     <p>Discover the transformative capabilities that empower you to effortlessly create and distribute realistic 3D content and immersive AR encounters. </p>
                     <div className='demo_readmore'>
-                    {/* <button><a  href="/jewellery">Read more</a></button> */}
+                        {/* <button><a  href="/jewellery">Read more</a></button> */}
                     </div>
                 </div>
                 <div className='threedring'>
@@ -153,6 +148,7 @@ function Demo() {
                         auto-rotate
                         camera-controls
                         shadow-intensity="1"
+                        poster={demo2}
                     ></model-viewer>
 
                     <div className="controls_ring">
@@ -174,6 +170,7 @@ function Demo() {
                         auto-rotate
                         camera-controls
                         shadow-intensity="1"
+                        poster={demo3}
                     ></model-viewer>
 
                     <div className="controls_chair">
@@ -188,18 +185,18 @@ function Demo() {
                     <h3>Create in 3D and Explore with Augmented Reality</h3>
                     <p>Fuel Your Creativity: Craft Masterpieces in 3D, Bring Them to Life with Augmented Reality. Our 3D Blender empowers artists, designers, and creators to push the boundaries of imagination.</p>
                     <div className='demo_readmore'>
-                    {/* <button>Read more</button> */}
-                    </div> 
+                        {/* <button>Read more</button> */}
+                    </div>
                 </div>
             </div>
 
 
             <div className='threeD'>
-            <div className='threed_content'>
+                <div className='threed_content'>
                     <h3>Your iPhone: A Gateway to 3D Configuration and AR Magic</h3>
                     <p>Empowering Your World in 3D and Augmented Reality: Customize, Interact, and Redefine What's Possible. Our latest iPhone isn't just a phone; it's a portal to a new dimension. Personalize every facet of your device in immersive 3D, from colors to accessories.</p>
                     <div className='demo_readmore4'>
-                    {/* <button>Read more</button> */}
+                        {/* <button>Read more</button> */}
                     </div>
                 </div>
 
@@ -212,6 +209,7 @@ function Demo() {
                         camera-controls
                         shadow-intensity="1"
                         class="custom-camera-controls"
+                        poster={demo4}
                     ></model-viewer>
 
                     <div className="controls">
@@ -219,7 +217,7 @@ function Demo() {
                         <button className='btn_iphone2' onClick={() => applyColor(viewerRef6, 'Body.001', '#c0c0c0')}></button>
                         <button className='btn_iphone3' onClick={() => applyColor(viewerRef6, 'Body.001', '#CC9999')}></button>
                     </div>
-            </div>
+                </div>
             </div>
 
 
@@ -238,6 +236,7 @@ function Demo() {
                         camera-controls
                         shadow-intensity="1"
                         class="custom-camera-controls"
+                        poster={demo5}
                     ></model-viewer>
 
                     <div className="controls">
@@ -245,26 +244,26 @@ function Demo() {
                         <button className='btn_car2' onClick={() => applyColor(viewerRef5, 'Ferrari_550_Barchetta_Pininfarina_2000_by_AlexKa', '#023e8a')}></button>
                         <button className='btn_car3' onClick={() => applyColor(viewerRef5, 'Ferrari_550_Barchetta_Pininfarina_2000_by_AlexKa', 'black')}></button>
                     </div>
-            </div>
-            <div className='threed_content'>
+                </div>
+                <div className='threed_content'>
                     <h3>Revolutionize Car Shopping with 3D Configuration and AR</h3>
                     <p>Elevate Your Car Buying Experience: Unleash the Power of 3D Configuration and Augmented Reality. At our platform, we redefine the way you shop for cars.Now, you can customize every aspect of your future vehicle in three dimensions.</p>
                     <div className='demo_readmore3'>
-                    {/* <button>Read more</button> */}
+                        {/* <button>Read more</button> */}
                     </div>
                 </div>
 
             </div>
 
-            
+
 
             <div className='threeD'>
 
-            <div className='threed_content7'>
+                <div className='threed_content7'>
                     <h3>Precision in 3D Configuration and Augmented Reality</h3>
                     <p>Master Your Game in 3D: Precision Fit Meets Augmented Reality Training. Elevate your performance with our 3D-configurable Baseball Glove. It's not just about the perfect fit; it's about perfecting your game.</p>
                     <div className='demo_readmore4'>
-                    {/* <button>Read more</button> */}
+                        {/* <button>Read more</button> */}
                     </div>
                 </div>
 
@@ -278,6 +277,7 @@ function Demo() {
                         camera-controls
                         shadow-intensity="1"
                         class="custom-camera-controls"
+                        poster={demo6}
                     ></model-viewer>
 
                     <div className="controls">
@@ -285,7 +285,7 @@ function Demo() {
                         <button className='btn_glove2' onClick={() => applyColor(viewerRef7, 'Material', '#023047')}></button>
                         <button className='btn_glove3' onClick={() => applyColor(viewerRef7, 'Material', '#99582a')}></button>
                     </div>
-            </div>
+                </div>
 
 
             </div>

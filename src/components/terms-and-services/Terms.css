@@ -69,3 +69,11 @@
         margin-top: -39px;
     }
 }
+
+@media(min-width:1600px){
+    .terms-and-conditions{
+        max-width: 59%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

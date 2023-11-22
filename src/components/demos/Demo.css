@@ -193,7 +193,7 @@ body {
   margin-top: 37px;
 }
 
-.demo_section h2 {
+.demo_section h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: var(--theme-color);
@@ -843,7 +843,7 @@ body {
   #viewer {
     width: 100%;
     height: 147%;
-    margin-top: -15px;
+    margin-top: -7px;
   }
 
   .threed_content {

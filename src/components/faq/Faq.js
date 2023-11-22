@@ -88,10 +88,10 @@ function Faq() {
 
 
           <div className='faq_cta'>
-           <h2>CONTACT US</h2>
+           <h1>CONTACT US</h1>
            <h4> If you have any other questions or need further assistance, don't hesitate to contact us. Our team is here to help you unlock the full potential of Triard for your business.</h4>
            <div className='faq_btn'>
-           <a href='/contactUs'><button > Contact Now</button></a>
+           <a href='/contact-us'><button > Contact Now</button></a>
            </div>
           </div>
 

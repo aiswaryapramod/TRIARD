@@ -6,7 +6,7 @@
     margin-bottom: 100px;
 }
 
-.privacy_head h2 {
+.privacy_head h1 {
     font-size: 57px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -101,7 +101,7 @@ tr:not(:last-child) td {
 
     }
 
-    .privacy_head h2 {
+    .privacy_head h1 {
         font-size: 48px;
     }
 
@@ -124,3 +124,10 @@ tr:not(:last-child) td {
 }
 
 
+@media(min-width:1600px){
+    .privacy_content{
+        max-width: 59%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

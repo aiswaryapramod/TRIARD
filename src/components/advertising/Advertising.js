@@ -14,7 +14,7 @@ function Advertising() {
             <Navbar />
 
             <div className='advertising_top_head'>
-                <h2>Engage, Convert & Succeed with 3D Digital Advertising</h2>
+                <h1>Engage, Convert & Succeed with 3D Digital Advertising</h1>
                 <p>The battle for consumer attention is fierce in today’s digital age. Traditional advertising methods are losing ground to more interactive and engaging formats. This is where 3D digital advertising comes into play, and Triard stands at the forefront of this revolution.</p>
             </div>
 
@@ -33,7 +33,7 @@ function Advertising() {
 
                 <div className='advertising_wrapper_img'>
                     <div className='advertising_sec1_img'>
-                        <img src={advsec1img}></img>
+                        <img src={advsec1img} alt=''></img>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ function Advertising() {
             <div className='advertising_section2'>
                 <div className='advertising_info'>
                     <div className='advertising_info_img'>
-                        <img src={advsec2img1}></img>
+                        <img src={advsec2img1} alt=''></img>
                     </div>
                     <div className='advertising_info_text'>
                         <h3>Enhanced Engagement</h3>
@@ -61,13 +61,13 @@ function Advertising() {
                         <p>3D digital advertising boosts purchase intent by a factor of 6.9x and brand favorability by 4.7x. In an era where companies are constantly seeking ways to enhance their e-commerce experiences, 3D advertising is the key to setting your brand apart and providing a cohesive customer journey.</p>
                     </div>
                     <div className='advertising_info_img'>
-                        <img src={advsec2img2}></img>
+                        <img src={advsec2img2} alt=''></img>
                     </div>
                 </div>
 
                 <div className='advertising_info'>
                     <div className='advertising_info_img'>
-                        <img src={advsec2img3}></img>
+                        <img src={advsec2img3} alt=''></img>
                     </div>
                     <div className='advertising_info_text'>
                         <h3>Optimized Customer Experience</h3>
@@ -81,7 +81,7 @@ function Advertising() {
                         <p>To leverage audience targeting and data-driven advertising, you need a wealth of assets to test. However, traditional product visuals come with escalating costs, limiting ROI. Enter Triard's scalable 3D platform, which allows you to generate all the photorealistic 3D imagery you need to optimize your campaigns.</p>
                     </div>
                     <div className='advertising_info_img'>
-                        <img src={advsec2img4}></img>
+                        <img src={advsec2img4} alt=''></img>
                     </div>
                 </div>
             </div>

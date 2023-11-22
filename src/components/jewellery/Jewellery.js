@@ -36,7 +36,7 @@ function Jewellery() {
             <Navbar />
             <div className='jwell_max-section'>
                 <div className='jwell_top'>
-                    <h3>Revolutionizing Ecommerce</h3>
+                    <h1>Revolutionizing Ecommerce</h1>
                     <h4>One pixel at a time Experience the Future of Jewellery Shopping!</h4>
                     <p>Discover the transformative capabilities that empower you to effortlessly create and distribute realistic 3D content and immersive AR encounters. Elevate your e-commerce landscape, amplify your digital marketing strategies, and beyond, while delivering exceptional user engagement and achieving remarkable sales growth.</p>
                 </div>
@@ -61,31 +61,31 @@ function Jewellery() {
 
                     <div className='content1_img_section'>
                         <div className='content1_grid'>
-                            <img src={jwell1}></img>
+                            <img src={jwell1} alt=''></img>
                             <h5>Zoom In with Precision</h5>
                             <h6> Explore every intricate detail of jewellery items with zoom capabilities that provide a crystal-clear view.</h6>
                         </div>
 
                         <div className='content1_grid'>
-                            <img src={jwell2}></img>
+                            <img src={jwell2} alt=''></img>
                             <h5>360° Rotation</h5>
                             <h6>Admire jewellery from all angles, allowing you to appreciate its craftsmanship and beauty from every perspective.</h6>
                         </div>
 
                         <div className='content1_grid'>
-                            <img src={jwell3}></img>
+                            <img src={jwell3} alt=''></img>
                             <h5>True-to-Life Rendering</h5>
                             <h6>Witness the true colors and textures of jewellery, ensuring you make informed and confident choices.</h6>
                         </div>
 
                         <div className='content1_grid'>
-                            <img src={jwell4}></img>
+                            <img src={jwell4} alt=''></img>
                             <h5>Virtual Try-On</h5>
                             <h6>Visualize how your chosen jewellery piece complements your style through our virtual try-on feature.</h6>
                         </div>
 
                         <div className='content1_grid'>
-                            <img src={jwell5}></img>
+                            <img src={jwell5} alt=''></img>
                             <h5>Interactive Shopping</h5>
                             <h6>Seamlessly add items to your cart and proceed to checkout without leaving the 3D environment.</h6>
                         </div>
@@ -99,7 +99,7 @@ function Jewellery() {
                         <h3>AR Viewer for Jewellery</h3>
                         <h4>Bring Jewellery into Your World!</h4>
                         <div className='jwell_video_ar'>
-                            <img src={jwellimagebig}></img>
+                            <img src={jwellimagebig} alt=''></img>
                         </div>
                 </div>
 
@@ -111,31 +111,31 @@ function Jewellery() {
 
                     <div className='content2_img_section'>
                         <div className='content1_grid'>
-                            <img src={ar1}></img>
+                            <img src={ar1} alt=''></img>
                             <h5>Virtual Jewellery Try-On</h5>
                             <h6>See how that sparkling diamond necklace or elegant bracelet looks on you before making a purchase, all from the comfort of your home.</h6>
                         </div>
 
                         <div className='content2_grid'>
-                            <img src={ar2}></img>
+                            <img src={ar2} alt=''></img>
                             <h5>Real-World Sizing</h5>
                             <h6> Get an accurate sense of the size and fit of your chosen jewellery when superimposed onto your environment.</h6>
                         </div>
 
                         <div className='content2_grid'>
-                            <img src={ar3}></img>
+                            <img src={ar3} alt=''></img>
                             <h5>Interactive Showcases</h5>
                             <h6>Virtually place jewellery pieces in your surroundings to create personalized showcases for special occasions or daily wear.</h6>
                         </div>
 
                         <div className='content2_grid'>
-                            <img src={ar4}></img>
+                            <img src={ar4} alt=''></img>
                             <h5>Share with Confidence</h5>
                             <h6>Share your AR experiences with friends and family to get their opinions before you buy.</h6>
                         </div>
 
                         <div className='content2_grid'>
-                            <img src={ar5}></img>
+                            <img src={ar5} alt=''></img>
                             <h5>Effortless Shopping</h5>
                             <h6>Easily add AR-visualized jewellery to your cart, and seamlessly transition to the checkout process.</h6>
                         </div>
@@ -158,7 +158,7 @@ function Jewellery() {
                     </div>
 
                     <div className='jwell_bottom_img'>
-                        <img src={jwelllogo}></img>
+                        <img src={jwelllogo} alt=''></img>
                     </div>
                 </div>
 

@@ -193,7 +193,7 @@ function Slider() {
       scjdfdfhjsdghdfjdfgjadjdah
     </div>
   </div>
-</div> */}
+</div> 
 
 
 

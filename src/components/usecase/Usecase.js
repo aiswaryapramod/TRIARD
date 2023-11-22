@@ -219,7 +219,7 @@ useEffect(() => {
         </div>
 
         <div className='usecase_heading'>
-          <h2>Use cases or industries</h2>
+          <h1>Use cases or industries</h1>
           <p ref={headingPara1}>Discover How Triard Elevates Different Industries and Realizes Unique Use Cases</p>
         </div>
 
@@ -231,14 +231,14 @@ useEffect(() => {
             </div>
 
             <div className='case1_img'>
-              <img src={decor}></img>
+              <img src={decor} alt=''></img>
             </div>
 
           </div>
 
           <div className='case2 case' ref={containerUsecase1}>
             <div className='case2_img'>
-              <img src={automotive}></img>
+              <img src={automotive} alt=''></img>
             </div>
 
             <div className='case2_info'>
@@ -255,14 +255,14 @@ useEffect(() => {
             </div>
 
             <div className='case1_img'>
-              <img src={fashion}></img>
+              <img src={fashion} alt=''></img>
             </div>
 
           </div>
 
           <div className='case2 case' ref={containerUsecase3}>
             <div className='case2_img'>
-              <img src={jewelry}></img>
+              <img src={jewelry} alt=''></img>
             </div>
 
             <div className='case2_info'>
@@ -279,14 +279,14 @@ useEffect(() => {
             </div>
 
             <div className='case1_img'>
-              <img src={Electronics}></img>
+              <img src={Electronics} alt=''></img>
             </div>
 
           </div>
 
           <div className='case2 case' ref={containerUsecase5}>
             <div className='case2_img'>
-              <img src={Sports}></img>
+              <img src={Sports} alt=''></img>
             </div>
 
             <div className='case2_info'>
@@ -303,14 +303,14 @@ useEffect(() => {
             </div>
 
             <div className='case1_img'>
-              <img src={Gifts}></img>
+              <img src={Gifts} alt=''></img>
             </div>
 
           </div>
 
           <div className='case2 case' ref={containerUsecase7}>
             <div className='case2_img'>
-              <img src={Renovation}></img>
+              <img src={Renovation} alt=''></img>
             </div>
 
             <div className='case2_info'>
@@ -336,7 +336,7 @@ useEffect(() => {
             </p>
           </div>
           <div className='revolution_img'>
-            <img src={revolution}></img>
+            <img src={revolution} alt=''></img>
           </div>
 
         </div>

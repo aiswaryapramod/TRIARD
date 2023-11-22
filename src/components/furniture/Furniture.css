@@ -5,7 +5,7 @@
   margin-top: 170px;
 }
 
-.furniture_top_text h2 {
+.furniture_top_text h1 {
   font-size: 57px;
   font-weight: 600;
   text-align: center;
@@ -23,6 +23,7 @@
   text-align: center;
   font-family: "Roboto", sans-serif;
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .furniture_sub_text {
@@ -218,7 +219,7 @@
     font-family: "Roboto", sans-serif;
     margin-top: 90px;
   }
-  .furniture_top_text h2 {
+  .furniture_top_text h1 {
     font-size: 35px;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
@@ -344,7 +345,43 @@
 }
 
 @media(min-width:1600px){
-  .furniture_max-section{
+  /* .furniture_max-section{
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  .furniture_top_text{
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .furniture_sub_text p {
+  max-width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .furniture_video{
+    max-width:85%;
+    margin-right: auto;
+    margin-right: auto;
+  }
+  .furniture_grid_section {
+    max-width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .furniture2_img {
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .furniture_bottom_content{
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fur_bottom_sec{
     max-width: 55%;
     margin-left: auto;
     margin-right: auto;

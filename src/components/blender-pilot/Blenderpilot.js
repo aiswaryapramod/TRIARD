@@ -47,7 +47,7 @@ function Blenderpilot() {
         <div className='blender_pilot_header' >
           <a href='/'>
             <div className='blender_pilot_header_img'>
-              <img src={TriardLogo}></img>
+              <img src={TriardLogo} alt=''></img>
             </div>
           </a>
         </div>
@@ -74,7 +74,7 @@ function Blenderpilot() {
             </div>
 
             <button className="pilot-custom-button" onClick={handleQrPopup}>
-              <img className='pilot-ar-cube' src={ar}></img> &nbsp;
+              <img className='pilot-ar-cube' src={ar} alt=''></img> &nbsp;
               <img src="/assets/img/icon-img/cube.png" alt="" />
             </button>
 
@@ -99,7 +99,7 @@ function Blenderpilot() {
 
           </div>
           <div className='pilot-threed_content2'>
-            <h3>Experience Triard's Innovation: Elevate BlendJet's E-commerce with Our Pilot Program</h3>
+            <h1>Experience Triard's Innovation: Elevate BlendJet's E-commerce with Our Pilot Program</h1>
             <p>Explore the interactive 3D configurator and Augmented Reality (AR) fusion that redefines e-commerce for BlendJet.<br></br>
               See Your BlendJet Blender in 3D & AR:
               Customize and visualize your BlendJet blender like never before.
@@ -116,7 +116,7 @@ function Blenderpilot() {
         <h2>Email: <a href='mailto:demo@triard.io'>info@triard.io</a></h2>
         <h2>Phone: +91 8594 00 10 10</h2>
         <div className='blender_pilot_contactus_btn'>
-          <button><a href='https://triard.io/contactUs' target="_blank">Contact Us</a></button>
+          <button><a href='https://triard.io/contact-us' target="_blank">Contact Us</a></button>
         </div>
       </div>
     </div>
