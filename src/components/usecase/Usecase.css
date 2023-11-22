@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-.usecase_heading h2 {
+.usecase_heading h1 {
   font-family: "Roboto", sans-serif;
   margin-top: 85px;
   font-size: 60px;
@@ -425,7 +425,7 @@
   .usecase_experience {
     margin-top: 115px;
   }
-  .usecase_heading h2 {
+  .usecase_heading h1 {
     margin-top: 25px;
     font-size: 50px;
   }

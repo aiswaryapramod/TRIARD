@@ -11,7 +11,7 @@ function Privacy() {
             <div className='privacy_main'>
 
                 <div className='privacy_head'>
-                    <h2>Privacy Policy</h2>
+                    <h1>Privacy Policy</h1>
                 </div>
                 <div className='privacy_content'>
                 <div>

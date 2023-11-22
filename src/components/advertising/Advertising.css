@@ -5,7 +5,7 @@
   margin-right: auto;
 }
 
-.advertising_top_head h2 {
+.advertising_top_head h1 {
   font-family: "Roboto", sans-serif;
   font-size: 57px;
   font-weight: 800;
@@ -243,7 +243,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .advertising_top_head h2 {
+  .advertising_top_head h1 {
     font-size: 35px;
     text-align: start;
   }

@@ -127,7 +127,7 @@ function Footer() {
 
             <footer className="footer">
                 <div className="footer-left" >
-                    <a href='/'><img src={logo}></img></a>
+                    <a href='/'><img src={logo} alt=''></img></a>
                     {/* <p class="footer-links">
 
                         <a className='a_home' href="/">Home</a>&nbsp;
@@ -176,14 +176,14 @@ function Footer() {
     </li> */}
 
                     <li className="nav__item1">
-                        <h2 className="nav__title">USECASES</h2>
+                        <h1 className="nav__title">USE CASES</h1>
 
                         <ul className="nav__ul">
                             <li>
-                                <a href="/usecases">Ecommerce usecase</a>
+                                <a href="/usecases">Ecommerce use case</a>
                             </li>
                             <li>
-                                <a href="/non-ecommerce">Non-eCommerce usecase</a>
+                                <a href="/non-ecommerce">Non-eCommerce use case</a>
                             </li>
                             <li>
                                 <a href="/advertising">3D Advertising</a>
@@ -213,6 +213,14 @@ function Footer() {
                             <li>
                                 <a href="/car-page">Automotive </a>
                             </li>
+                            <li>
+                                <a href="/sports">Sports Gear & Equipment </a>
+                            </li>
+                            <li>
+                                <a href="/kitchen-appliances">Kitchen Appliances </a>
+                            </li>
+
+
                         </ul>
                     </li>
 
@@ -221,6 +229,10 @@ function Footer() {
                         <h2 className="nav__title">MORE INFO</h2>
 
                         <ul className="nav__ul">
+                            <li>
+                                <a href="/faq">FAQ</a>
+                            </li>
+
                             <li>
                                 <a href="/privacy-policy">Privacy Policy</a>
                             </li>
@@ -266,7 +278,10 @@ function Footer() {
 
                 <div className="legal">
                     <a href='https://digitalbuddha.in/' target="_blank">
-                        <p>&copy; Copyright  2023 Digitalbuddha Info Solutions LLP.</p>
+                        <span className="text-xsmall-regular text-gray-500">
+                            © Digitalbuddha Info Solutions LLP {new Date().getFullYear()}{" "}
+                        </span>
+
                     </a>
 
                 </div>

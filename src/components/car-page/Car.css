@@ -136,7 +136,7 @@
   width: 93%;
 }
 
-.car_bottom_sec h2 {
+.car_bottom_sec h1 {
   background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -219,7 +219,7 @@
   .car_info {
     margin-top: -91px;
   }
-  .car_bottom_sec h2 {
+  .car_bottom_sec h1 {
     font-size: 41px;
     text-align: start;
     width: 90%;
@@ -263,9 +263,24 @@
 
 
 @media(min-width:1600px){
-  .car_max-section{
+  /* .car_max-section{
     max-width: 55%;
     margin-left: auto;
     margin-right: auto;
+  } */
+  .car_video{
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
   }
+  .car_awaits_info_section{
+    max-width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .car_bottom_li {
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }

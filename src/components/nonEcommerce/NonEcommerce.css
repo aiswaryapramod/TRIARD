@@ -1,4 +1,4 @@
-.non-ecommerce-head h2 {
+.non-ecommerce-head h1 {
   font-size: 60px;
   font-style: normal;
   font-weight: 800;
@@ -118,6 +118,9 @@
 .non-ecommerce-secnd-sub h2 {
   font-size: 57px;
   text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Roboto", sans-serif;
   /* margin-left: auto;
   width: 87%;
@@ -376,7 +379,7 @@
     top: 77px;
     margin: 0px 0px 0px 20px;
   }
-  .non-ecommerce-head h2 {
+  .non-ecommerce-head h1 {
     font-size: 44px;
     font-style: normal;
     font-weight: 800;
@@ -405,7 +408,7 @@
     margin-top: 18px;
     margin-bottom: 73px;
   }
-  .non-ecommerce-head h2 {
+  .non-ecommerce-head h1 {
     margin-top: 83px;
   }
   .adv h4 {

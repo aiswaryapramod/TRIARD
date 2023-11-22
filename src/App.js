@@ -23,6 +23,10 @@ import Blenderpilot from "./components/blender-pilot/Blenderpilot";
 import Terms from "./components/terms-and-services/Terms";
 import Privacy from "./components/privacy-policy/Privacy";
 import Car from "./components/car-page/Car";
+import Baseball from "./components/baseball/Baseball";
+import Kitchen from "./components/kitchen-appliances/Kitchen";
+import Bloginner3 from "./components/bloginner3/Bloginner3";
+// import Gallery from "./components/gallery/Gallery";
 
 function App() {
   return (
@@ -58,6 +62,14 @@ function App() {
           <Route path="/furniture" element={<Furniture />} />
 
           <Route path="/car-page" element={<Car />} />
+
+          <Route path="/sports" element={<Baseball />} />
+
+          <Route path="/bloginner3" element={<Bloginner3 />} />
+
+          <Route path="/kitchen-appliances" element={<Kitchen />} />
+          
+          {/* <Route path="/gallery" element={<Gallery />} /> */}
 
           <Route path="/terms-and-services" element={<Terms />} />
 

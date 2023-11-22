@@ -1,0 +1,490 @@
+
+.sports_main_head{
+    margin-top: 170px;
+    text-align:center;
+}
+
+.sports_main_head h2{
+    font-size: 55px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Roboto", sans-serif;  
+}
+
+.sports_main_head p{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.sports_video {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+  .sports_video img{
+    width: 100%;
+  }
+
+
+  .sports_content_sec {
+    margin-top: 100px;
+    margin-bottom: 24px;
+    background: linear-gradient(
+        336deg,
+        rgba(0, 122, 223, 0) 26.88%,
+        #070b28 26.89%,
+        #007adf 119.35%
+      );
+      }
+
+  .sports_head h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 90px;
+  } 
+  
+
+  .sports_card_sec {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 90%;
+    margin-left: auto;
+    gap: 20px;
+    margin-right: auto;
+  }
+  
+  .sports_card img {
+    border-radius: 10px;
+  }
+  
+  .sports_card h3 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .sports_card p {
+    color: white;
+    margin-bottom: 140px;
+    font-size: 19px;
+    line-height: 29px;
+    width: 93%;
+  }
+
+  .sports_gain{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.sports_gain h2{
+    color: white;
+    font-size: 24px;
+}
+
+.sports_gain p{
+    color: white;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.sports_gain_blocks{
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gain_blk{
+    border: 1px solid #ffffff00;
+    width: 100%;
+    height: 105px;
+    padding: 19px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(276deg, #00ECBC 6.05%, #007ADF 91.69%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports_gain_blocks{
+    gap: 34px;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    margin-bottom: 100px;
+}
+
+.sports_gain h2 {
+    font-size: 27px;
+}
+
+.game_changer_content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
+
+.game_changer h1{
+    background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Roboto", sans-serif;  
+    font-size: 50px;
+    text-align: center;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 145px;
+}
+
+.game_changer p{
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif; 
+    text-align: center;
+    margin-top: 20px;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px; 
+}
+
+.game_changer_info{
+    border: 1px solid white;
+    width: 96%;
+    padding: 50px;
+    background-color: white;
+    border-radius: 19px;
+}
+
+.game_changer_info h4{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.game_changer_info li{
+    color: black;
+    font-size: 17px;
+    margin-top: 7px;
+}
+
+.faq_content_sports {
+    color: var( --primary-color);
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-top: 170px;
+  }
+  
+  .faq_content_sports summary {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: #ffffffcf;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .faq_content_sports p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 25px;
+    background-color: transparent;
+    color: #8fc5ff;
+    font-size: 17px;
+    line-height: 1.3;
+  }
+  
+  .faq_content_sports details {
+    margin-top: 40px;
+    border: 1px solid #ffffff1a;
+    padding: 36px;
+    border-radius: 10px;
+    background-color: #ffffff0f;
+  }
+  
+  .faq_content_sports h4{
+    color: white;
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+
+  /* .game_changer_section{
+    background: linear-gradient(156deg, rgba(0, 122, 223, 0.00) 26.88%, #070B28 26.89%, #00ECBC 119.35%);
+  } */
+
+
+.sports_all_content{
+  background: linear-gradient(
+    176deg,
+    rgba(0, 122, 223, 1) 0%,
+    rgba(7, 11, 40, 1) 50%,
+    rgb(2, 187, 150) 100%
+  );
+
+}
+
+.faq_content_sports h4{
+  text-align: center;
+  background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;  
+  font-size: 49px;
+}
+
+
+
+
+
+@media(max-width:500px){
+
+    .faq_content_sports {
+        margin-top: 73px;
+    }
+
+    .sports_section{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .sports_card_sec  {
+        display: block;
+      }
+    
+    .sports_main_head {
+        margin-top: 102px;
+    }
+    .sports_main_head  h2{
+        background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Roboto", sans-serif;  
+        font-size: 35px;
+        text-align: start;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    .sports_head h2 {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 120px;
+        margin-top: 21px;
+      }
+    
+    
+    .sports_main_head p {
+        line-height: 30px;
+        text-align: start;
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sports_video img {
+        width: 100%;
+        margin-bottom: -21px;
+    }
+      .sports_main_head p{
+        margin-bottom: 54px;
+      }
+      .sports_card img {
+        border-radius: 10px;
+        width: 100%;
+      }
+      .sports_card {
+        margin-top: -91px;
+      }
+      .sports_gain_blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .sports_content_sec {
+        margin-top: 100px;
+        margin-bottom: -69px;
+      }
+      .sports_gain p {
+        font-size: 19px;
+        line-height: 26px;
+      }
+      .sports_gain h2{
+        font-size: 24px;
+      }
+      .game_changer h1 {
+        font-size: 35px;
+        text-align: start;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 87px;
+      }
+
+    .game_changer p {
+        line-height: 27px;
+        font-size: 18px;
+        text-align: start;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 47px;
+    }
+.game_changer_content {
+    width: 90%;
+    padding-left: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.game_changer_info {
+    border: 1px solid white;
+    width: 96%;
+    padding: 23px;
+}
+.game_changer_info li {
+    color: black;
+    font-size: 15px;
+}
+.game_changer_info h4 {
+    color: black;
+    font-size: 18px;
+}
+.faq_content_sports summary {
+  font-size: 15px;
+}
+.faq_content_sports details {
+  margin-top: 33px;
+  padding: 21px;
+}
+    
+}
+
+@media(min-width:445px) and (max-width:599px){
+    .sports_gain_blocks {
+        gap: 34px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .gain_blk {
+        border: 1px solid #ffffff00;
+        width: 85%;
+    }
+    .sports_gain_blocks {
+        gap: 24px;
+    }
+}
+
+
+@media (min-width: 443px) and (max-width: 768px) {
+    .sports_card_sec {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    .sports_card img {
+        width: 100%;
+      }
+  
+}  
+
+@media(min-width:594px) and (max-width:811px){
+    .sports_gain_blocks {
+        gap: 15px;
+    }
+}
+
+
+
+  
+
+@media(min-width:1042px) and (max-width:1253px){
+    .sports_card img {
+        width: 87%;
+    }
+}
+
+
+@media(min-width:779px) and (max-width:1041px){
+    .sports_card img {
+        width: 87%;
+    }
+}
+
+
+@media(min-width:1600px){
+  .sports_main_head{
+    max-width: 59%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sports_video{
+    margin-left: auto;
+    max-width: 67%;
+    margin-right: auto;
+  }
+  .sports_head{
+    max-width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sports_card_sec{
+    max-width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sports_gain{
+    max-width: 53%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sports_gain_blocks{
+    max-width: 54%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .game_changer_section{
+    max-width: 59%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .faq_content_sports{
+    max-width: 59%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

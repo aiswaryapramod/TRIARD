@@ -1,0 +1,781 @@
+.gallery_top_info {
+  margin-top: 170px;
+  text-align: center;
+}
+
+.gallery_top_info h2 {
+  font-size: 55px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+}
+
+.gallery_top_info p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.gallery_top_btn button {
+  padding: 15px;
+  width: 12%;
+  font-size: 17px;
+  margin-bottom: 20px;
+  background: linear-gradient(93deg, #007adf 2.13%, #00ecbc 99.66%);
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.gallery_team img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.gallery_team {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.gallery_top_btn {
+  text-align: center;
+}
+
+.gallery_para p {
+  color: white;
+  font-size: 20px;
+  line-height: 27px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.gallery_founders_info {
+  margin-top: 101px;
+  text-align: center;
+}
+
+.gallery_founders_info h5 {
+  font-size: 55px;
+  width: 47%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1;
+  font-weight: 100;
+  background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.gallery_founders_info p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.arjun {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arjun img {
+  width: 100%;
+  margin: 47px 0px 47px 0px;
+}
+
+.abhishek {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abhishek img {
+  width: 100%;
+  margin: 47px 0px 47px 0px;
+}
+
+.profile_sec {
+  display: flex;
+  margin-left: auto;
+  width: 90%;
+  width: 90%;
+  margin-right: auto;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 70px;
+  border: 3px solid #00ecbc;
+  margin-top: 57px;
+}
+
+.profile_sec_abhi {
+  display: flex;
+  margin-left: auto;
+  width: 90%;
+  width: 90%;
+  margin-right: auto;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 70px;
+  border: 3px solid #007adf;
+  margin-top: 67px;
+  margin-bottom: 61px;
+}
+
+.profile_p {
+  margin: 110px auto 100px auto;
+  font-size: 17px;
+  line-height: 27px;
+  max-width: 74%;
+}
+
+.profile_p p {
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile_p h4 {
+  margin: 29px auto 0px auto;
+  width: 72%;
+  font-size: 20px;
+}
+
+.profile_p h5 {
+  margin: 4px auto 0px auto;
+  width: 72%;
+}
+
+.dev_thought_info h5 {
+  background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.dev_thought_info p {
+  color: white;
+  text-align: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 100px;
+}
+
+.gallery_events {
+  font-size: 50px;
+  background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* gallery-image-carousal */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev{
+    left: -95px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  right: -94px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #007adf;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.gitex1 {
+  width: 100%;
+}
+
+.gitex2 {
+  width: 100%;
+}
+
+.gitex3{
+    width: 100%;
+}
+
+.gallery_dots {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+.faq_content_gallery {
+  color: var(--primary-color);
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
+  margin-bottom: 100px;
+  margin-top: 170px;
+}
+
+.faq_content_gallery summary {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+  background-color: transparent;
+  color: #ffffffcf;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.faq_content_gallery p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+  background-color: transparent;
+  color: #8fc5ff;
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.faq_content_gallery details {
+  margin-top: 40px;
+  border: 1px solid #ffffff1a;
+  padding: 36px;
+  border-radius: 10px;
+  background-color: #ffffff0f;
+}
+
+.faq_content_gallery h1 {
+  background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.gallery_dots {
+  text-align: center;
+  display: none;
+}
+
+.gallery_bottom {
+  border: 1px solid white;
+  background-color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.g_bottom_text {
+    position: absolute;
+    left: 16%;
+    bottom: 27%;
+}
+
+.g_bottom_text h4 {
+  font-size: 27px;
+  width: 57%;
+  line-height: 39px;
+}
+
+.gallery_btm_sec {
+  position: relative;
+}
+
+.g_bottom_text button{
+    font-size: 17px;
+    color: white;
+    border: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(93deg, #007adf 2.13%, #00ecbc 99.66%);
+    cursor: pointer;
+}
+
+.gitex_title{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 77%;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+@media (max-width: 640px) {
+  .gitex2{
+    margin-top: -1px;
+  }
+  .gitex_title {
+    font-size: 17px;
+    margin-top: 18px;
+}
+
+  .faq_content_gallery {
+    margin-top: 73px;
+  }
+
+  .faq_content_gallery summary {
+    font-size: 15px;
+  }
+  .faq_content_gallery details {
+    margin-top: 33px;
+    padding: 21px;
+  }
+
+  .gallery_events h4 {
+    font-size: 40px;
+  }
+
+  .dev_thought_info h5 {
+    font-size: 40px;
+    margin-top: 85px;
+  }
+
+  .dev_thought_info p {
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 65px;
+  }
+
+  .gallery_top_btn button {
+    padding: 9px;
+    width: 46%;
+  }
+
+  .gallery_top_info h2 {
+    font-size: 37px;
+  }
+
+  .gallery_top_info p {
+    font-size: 18px;
+  }
+
+  .gallery_top_info h2 {
+    font-size: 40px;
+    width: 90%;
+    margin-top: -74px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gallery_top_info p {
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .gallery_top_btn button {
+    padding: 8px;
+    width: 53%;
+    font-size: 17px;
+  }
+  .gallery_team {
+    margin-bottom: 22px;
+  }
+  .gallery_para p {
+    color: white;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 85%;
+  }
+  .gallery_founders_info h5 {
+    font-size: 39px;
+    width: 84%;
+  }
+  .gallery_founders_info {
+    margin-top: 70px;
+  }
+  .gallery_founders_info p {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    line-height: 26px;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gallery_top_btn button {
+    padding: 9px;
+    width: 44%;
+  }
+  .arjun img {
+    width: 100%;
+    margin: 0px !important;
+  }
+  .arjun {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .abhishek img {
+    width: 100%;
+    margin: 0px !important;
+  }
+  .abhishek {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .profile_sec {
+    display: block;
+  }
+  .profile_sec_abhi {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .profile_p p {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .profile_p {
+    margin: 17px auto 35px auto;
+    font-size: 17px;
+    line-height: 27px;
+    max-width: 100%;
+  }
+
+  .profile_p h4 {
+    font-size: 18px;
+  }
+  .profile_p h5 {
+    font-size: 13px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    width: 73%;
+  }
+
+  .profile_p h4 {
+    text-align: center;
+  }
+  .gallery_bottom img {
+    width: 203px;
+    height: 203px;
+    margin-top: 269px;
+  }
+  .gallery_bottom {
+    height: 472px;
+  }
+  .g_bottom_text h4 {
+    font-size: 23px;
+    width: 94%;
+    line-height: 31px;
+  }
+  .g_bottom_text {
+    position: absolute;
+    left: 10%;
+    bottom:35%;
+  }
+
+  .g_bottom_text button{
+    width: 42%;
+    padding: 11px !important;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(93deg, #007adf 2.13%, #00ecbc 99.66%);
+    border-color: transparent;
+    cursor: pointer;
+    font-size:11px;
+    font-weight: 500;
+  }
+  .fade{
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .prev {
+    left: -1px;
+    cursor: pointer;
+    position: absolute;
+    top: 24%;
+}
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 24%;
+    right: 0px;
+}
+}
+
+@media (min-width: 624px) and (max-width: 768px) {
+  .profile_p {
+    margin: 50px auto 100px auto;
+    font-size: 17px;
+    line-height: 27px;
+    max-width: 100%;
+  }
+  .arjun {
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -55px;
+    margin-bottom: -70px;
+  }
+
+  .abhishek {
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -55px;
+    margin-bottom: -70px;
+  }
+
+  .profile_sec {
+    display: block;
+  }
+
+  .profile_sec_abhi {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .gallery_founders_info h5 {
+    font-size: 49px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gallery_top_btn button {
+    padding: 15px;
+    width: 27%;
+  }
+  .g_bottom_text h4 {
+    font-size: 24px;
+    width: 50%;
+    line-height: 27px;
+  }
+  .g_bottom_text {
+    position: absolute;
+    left: 8%;
+    width: 77%;
+    bottom: 20%;
+  }
+}
+
+@media (min-width: 784px) and (max-width: 1024px) {
+  .arjun img {
+    width: 100%;
+    margin: 102px 0px 47px 0px;
+  }
+
+  .abhishek img {
+    width: 100%;
+    margin: 102px 0px 47px 0px;
+  }
+
+  .gallery_top_btn button {
+    padding: 12px;
+    width: 15%;
+  }
+  .g_bottom_text h4 {
+    font-size: 24px;
+    width: 57%;
+    line-height: 34px;
+  }
+  .g_bottom_text {
+    position: absolute;
+    left: 10%;
+    bottom: 29%;
+  }
+}
+
+
+@media(min-width:1600px){
+  .gallery_top_section{
+    max-width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gallery_team{
+    margin-left: auto;
+    max-width: 55%;
+    margin-right: auto;
+  }
+  .gallery_para p{
+    max-width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gallery_founders_info{
+    max-width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile_sec{
+    max-width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile_sec_abhi{
+    max-width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile_p {
+    margin: 138px auto 100px auto;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 74%;
+}
+.dev_thought{
+  margin-left: auto;
+  max-width: 59%;
+  margin-right: auto;
+}
+.gallery_image_carousal{
+  margin-left: auto;
+  max-width: 59%;
+  margin-right: auto;
+}
+.faq_content_gallery{
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery_btm_sec{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+}
+}

@@ -226,7 +226,7 @@ const AboutUs = () => {
         />
       </div>
       <div className="aboutus_ourcommitment_aboutus_text_container" >
-        <h3 className="aboutus_ourcommitment_text_container_h31">About Us</h3>
+        <h1 className="aboutus_ourcommitment_text_container_h31">About Us</h1>
         <p className="aboutus_info">
           Welcome to Triard, where innovation meets technology to redefine
           digital experiences. We are a dynamic team of passionate minds at
@@ -379,7 +379,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className='aboutus_img'>
-          <img src={commitment}></img>
+          <img src={commitment} alt=""></img>
         </div>
 
       </div>
@@ -392,7 +392,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className='aboutus_img2'>
-          <img src={future}></img>
+          <img src={future} alt=""></img>
         </div>
 
       </div>

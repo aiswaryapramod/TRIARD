@@ -238,6 +238,17 @@
   color: white;
 }
 
+.blog_3{
+  color: #fff;
+  width: 73%;
+}
+
+.blog_3_btn a{
+  color: white;
+  text-decoration: none;
+}
+
+
 @media(max-width:500px){
     .blog_content{
         max-width: 90%;

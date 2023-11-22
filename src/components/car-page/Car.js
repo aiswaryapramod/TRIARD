@@ -36,19 +36,19 @@ function Car() {
                     </div>
                     <div className='car_awaits_info_section'>
                         <div className='car_info'>
-                           <img src={carpage1}></img>
+                           <img src={carpage1} alt=''></img>
                            <h3>Augmented Reality Magic Awaits</h3>
                            <p>Triard doesn't stop at 3D configuration. We take the next step by harnessing the magic of Augmented Reality. Our AR technology allows you to bring your customized car into the real world, virtually. Using your smartphone you can project your dream car into your driveway, garage, or anywhere else you desire.</p>
                         </div>
 
                         <div className='car_info'>
-                           <img src={carpage2}></img>
+                           <img src={carpage2} alt=''></img>
                            <h3>Comprehensive Vehicle Catalog</h3>
                            <p>Triard understands that car shoppers have diverse tastes and needs. That's why we offer an extensive catalog of car makes and models, all conveniently accessible in one place. Whether you're a fan of compact cars, SUVs, or luxury sedans, we've got you covered.</p>
                         </div>
 
                         <div className='car_info'>
-                           <img src={carpage3}></img>
+                           <img src={carpage3} alt=''></img>
                            <h3>Boost Sales and Customer Satisfaction</h3>
                            <p>Stand out in the competitive e-commerce automotive market with Triard's innovative technology. Offer customers a unique and interactive shopping experience that encourages them to stay longer on your website.</p>
                         </div>
@@ -57,7 +57,7 @@ function Car() {
                 </div>
 
                 <div className='car_bottom_sec'>
-                    <h2>Why Choose Triard?</h2>
+                    <h1>Why Choose Triard?</h1>
                 </div>
 
 
