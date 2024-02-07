@@ -8,13 +8,14 @@ import jwell2 from "../../assets/jwell2.png";
 import jwell3 from "../../assets/jwell3.png";
 import jwell4 from "../../assets/jwell4.png";
 import jwell5 from "../../assets/jwell5.png";
-import ar1 from "../../assets/ar1.png"
-import ar2 from "../../assets/ar_2.png"
-import ar3 from "../../assets/ar3.png"
-import ar4 from "../../assets/ar4.png"
-import ar5 from "../../assets/ar5.png"
-import jwelllogo from "../../assets/jwell_logo.png"
-import jwellimagebig from "../../assets/jwellarbig.png"
+import ar1 from "../../assets/ar1.png";
+import ar2 from "../../assets/ar_2.png";
+import ar3 from "../../assets/ar3.png";
+import ar4 from "../../assets/ar4.png";
+import ar5 from "../../assets/ar5.png";
+import jwelllogo from "../../assets/jwell_logo.png";
+import jwellimagebig from "../../assets/jwellarbig.png";
+import { Helmet } from "react-helmet";
 
 import { useParams } from 'react-router';
 
@@ -23,16 +24,24 @@ function Jewellery() {
     const { slug } = useParams();
 
     useEffect(() => {
-      window.scrollTo({
-          behavior: 'smooth',
-          top: 0,
-          left: 0
-      });
-  }, [ slug ]);
-  
+        window.scrollTo({
+            behavior: 'smooth',
+            top: 0,
+            left: 0
+        });
+    }, [slug]);
+
 
     return (
         <div>
+
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>3D Viewer & AR Viewer for Jewellery | Triad</title>
+                <meta name="description" content="Explore jewelry with Triard's 3D & AR Viewer. Immerse in detailed designs, visualize and elevate your shopping experience to new dimensions effortlessly."></meta>
+            </Helmet>
+
+
             <Navbar />
             <div className='jwell_max-section'>
                 <div className='jwell_top'>
@@ -47,7 +56,7 @@ function Jewellery() {
                 </div>
 
                 <div className='jwell_video'>
-                <video width={'70%'} height={'10%'} autoPlay playsInline muted loop ><source src={ringvideo} type='video/mp4'></source></video>
+                    <video width={'70%'} height={'10%'} autoPlay playsInline muted loop ><source src={ringvideo} type='video/mp4'></source></video>
 
                     {/* <video width="700" height="450" controls>
                         <source src={ringvideo} type="video/mp4" />
@@ -61,31 +70,31 @@ function Jewellery() {
 
                     <div className='content1_img_section'>
                         <div className='content1_grid'>
-                            <img src={jwell1} alt=''></img>
+                            <img src={jwell1} alt='Precision'></img>
                             <h5>Zoom In with Precision</h5>
                             <h6> Explore every intricate detail of jewellery items with zoom capabilities that provide a crystal-clear view.</h6>
                         </div>
 
                         <div className='content1_grid'>
-                            <img src={jwell2} alt=''></img>
+                            <img src={jwell2} alt='Rotation'></img>
                             <h5>360° Rotation</h5>
                             <h6>Admire jewellery from all angles, allowing you to appreciate its craftsmanship and beauty from every perspective.</h6>
                         </div>
 
                         <div className='content1_grid'>
-                            <img src={jwell3} alt=''></img>
+                            <img src={jwell3} alt='Rendering'></img>
                             <h5>True-to-Life Rendering</h5>
                             <h6>Witness the true colors and textures of jewellery, ensuring you make informed and confident choices.</h6>
                         </div>
 
                         <div className='content1_grid'>
-                            <img src={jwell4} alt=''></img>
+                            <img src={jwell4} alt='Virtual Try-On'></img>
                             <h5>Virtual Try-On</h5>
                             <h6>Visualize how your chosen jewellery piece complements your style through our virtual try-on feature.</h6>
                         </div>
 
                         <div className='content1_grid'>
-                            <img src={jwell5} alt=''></img>
+                            <img src={jwell5} alt='Interactive'></img>
                             <h5>Interactive Shopping</h5>
                             <h6>Seamlessly add items to your cart and proceed to checkout without leaving the 3D environment.</h6>
                         </div>
@@ -96,11 +105,11 @@ function Jewellery() {
 
 
                 <div className="jwell_ar">
-                        <h3>AR Viewer for Jewellery</h3>
-                        <h4>Bring Jewellery into Your World!</h4>
-                        <div className='jwell_video_ar'>
-                            <img src={jwellimagebig} alt=''></img>
-                        </div>
+                    <h3>AR Viewer for Jewellery</h3>
+                    <h4>Bring Jewellery into Your World!</h4>
+                    <div className='jwell_video_ar'>
+                        <img src={jwellimagebig} alt='Jewellery'></img>
+                    </div>
                 </div>
 
 
@@ -111,31 +120,31 @@ function Jewellery() {
 
                     <div className='content2_img_section'>
                         <div className='content1_grid'>
-                            <img src={ar1} alt=''></img>
+                            <img src={ar1} alt='Virtual'></img>
                             <h5>Virtual Jewellery Try-On</h5>
                             <h6>See how that sparkling diamond necklace or elegant bracelet looks on you before making a purchase, all from the comfort of your home.</h6>
                         </div>
 
                         <div className='content2_grid'>
-                            <img src={ar2} alt=''></img>
+                            <img src={ar2} alt='Real-World'></img>
                             <h5>Real-World Sizing</h5>
                             <h6> Get an accurate sense of the size and fit of your chosen jewellery when superimposed onto your environment.</h6>
                         </div>
 
                         <div className='content2_grid'>
-                            <img src={ar3} alt=''></img>
+                            <img src={ar3} alt='Showcases'></img>
                             <h5>Interactive Showcases</h5>
                             <h6>Virtually place jewellery pieces in your surroundings to create personalized showcases for special occasions or daily wear.</h6>
                         </div>
 
                         <div className='content2_grid'>
-                            <img src={ar4} alt=''></img>
+                            <img src={ar4} alt='Confidence'></img>
                             <h5>Share with Confidence</h5>
                             <h6>Share your AR experiences with friends and family to get their opinions before you buy.</h6>
                         </div>
 
                         <div className='content2_grid'>
-                            <img src={ar5} alt=''></img>
+                            <img src={ar5} alt='Effortless'></img>
                             <h5>Effortless Shopping</h5>
                             <h6>Easily add AR-visualized jewellery to your cart, and seamlessly transition to the checkout process.</h6>
                         </div>
@@ -158,7 +167,7 @@ function Jewellery() {
                     </div>
 
                     <div className='jwell_bottom_img'>
-                        <img src={jwelllogo} alt=''></img>
+                        <img src={jwelllogo} alt='jwelllogo'></img>
                     </div>
                 </div>
 

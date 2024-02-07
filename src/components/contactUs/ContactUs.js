@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 // import gsap from 'gsap';
 import contactimg from "../../assets/contact1.png";
 import { useParams } from 'react-router';
+import {Helmet} from "react-helmet";
 
 
 
@@ -17,11 +18,11 @@ function ContactUs() {
 
   useEffect(() => {
     window.scrollTo({
-        behavior: 'smooth',
-        top: 0,
-        left: 0
+      behavior: 'smooth',
+      top: 0,
+      left: 0
     });
-}, [ slug ]);
+  }, [slug]);
 
 
 
@@ -84,9 +85,17 @@ function ContactUs() {
 
   return (
     <>
+
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact Us | Triard</title>
+        <meta name="description" content="Curious about Triard? Explore 3D configurators and AR integration possibilities for your business. Contact us."></meta>
+      </Helmet>
+
+
       <Navbar />
       <div className='contact_main'>
-      <img src={contactimg} alt=''></img>
+        <img src={contactimg} alt='contact'></img>
 
         <div className='contact_section'>
 
@@ -189,7 +198,7 @@ function ContactUs() {
 
                   <div>
                     <button className="formbold-btn">Submit</button>
-                    <ToastContainer  bodyStyle={{backgroundColor: "#fff"}} />
+                    <ToastContainer bodyStyle={{ backgroundColor: "#fff" }} />
                   </div>
                 </form>
               </div>
@@ -225,7 +234,7 @@ function ContactUs() {
 
 
                   <p>
-                    Phone: &nbsp;<a  href='tel:+91 8594 00 10 10'>+91 8594 00 10 10</a>
+                    Phone: &nbsp;<a href='tel:+91 8594 00 10 10'>+91 8594 00 10 10</a>
                   </p>
 
                   <p>

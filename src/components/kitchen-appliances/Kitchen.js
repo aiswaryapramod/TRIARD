@@ -2,17 +2,27 @@ import React from 'react';
 import "./Kitchen.css";
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
-import kitchenvideo from "../../assets/kitchen_appliance.mp4"
-import kitchenbanner from "../../assets/kitchen-banner.png"
-import kitchencard1 from "../../assets/kitchen_card1.png"
-import kitchencard2 from "../../assets/kitchen_card2.png"
-import kitchencard3 from "../../assets/kitchen_card3.png"
-import kitchencard4 from "../../assets/kitchen_card4.png"
-import kitchencard5 from "../../assets/kitchen_card5.png"
+import kitchenvideo from "../../assets/kitchen_appliance.mp4";
+import kitchenbanner from "../../assets/kitchen-banner.png";
+import kitchencard1 from "../../assets/kitchen_card1.png";
+import kitchencard2 from "../../assets/kitchen_card2.png";
+import kitchencard3 from "../../assets/kitchen_card3.png";
+import kitchencard4 from "../../assets/kitchen_card4.png";
+import kitchencard5 from "../../assets/kitchen_card5.png";
+import { Helmet } from "react-helmet";
 
 const Kitchen = () => {
     return (
         <div>
+
+
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Design Kitchen Appliances with 3D and AR | Triard</title>
+                <meta name="description" content="Provide an engaging customer experience with our 3D and AR technology for Kitchen appliances.  Redefine the way people shop."></meta>
+            </Helmet>
+
+
             <Navbar />
 
             <div>
@@ -33,7 +43,7 @@ const Kitchen = () => {
                     <h4>AR and 3D: The Future of Kitchen Appliance Design</h4>
 
                     <div className='kitchen_banner'>
-                        <img src={kitchenbanner} alt=''></img>
+                        <img src={kitchenbanner} alt='kitchen'></img>
                     </div>
 
 
@@ -45,32 +55,32 @@ const Kitchen = () => {
 
                     <div className='kitchen_awaits_info_section'>
                         <div className='kitchen_info'>
-                           <img src={kitchencard1} alt=''></img>
-                           <h3>Innovative AR and 3D Integration</h3>
-                           <p>Triard seamlessly integrates Augmented Reality (AR) and 3D technology into the kitchen appliance design process. This integration provides a dynamic, immersive experience, allowing you to visualize and customize appliances in your own kitchen.</p>
+                            <img src={kitchencard1} alt='Innovative'></img>
+                            <h3>Innovative AR and 3D Integration</h3>
+                            <p>Triard seamlessly integrates Augmented Reality (AR) and 3D technology into the kitchen appliance design process. This integration provides a dynamic, immersive experience, allowing you to visualize and customize appliances in your own kitchen.</p>
                         </div>
 
                         <div className='kitchen_info'>
-                           <img src={kitchencard2} alt=''></img>
-                           <h3>Enhanced Purchase Confidence</h3>
-                           <p>Utilize Triard's AR and 3D capabilities to make well-informed decisions. By virtually placing appliances in your kitchen, you can be confident that your choices meet functional needs and design preferences, reducing costly.</p>
+                            <img src={kitchencard2} alt='Enhanced'></img>
+                            <h3>Enhanced Purchase Confidence</h3>
+                            <p>Utilize Triard's AR and 3D capabilities to make well-informed decisions. By virtually placing appliances in your kitchen, you can be confident that your choices meet functional needs and design preferences, reducing costly.</p>
                         </div>
 
                         <div className='kitchen_info'>
-                           <img src={kitchencard3} alt=''></img>
-                           <h3>Streamlined Sales Process</h3>
-                           <p> For businesses, Triard accelerates the sales cycle. It simplifies the decision-making process for customers, leading to quicker purchase decisions. This efficiency translates to shorter sales cycles and increased revenue.</p>
+                            <img src={kitchencard3} alt='Streamlined'></img>
+                            <h3>Streamlined Sales Process</h3>
+                            <p> For businesses, Triard accelerates the sales cycle. It simplifies the decision-making process for customers, leading to quicker purchase decisions. This efficiency translates to shorter sales cycles and increased revenue.</p>
                         </div>
 
                         <div className='kitchen_info'>
-                           <img src={kitchencard4} alt=''></img>
-                           <h3>Collaboration Made Easy </h3>
-                           <p> Triard facilitates collaboration among various stakeholders in the kitchen appliance design process. Designers, manufacturers, and retail teams can work together seamlessly within a unified 3D workflow.</p>
+                            <img src={kitchencard4} alt='Collaboration'></img>
+                            <h3>Collaboration Made Easy </h3>
+                            <p> Triard facilitates collaboration among various stakeholders in the kitchen appliance design process. Designers, manufacturers, and retail teams can work together seamlessly within a unified 3D workflow.</p>
                         </div>
                         <div className='kitchen_info'>
-                           <img src={kitchencard5} alt=''></img>
-                           <h3>Future-Proof Your Kitchen </h3>
-                           <p> By choosing Triard, you're embracing the future of kitchen appliance design. With evolving technologies like WebXR and digital twins, Triard ensures that your kitchen appliances are ready for the digital age.</p>
+                            <img src={kitchencard5} alt='Future-Proof'></img>
+                            <h3>Future-Proof Your Kitchen </h3>
+                            <p> By choosing Triard, you're embracing the future of kitchen appliance design. With evolving technologies like WebXR and digital twins, Triard ensures that your kitchen appliances are ready for the digital age.</p>
                         </div>
                         <br></br>
 

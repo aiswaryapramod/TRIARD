@@ -11,6 +11,8 @@ import demo3 from "../../assets/demo3.png";
 import demo4 from "../../assets/demo4.png";
 import demo5 from "../../assets/demo5.png";
 import demo6 from "../../assets/demo6.png";
+import poster from "../../assets/loader.gif";
+import { Helmet } from "react-helmet";
 
 import { useParams } from 'react-router';
 
@@ -68,9 +70,18 @@ function Demo() {
 
     return (
         <div>
+
+
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Demos | Triard</title>
+                <meta name="description" content="Explore Triard's demos, showcasing 3D visualization & AR integration. Discover how Triard can enhance shopping experience with cutting-edge technology."></meta>
+            </Helmet>
+
+
             <Navbar />
 
-            <img className='banner_demo' src={banner} alt=''></img>
+            <img className='banner_demo' src={banner} alt='demo banner'></img>
 
             <div className='demo_section'>
                 <h1>Demos</h1>
@@ -111,8 +122,16 @@ function Demo() {
                         camera-controls
                         shadow-intensity="1"
                         class="custom-camera-controls"
-                        poster={demo1}
-                    ></model-viewer>
+                        poster={poster}
+                        min-camera-orbit="auto 32deg auto"
+                        max-camera-orbit="auto 91deg auto" // camera-orbit="0deg 90deg 10deg"
+
+                    >
+                        <div slot="poster" style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <img src={poster} alt="Poster" style={{ width: '50px', height: '50px' }} />
+                        </div>
+
+                    </model-viewer>
 
                     <div className="controls">
                         <button className='btn_r' onClick={() => applyColor(viewerRef, 'Body', '#ffc300')}></button>
@@ -148,8 +167,17 @@ function Demo() {
                         auto-rotate
                         camera-controls
                         shadow-intensity="1"
-                        poster={demo2}
-                    ></model-viewer>
+                        poster={poster}
+                        min-camera-orbit="auto 32deg auto"
+                        max-camera-orbit="auto 91deg auto" // camera-orbit="0deg 90deg 10deg"
+
+                    >
+                        <div slot="poster" style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <img src={poster} alt="Poster" style={{ width: '50px', height: '50px' }} />
+                        </div>
+
+
+                    </model-viewer>
 
                     <div className="controls_ring">
                         <button className='btn_ring1' onClick={() => applyColor(viewerRef2, 'Material_33', '#D1793B')}></button>
@@ -170,8 +198,16 @@ function Demo() {
                         auto-rotate
                         camera-controls
                         shadow-intensity="1"
-                        poster={demo3}
-                    ></model-viewer>
+                        poster={poster}
+                        min-camera-orbit="auto 32deg auto"
+                        max-camera-orbit="auto 91deg auto" // camera-orbit="0deg 90deg 10deg"
+
+                    >
+                        <div slot="poster" style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <img src={poster} alt="Poster" style={{ width: '50px', height: '50px' }} />
+                        </div>
+
+                    </model-viewer>
 
                     <div className="controls_chair">
                         <button className='btn_chair1' onClick={() => applyColor(viewerRef3, 'black paint', '#996515')}></button>
@@ -209,8 +245,15 @@ function Demo() {
                         camera-controls
                         shadow-intensity="1"
                         class="custom-camera-controls"
-                        poster={demo4}
-                    ></model-viewer>
+                        poster={poster}
+                        min-camera-orbit="auto 32deg auto"
+                        max-camera-orbit="auto 91deg auto" // camera-orbit="0deg 90deg 10deg"
+
+                    >
+                        <div slot="poster" style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <img src={poster} alt="Poster" style={{ width: '50px', height: '50px' }} />
+                        </div>
+                    </model-viewer>
 
                     <div className="controls">
                         <button className='btn_iphone1' onClick={() => applyColor(viewerRef6, 'Body.001', '#FFDD43')}></button>
@@ -236,8 +279,16 @@ function Demo() {
                         camera-controls
                         shadow-intensity="1"
                         class="custom-camera-controls"
-                        poster={demo5}
-                    ></model-viewer>
+                        poster={poster}
+                        min-camera-orbit="auto 32deg auto"
+                        max-camera-orbit="auto 91deg auto" // camera-orbit="0deg 90deg 10deg"
+
+                    >
+                        <div slot="poster" style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <img src={poster} alt="Poster" style={{ width: '50px', height: '50px' }} />
+                        </div>
+
+                    </model-viewer>
 
                     <div className="controls">
                         <button className='btn_car1' onClick={() => applyColor(viewerRef5, 'Ferrari_550_Barchetta_Pininfarina_2000_by_AlexKa', 'red')}></button>
@@ -277,8 +328,12 @@ function Demo() {
                         camera-controls
                         shadow-intensity="1"
                         class="custom-camera-controls"
-                        poster={demo6}
-                    ></model-viewer>
+                        poster={poster}
+                    >
+                        <div slot="poster" style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <img src={poster} alt="Poster" style={{ width: '50px', height: '50px' }} />
+                        </div>
+                    </model-viewer>
 
                     <div className="controls">
                         <button className='btn_glove1' onClick={() => applyColor(viewerRef7, 'Material', '#6f1d1b')}></button>
@@ -289,6 +344,10 @@ function Demo() {
 
 
             </div>
+
+
+
+
 
 
 

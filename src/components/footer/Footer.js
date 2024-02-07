@@ -146,7 +146,7 @@ function Footer() {
 
                         <div className='footer-address'>
                             <i class="fa-solid fa-location-dot"></i>
-                            <p><span>Talap, Kannur, Kerala 670002</span> 3rd floor, Downtown complex</p>
+                            <p><span>3rd floor, Downtown Complex, Talap, Kannur, Kerala 670002</span> </p>
                         </div>
 
                         <div className='footer-address'>
@@ -211,7 +211,7 @@ function Footer() {
                                 <a href="/jewellery">Jewellery</a>
                             </li>
                             <li>
-                                <a href="/car-page">Automotive </a>
+                                <a href="/automotive">Automotive </a>
                             </li>
                             <li>
                                 <a href="/sports">Sports Gear & Equipment </a>
@@ -239,6 +239,10 @@ function Footer() {
                             <li>
                                 <a href="/terms-and-services">Terms & Conditions</a>
                             </li>
+                            <li>
+                                <a href="/case-study-invis-furniture">Case study</a>
+                            </li>
+
                         </ul>
                     </li>
 

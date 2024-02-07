@@ -1,4 +1,4 @@
-import React ,{useRef,useEffect} from "react";
+import React, { useRef, useEffect } from "react";
 import logo from "../../assets/logo2.png";
 import "./AboutUs.css";
 import boywearingar from "../../assets/aboutus_banner.png";
@@ -16,11 +16,13 @@ import support from "../../assets/support.png";
 import seamless from "../../assets/seamless.png";
 import Navbar from '../navbar/Navbar';
 import commitment from "../../assets/commitment.png";
-import future from "../../assets/future.png"
+import future from "../../assets/future.png";
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Aos from 'aos';
 import { useParams } from 'react-router';
+import { Helmet } from "react-helmet";
+import grouphoto from "../../assets/our-team.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -30,11 +32,11 @@ const AboutUs = () => {
 
   useEffect(() => {
     window.scrollTo({
-        behavior: 'smooth',
-        top: 0,
-        left: 0
+      behavior: 'smooth',
+      top: 0,
+      left: 0
     });
-}, [ slug ]);
+  }, [slug]);
 
 
   const containerAboutus2 = useRef(null);
@@ -90,41 +92,41 @@ const AboutUs = () => {
         trigger: containerAboutus2.current,
         immediateRender: false,
         scrub: true,
-        start:80,
+        start: 80,
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 
+      scale: 1
     });
   }, []);
 
- 
-    useEffect(() => {
+
+  useEffect(() => {
     gsap.fromTo(containerAboutusimg1.current, { scale: 0.5 }, {
       scrollTrigger: {
         trigger: containerAboutusimg1.current,
         immediateRender: false,
         scrub: true,
-        start:80,
+        start: 80,
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 
+      scale: 1
     });
   }, []);
 
 
-    useEffect(() => {
+  useEffect(() => {
     gsap.fromTo(containerAboutusimg2.current, { scale: 0.5 }, {
       scrollTrigger: {
         trigger: containerAboutusimg2.current,
         immediateRender: false,
         scrub: true,
-        start:80,
+        start: 80,
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 
+      scale: 1
     });
   }, []);
 
@@ -134,39 +136,39 @@ const AboutUs = () => {
         trigger: containerAboutusimg3.current,
         immediateRender: false,
         scrub: true,
-        start:80,
+        start: 80,
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 
+      scale: 1
     });
   }, []);
 
-    useEffect(() => {
+  useEffect(() => {
     gsap.fromTo(containerAboutus3.current, { scale: 0.5 }, {
       scrollTrigger: {
         trigger: containerAboutus3.current,
         immediateRender: false,
         scrub: true,
-        start:80,
+        start: 80,
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 
+      scale: 1
     });
   }, []);
 
-    useEffect(() => {
+  useEffect(() => {
     gsap.fromTo(containerAboutus4.current, { scale: 0.5 }, {
       scrollTrigger: {
         trigger: containerAboutus4.current,
         immediateRender: false,
         scrub: true,
-        start:80,
+        start: 80,
         smooth: 2,
         start: 'top 80%'
       },
-      scale: 1 
+      scale: 1
     });
 
     // gsap.fromTo(containerCard.current, { scale: 0.7 }, {
@@ -187,36 +189,43 @@ const AboutUs = () => {
   }, []);
 
 
-//   useEffect(() => {
-//     gsap.fromTo(aboutBottom1.current, { translateX: '-100%' }, {
-//         scrollTrigger: {
-//             trigger: aboutBottom1.current,
-//             immediateRender: false,
-//             scrub: true,
-//             start: 'top 70%',
-//             end: '+=300',
-//         },
-//         translateX: '0%'
-//     });
+  //   useEffect(() => {
+  //     gsap.fromTo(aboutBottom1.current, { translateX: '-100%' }, {
+  //         scrollTrigger: {
+  //             trigger: aboutBottom1.current,
+  //             immediateRender: false,
+  //             scrub: true,
+  //             start: 'top 70%',
+  //             end: '+=300',
+  //         },
+  //         translateX: '0%'
+  //     });
 
-//     gsap.fromTo(aboutBottom2.current, { translateX: '100%' }, {
-//       scrollTrigger: {
-//           trigger: aboutBottom2.current,
-//           immediateRender: false,
-//           scrub: true,
-//           start: 'top 70%',
-//           end: '+=300',
-//       },
-//       translateX: '0%'
-//   });
+  //     gsap.fromTo(aboutBottom2.current, { translateX: '100%' }, {
+  //       scrollTrigger: {
+  //           trigger: aboutBottom2.current,
+  //           immediateRender: false,
+  //           scrub: true,
+  //           start: 'top 70%',
+  //           end: '+=300',
+  //       },
+  //       translateX: '0%'
+  //   });
 
-// }, []);
+  // }, []);
 
 
 
 
   return (
     <div>
+
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About Us | 3D Visualization | AR Integration | Triard</title>
+        <meta name="description" content="Triard offers 3D visualization and AR integration services. Learn more about us and our expertise in creating immersive experiences."></meta>
+      </Helmet>
+
       <Navbar />
       <div className="aboutus_boy_image_container" >
         <img
@@ -233,9 +242,10 @@ const AboutUs = () => {
           Digitalbuddha, committed to empowering businesses with transformative
           solutions in the digital realm.
         </p>
+        <img src={grouphoto} alt="db team"></img>
       </div>
       <div className="aboutus_container">
-        <div className="aboutus_ourvision_main_container"ref={containerAboutus2}>
+        <div className="aboutus_ourvision_main_container" ref={containerAboutus2}>
           <div className="aboutus_ourvision_text_container" >
             <h3 className="aboutus_ourvision_text_container_h3">Our Vision</h3>
             <p className="aboutus_ourvision_text_container_p">
@@ -251,9 +261,9 @@ const AboutUs = () => {
             className="aboutus_ourvision_image_container_img"
             src={mixedreality}
             alt="mixed reality"
-           />
+          />
         </div>
-        <div className="aboutus_ourvision_main_container3"  ref={containerAboutus4}>
+        <div className="aboutus_ourvision_main_container3" ref={containerAboutus4}>
           <img
             className="aboutus_ourvision_image_container_img "
             src={whomweare}
@@ -262,11 +272,7 @@ const AboutUs = () => {
           <div className="aboutus_ourvision_text_container">
             <h3 className="aboutus_ourvision_text_container_h3">Whom We Are</h3>
             <p className="aboutus_ourvision_text_container_p">
-              At Triard, we envision a future where customers can unleash their
-              creativity and experience personalized shopping like never before.
-              Our goal is to revolutionize the e-commerce landscape by offering
-              cutting-edge 3D visualization, configuration, and AR
-              visualizations under a single customizable platform.
+              At Triard, we are dedicated to reshaping the landscape of E-Commerce. With a passion for innovation, we stand at the forefront of 3D product configuration and augmented reality solutions. We are not just a technology provider; we are your partner in transforming the way you connect with your audience. With Triard, experience the fusion of imagination and technology, unlocking new possibilities for your online presence.
             </p>
           </div>
         </div>
@@ -379,7 +385,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className='aboutus_img'>
-          <img src={commitment} alt=""></img>
+          <img src={commitment} alt="commitment"></img>
         </div>
 
       </div>
@@ -388,11 +394,11 @@ const AboutUs = () => {
         <div className='aboutus_content2'>
           <p>
             <h3>LET’S SHAPE THE FUTURE TOGETHER</h3>
-            We invite you to embark on this exciting journey with us. Experience the endless possibilities of 3D visualization and AR integration with Triard. Together, let's shape the future of e-commerce and create unforgettable customer journeys. Join us in transforming the way your customers interact with your products. Get in touch with our team today to explore how Triard can elevate your digital experiences.
+            We invite you to embark on this exciting journey with us. Experience the endless possibilities of 3D visualization and AR integration with Triard. Together, let's shape the future of e-commerce and create unforgettable customer journeys. Join us in transforming the way your customers interact with your products. <a href="/contact-us">Get in touch</a> with our team today to explore how Triard can elevate your digital experiences.
           </p>
         </div>
         <div className='aboutus_img2'>
-          <img src={future} alt=""></img>
+          <img src={future} alt="future"></img>
         </div>
 
       </div>

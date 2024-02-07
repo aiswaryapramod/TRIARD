@@ -15,10 +15,20 @@ import nonecommerceicon3 from "../../assets/nonecommerce_icon3.png";
 import nonecommerceicon4 from "../../assets/nonecommerce_icon4.png";
 import nonecommercebottom from "../../assets/nonecommerce_bottom.png";
 import "./NonEcommerce.css";
+import { Helmet } from "react-helmet";
 
 function NonEcommerce() {
   return (
     <>
+
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Non-ecommerce Applications | Triard</title>
+        <meta name="description" content="Explore Triard's expertise in non-ecommerce Applications, where transformative designs and solutions redefine industry standards."></meta>
+      </Helmet>
+
+
+
       <Navbar />
       <div className='non-ecommerce-head'>
         <h1>Triard's 3D and AR Workflow</h1>
@@ -55,7 +65,7 @@ function NonEcommerce() {
 
 
       <div className='non-ecommerce-img1'>
-        <img src={nonecommerce1} alt=''></img>
+        <img src={nonecommerce1} alt='nonecommerce'></img>
       </div>
 
       <div className='eng_develop'>
@@ -88,7 +98,7 @@ function NonEcommerce() {
 
 
       <div className='non-ecommerce-img1'>
-        <img src={nonecommerce2} alt=''></img>
+        <img src={nonecommerce2} alt='nonecommerce2'></img>
       </div>
 
       <div className='eng_develop'>
@@ -121,7 +131,7 @@ function NonEcommerce() {
 
 
       <div className='non-ecommerce-img1'>
-        <img src={nonecommerce3} alt=''></img>
+        <img src={nonecommerce3} alt='nonecommerce3'></img>
       </div>
 
       <div className='eng_develop'>
@@ -153,7 +163,7 @@ function NonEcommerce() {
       </div>
 
       <div className='non-ecommerce-img1'>
-        <img src={nonecommerce4} alt=''></img>
+        <img src={nonecommerce4} alt='nonecommerce4'></img>
       </div>
 
       <div className='non-ecommerce-secnd-sub'>
@@ -164,17 +174,17 @@ function NonEcommerce() {
 
       <div className='non-ecommerce-cards-section'>
         <div className='non-ecommerce-crd'>
-          <img src={ecommercecard1} alt=''></img>
+          <img src={ecommercecard1} alt='ecommercecard1'></img>
           <h3>Automotive Manufacturing</h3>
           <p>3D modeling and AR revolutionize auto manufacturing, optimizing design, training, quality control, and more, resulting in cost savings and better products for all.</p>
         </div>
         <div className='non-ecommerce-crd'>
-          <img src={ecommercecard2} alt=''></img>
+          <img src={ecommercecard2} alt='ecommercecard2'></img>
           <h3>Aerospace & Defense Manufacturing</h3>
           <p>In aerospace and defense manufacturing, AR and 3D technologies enhance precision, safety, and overall efficiency. They lead to cost savings, superior quality, and increased capabilities, making them invaluable to the industry.</p>
         </div>
         <div className='non-ecommerce-crd'>
-          <img src={ecommercecard3} alt=''></img>
+          <img src={ecommercecard3} alt='ecommercecard3'></img>
           <h3>Electronics Manufacturing</h3>
           <p>3D modeling and AR transform electronics manufacturing, enhancing design, quality, training, and efficiency. The result: cost savings, better products, and adaptability to evolving demands.</p>
         </div>
@@ -187,7 +197,7 @@ function NonEcommerce() {
       </div>
 
       <div className='non-ecom-eductn'>
-        <img src={nonecommerceedu} alt=''></img>
+        <img src={nonecommerceedu} alt='nonecommerceedu'></img>
       </div>
 
       <div className='ecommerce-impact'>
@@ -198,28 +208,28 @@ function NonEcommerce() {
       <div className='non-ecommerce-icon-section'>
         <div className='non-ecommerce-icon'>
           <div className='ecomm-icon-img'>
-            <img src={nonecommerceicon1} alt=''></img>
+            <img src={nonecommerceicon1} alt='nonecommerceicon1'></img>
           </div>
           <p>Immersive Learning <br></br> Experiences</p>
         </div>
 
         <div className='non-ecommerce-icon'>
           <div className='ecomm-icon-img'>
-            <img src={nonecommerceicon2} alt=''></img>
+            <img src={nonecommerceicon2} alt='nonecommerceicon2'></img>
           </div>
           <p>Visualizing Complex <br></br> Concepts</p>
         </div>
 
         <div className='non-ecommerce-icon'>
           <div className='ecomm-icon-img'>
-            <img src={nonecommerceicon3} alt=''></img>
+            <img src={nonecommerceicon3} alt='nonecommerceicon3'></img>
           </div>
           <p>Interactive <br></br> Geometry</p>
         </div>
 
         <div className='non-ecommerce-icon4 '>
           <div className='ecomm-icon-img'>
-            <img src={nonecommerceicon4} alt=''></img>
+            <img src={nonecommerceicon4} alt='nonecommerceicon4'></img>
           </div>
           <p>Enhanced <br></br> Presentations</p>
         </div>
@@ -232,7 +242,7 @@ function NonEcommerce() {
       </div>
 
       <div className='non-ecommerce-bottom'>
-        <img src={nonecommercebottom} alt=''></img>
+        <img src={nonecommercebottom} alt='nonecommercebottom'></img>
         <div className='ecommerce-bottom-text'>
           <h4>Contact us today to start your own transformation and experience the Triard difference.</h4>
           <h2>Together, we'll continue redefining what's possible in your industry and beyond.</h2>

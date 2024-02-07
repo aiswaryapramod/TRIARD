@@ -46,10 +46,10 @@ body {
 }
 
 .content_info p {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.5;
   width: 95%;
-  font-weight: 100;
+  font-weight: 400;
   margin-top: 28px;
   background-color: #ffffff00;
 }
@@ -107,66 +107,115 @@ body {
   margin-top: 424px;
 }
 
-
 .controls_home {
   position: relative;
 }
 
-
-
 .btn_r_home {
-  padding: 16px;
+  padding: 14px;
   position: absolute;
-  top: -27px;
+  top: -22px;
   left: 20px;
-  width: 5%;
-  height: 5%;
-  border-radius: 50px;
-  background-color: #ffc300;
-  border: none;
+  width: 4%;
+  height: 4%;
+  /* border-radius: 40px; */
+  background-color: #a5be00;
+  border: 2px solid white;
   cursor: pointer;
 }
 
 .btn_g_home {
   position: absolute;
-  padding: 16px;
+  padding: 14px;
   left: 64px;
-  bottom: -6px;
-  width: 5%;
-  height: 5%;
-  border-radius: 50px;
-  background-color: blue;
-  border: none;
+  bottom: -9px;
+  width: 4%;
+  height: 4%;
+  /* border-radius: 40px; */
+  background-color: #780000;
+  border: 2px solid white;
   cursor: pointer;
 }
 
 .btn_b_home {
   position: absolute;
-  padding: 16px;
-  left: 111px;
-  bottom: -6px;
-  width: 5%;
-  height: 5%;
-  border-radius: 50px;
-  background-color: red;
-  border: none;
+  padding: 14px;
+  left: 110px;
+  bottom: -9px;
+  width: 3%;
+  height: 3%;
+  /* border-radius: 50px; */
+  background-color: #b27092;
+  border: 2px solid white;
   cursor: pointer;
 }
 
+.btn_r_home {
+  transition: transform 0.3s ease;
+}
 
+.btn_r_home:hover {
+  border: 2px solid white;
+  transform: scale(1.1);
+}
 
+.btn_g_home {
+  transition: transform 0.3s ease;
+}
 
+.btn_g_home:hover {
+  border: 2px solid white;
+  transform: scale(1.1);
+}
 
+.btn_b_home {
+  transition: transform 0.3s ease;
+}
 
+.btn_b_home:hover {
+  border: 2px solid white;
+  transform: scale(1.1);
+}
 
+.why-us-link-to-aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.why-us-link-to-aboutus button {
+  padding: 20px;
+  font-size: 17px;
+  border-radius: 15px;
+  border: none;
+  transition: transform 0.3s ease;
+  background: linear-gradient(0deg, #007adf -22.41%, #00ecbc 122.41%);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
 
+.why-us-link-to-aboutus button:hover {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+.why-us-link-to-aboutus a {
+  color: black;
+  text-decoration: none;
+}
 
 @media (max-width: 500px) {
-.controls_home{
+  .why-us-link-to-aboutus button {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .why-us-link-to-aboutus {
+    margin-top: -45px;
+  }
+  .controls_home {
     margin-top: -57px;
     margin-bottom: 38px;
-}
+  }
 
   .content_wrapper1 {
     display: flex !important;
@@ -204,6 +253,21 @@ body {
     margin-bottom: 30px;
     margin-top: 1px;
   }
+  .btn_r_home {
+    padding: 11px;
+  }
+
+  .btn_g_home {
+    padding: 11px;
+    left: 55px;
+    bottom: -3px;
+  }
+
+  .btn_b_home {
+    padding: 11px;
+    left: 90px;
+    bottom: -3px;
+  }
 }
 
 /* Why Us */
@@ -219,7 +283,7 @@ body {
   margin-bottom: 33px;
   /* font-family: emoji; */
   /* font-family: 'Montserrat', sans-serif; */
-  font-size: 37px;
+  font-size: 40px;
   font-weight: 900;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -228,10 +292,17 @@ body {
 }
 
 .whyus_info p {
-  font-size: 25px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
   line-height: 1.5;
   margin-bottom: 55px;
   color: var(--primary-color);
+}
+
+.why-us-link-to-aboutus a {
+  color: white;
 }
 
 .iframe {
@@ -269,20 +340,22 @@ body {
   margin-top: -69px;
 }
 
-
-
 @media (max-width: 500px) {
+  .whyus_info h1 {
+    margin-bottom: 10px;
+    font-size: 43px;
+  }
   #viewerhome {
     width: revert-layer;
     height: 79svh;
     margin-top: -91px;
-}
+  }
   .whyus_info {
     padding: 0px;
   }
   .whyus_info p {
     padding: 20px;
-    font-size: 22px;
+    font-size: 18px;
   }
   .container {
     max-width: 100%;
@@ -291,13 +364,14 @@ body {
   }
   .content_info p {
     font-size: 17px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 1.5;
   }
   .content_info h3 {
     font-size: 37px;
   }
   .container h3 {
+    line-height: 45px;
     padding: 0px;
     margin-top: 20px;
     font-size: 35px;
@@ -350,13 +424,3 @@ body {
     width: 85% !important;
   }
 }
-
-
-
-
-
-
-
-
-
-

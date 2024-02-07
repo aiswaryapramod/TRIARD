@@ -117,7 +117,7 @@ function ContactUs() {
                 <style></style>
 
                 <div className='contactUs' >
-                    <img src={img8}  alt=''/>
+                    <img src={img8} alt='home contact' />
                 </div>
 
 

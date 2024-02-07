@@ -1,8 +1,13 @@
 :root {
-    --primary-color: #fff;
-    --secondary-color: #000000;
-    --theme-color:linear-gradient(to bottom right, #007adf, #00ecbc);
-    --color-accent: #070b28;
-    --shady-color: #ffffffbf;
-    --line-color: #ffffff45;
+  --primary-color: #fff;
+  --secondary-color: #000000;
+  --theme-color: linear-gradient(to bottom right, #007adf, #00ecbc);
+  --color-accent: #070b28;
+  --shady-color: #ffffffbf;
+  --line-color: #ffffff45;
+}
+
+::selection {
+  color: #000000 !important;
+  background: rgb(255, 255, 255) !important;
 }
