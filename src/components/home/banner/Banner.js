@@ -62,9 +62,9 @@
 // export default Banner;
 
 
-import React, { useRef,useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 // import bannerVideo from "../../assets/banner2.mp4";
-import bannerVideo from "../../../assets/banner4.webm"
+import bannerVideo from "../../../assets/banner4.webm";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './Banner.css';
@@ -114,35 +114,35 @@ function Banner() {
         scrollTrigger: {
           trigger: h1Element,
           start: 'bottom 80%',
-          scrub: true, 
+          scrub: true,
         }
       }
     );
   }, []);  // const viewerRef = useRef(null);
 
-    // useEffect(() => {
-    //   showCarModel(); // Set Car.glb as the default model on component mount
-    // }, []);
-  
-    // function showCarModel() {
-    //   viewerRef.current.src = '/model/Car.glb';
-    // }
-  
-    // function showTableModel() {
-    //   viewerRef.current.src = 'Table.glb';
-    // }
-  
+  // useEffect(() => {
+  //   showCarModel(); // Set Car.glb as the default model on component mount
+  // }, []);
+
+  // function showCarModel() {
+  //   viewerRef.current.src = '/model/Car.glb';
+  // }
+
+  // function showTableModel() {
+  //   viewerRef.current.src = 'Table.glb';
+  // }
+
   return (
     <div >
-    <div className='banner_container'>
+      <div className='banner_container'>
         <div className='banner_info'>
-            <h1 ref={h1Ref}>Experience The Endless Possibilities of 3D & AR!</h1>
-            <h3>A cutting-edge tool that will take your business-customer interaction to the next level.</h3>
-            <button><a href='/contact-us'>Get a free demo</a></button>
+          <h1 ref={h1Ref}>Experience The Endless Possibilities of 3D & AR!</h1>
+          <h2>A cutting-edge tool that will take your business-customer interaction to the next level.</h2>
+          <button><a href='/contact-us'>Get a free demo</a></button>
         </div>
         <div className='banner_video'>
-        <video width={'100%'} height={'100%'} autoPlay playsInline muted loop ><source src={bannerVideo} type='video/mp4'></source></video>
-        {/* <div className='slider_container' >
+          <video width={'100%'} height={'100%'} autoPlay playsInline muted loop ><source src={bannerVideo} type='video/mp4'></source></video>
+          {/* <div className='slider_container' >
         <model-viewer
           ref={viewerRef}
           id="viewer"
@@ -172,11 +172,11 @@ function Banner() {
         </div> 
 
       </div> */}
- 
+
         </div>
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default Banner
+export default Banner;

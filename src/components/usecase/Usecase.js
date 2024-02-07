@@ -16,6 +16,7 @@ import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
 import { useParams } from 'react-router';
+import { Helmet } from "react-helmet";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -27,13 +28,13 @@ function Usecase() {
 
   useEffect(() => {
     window.scrollTo({
-        behavior: 'smooth',
-        top: 0,
-        left: 0
+      behavior: 'smooth',
+      top: 0,
+      left: 0
     });
-}, [ slug ]);
+  }, [slug]);
 
-  
+
 
   const containerUsecase = useRef(null);
   const containerUsecase1 = useRef(null);
@@ -57,7 +58,7 @@ function Usecase() {
           trigger: cas,
           immediateRender: false,
           scrub: true,
-          start:80,
+          start: 80,
           smooth: 2,
           start: 'top 80%'
         },
@@ -159,50 +160,50 @@ function Usecase() {
   }, []);
 
 
-useEffect(() => {
-  gsap.fromTo(revolutionsec.current, { x: '-100%' }, {
+  useEffect(() => {
+    gsap.fromTo(revolutionsec.current, { x: '-100%' }, {
       scrollTrigger: {
-          trigger: revolutionsec.current,
-          immediateRender: false,
-          scrub: true,
-          start: 'top 70%',
-          end: '+=300',
+        trigger: revolutionsec.current,
+        immediateRender: false,
+        scrub: true,
+        start: 'top 70%',
+        end: '+=300',
       },
       x: '0%'
-  });
-}, []);
+    });
+  }, []);
 
-useEffect(() => {
-  const letters1 = headingPara1.current.textContent.split("");
+  useEffect(() => {
+    const letters1 = headingPara1.current.textContent.split("");
 
-  headingPara1.current.innerHTML = letters1
-    .map(
-      (letter) =>
-        `<span style="display: inline-block">${letter === " " ? "&nbsp;" : letter}</span>`
-    )
-    .join("");
-
-
-  const letterSpans1 = headingPara1.current.querySelectorAll("span");
+    headingPara1.current.innerHTML = letters1
+      .map(
+        (letter) =>
+          `<span style="display: inline-block">${letter === " " ? "&nbsp;" : letter}</span>`
+      )
+      .join("");
 
 
-  gsap.from(letterSpans1, {
-    opacity: 0,
-    y: 30,
-    duration: 0.2,
-    stagger: 5, 
-    ease: "bounce.out", 
-    scrollTrigger: {
-      trigger: headingPara1.current,
-      start: "top 80%", 
-      end: "+=300",
-      scrub: true, 
-    },
-  });
+    const letterSpans1 = headingPara1.current.querySelectorAll("span");
+
+
+    gsap.from(letterSpans1, {
+      opacity: 0,
+      y: 30,
+      duration: 0.2,
+      stagger: 5,
+      ease: "bounce.out",
+      scrollTrigger: {
+        trigger: headingPara1.current,
+        start: "top 80%",
+        end: "+=300",
+        scrub: true,
+      },
+    });
 
 
 
-}, []);
+  }, []);
 
 
 
@@ -211,15 +212,23 @@ useEffect(() => {
 
   return (
     <div>
+
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Use Cases | 3D Configurator and AR Integration |  Triard</title>
+        <meta name="description" content="Triard offers a range of use cases for 3D configurator and AR integration, enhancing user experiences and driving innovation. Explore our solutions today."></meta>
+      </Helmet>
+
+
       <Navbar />
       <div>
 
         <div className='usecase_banner'>
-          <img loading='lazy' src={banner} alt=''></img>
+          <img loading='lazy' src={banner} alt='usecase banner'></img>
         </div>
 
         <div className='usecase_heading'>
-          <h1>Use cases or industries</h1>
+          <h1>Use Cases or Industries</h1>
           <p ref={headingPara1}>Discover How Triard Elevates Different Industries and Realizes Unique Use Cases</p>
         </div>
 
@@ -231,14 +240,14 @@ useEffect(() => {
             </div>
 
             <div className='case1_img'>
-              <img src={decor} alt=''></img>
+              <img src={decor} alt='decor'></img>
             </div>
 
           </div>
 
           <div className='case2 case' ref={containerUsecase1}>
             <div className='case2_img'>
-              <img src={automotive} alt=''></img>
+              <img src={automotive} alt='automotive'></img>
             </div>
 
             <div className='case2_info'>
@@ -255,14 +264,14 @@ useEffect(() => {
             </div>
 
             <div className='case1_img'>
-              <img src={fashion} alt=''></img>
+              <img src={fashion} alt='fashion'></img>
             </div>
 
           </div>
 
           <div className='case2 case' ref={containerUsecase3}>
             <div className='case2_img'>
-              <img src={jewelry} alt=''></img>
+              <img src={jewelry} alt='jewelry'></img>
             </div>
 
             <div className='case2_info'>
@@ -279,14 +288,14 @@ useEffect(() => {
             </div>
 
             <div className='case1_img'>
-              <img src={Electronics} alt=''></img>
+              <img src={Electronics} alt='Electronics'></img>
             </div>
 
           </div>
 
           <div className='case2 case' ref={containerUsecase5}>
             <div className='case2_img'>
-              <img src={Sports} alt=''></img>
+              <img src={Sports} alt='Sports'></img>
             </div>
 
             <div className='case2_info'>
@@ -303,20 +312,23 @@ useEffect(() => {
             </div>
 
             <div className='case1_img'>
-              <img src={Gifts} alt=''></img>
+              <img src={Gifts} alt='Gifts'></img>
             </div>
 
           </div>
 
           <div className='case2 case' ref={containerUsecase7}>
             <div className='case2_img'>
-              <img src={Renovation} alt=''></img>
+              <img src={Renovation} alt='Renovation'></img>
             </div>
 
             <div className='case2_info'>
               <h2>Interior Design and Renovation Services</h2>
               <p>Triard is a game-changer for interior designers and renovation services. Professionals can present clients with lifelike visualizations of their design proposals, allowing them to make informed decisions before implementation. Triard streamlines the design process, reducing revisions and ensuring client satisfaction.</p>
             </div>
+            {/* <div className='usecase-demo-btn'>
+              <button><a href='/demo'>Know more</a></button>
+            </div> */}
 
           </div>
 
@@ -325,8 +337,8 @@ useEffect(() => {
         <div className='usecase_experience' >
           <h2>Revolutionizing Every Business Department</h2>
           <p>Welcome to Triard, where we harness the transformative power of 3D and AR technologies to enhance the workflows of various departments. Explore how our innovative solutions redefine Engineering and Development, Product and Industrial Design, Marketing, Web, and Advertising, as well as Customer Support and Maintenance.</p>
-         <button><a href='/non-ecommerce'>Explore more</a></button>
-         </div>
+          <button><a href='/non-ecommerce'>Explore more</a></button>
+        </div>
 
         <div className='usecase_revolution' ref={revolutionsec}>
           <div className='revolution_info'>
@@ -336,7 +348,7 @@ useEffect(() => {
             </p>
           </div>
           <div className='revolution_img'>
-            <img src={revolution} alt=''></img>
+            <img src={revolution} alt='revolution'></img>
           </div>
 
         </div>

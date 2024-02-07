@@ -7,42 +7,159 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Experience The Endless Possibilities of 3D & AR!"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-N5GG44JJ');</script>
-  <!-- End Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-N5GG44JJ");
+    </script>
+    <!-- End Google Tag Manager -->
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-  <script src="https://kit.fontawesome.com/4444c6800e.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/4444c6800e.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    
-  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Murecho:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
 
-  <script src="https://kit.fontawesome.com/4444c6800e.js" crossorigin="anonymous"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 
-</head>
-    <!--
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/4444c6800e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- css -->
+
+    <style>
+      .watsapp {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -7%;
+        position: fixed;
+        bottom: 7.5rem;
+        right: 22px;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        z-index: 100;
+        padding: 4px;
+      }
+
+      .whatsapp img {
+        width: 63px;
+        height: 63px;
+      }
+
+      .invis_whatsapp {
+        display: inline-block;
+        position: relative;
+        position: fixed;
+        bottom: 42px; /* Adjust the distance from the bottom as needed */
+        right: 12px; /* Adjust the distance from the right as needed */
+        z-index: 999;
+      }
+
+      .invis_whatsapp a {
+        text-decoration: none;
+      }
+
+      .invis_whatsapp img {
+        vertical-align: middle;
+        filter: drop-shadow(2px 4px 6px rgb(0 122 223 / 32%));
+      }
+
+      .tooltip {
+        visibility: hidden;
+        width: 185px;
+        background-color: #f1f1f1;
+        color: #000;
+        text-align: center;
+        border-radius: 6px;
+        padding: 10px;
+        position: absolute;
+        z-index: 1;
+        bottom: 15%;
+        left: -223%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      .invis_whatsapp:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      @media (max-width: 1024px) {
+        .invis_whatsapp {
+          bottom: 2rem;
+          right: 23px;
+        }
+        .whatsapp img {
+          width: 57px;
+          height: 57px;
+        }
+        .tooltip {
+          left: -240%;
+        }
+      }
+
+      @media (max-width: 645px) {
+        .tooltip {
+          left: -273%;
+        }
+      }
+    </style>
+    <title>TRIARD</title>
+  </head>
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -51,13 +168,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>TRIARD</title>
-  </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5GG44JJ"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-N5GG44JJ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -70,5 +191,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- watsapp -->
+
+    <div class="whatsapp">
+      <a
+        class="invis_whatsapp"
+        aria-label="Chat on WhatsApp"
+        href="https://wa.me/918594001010"
+        target="_blank"
+      >
+        <img alt="Chat on WhatsApp" src="./watsappimg.png" />
+        <span class="tooltip">How can I help you?</span>
+      </a>
+
+      <!-- <a
+        href="https://api.whatsapp.com/send?phone=8594001010"
+        class="invis_whatsapp"
+        target="_blank"
+      >
+        <img src="./watsappimg.png" alt="WhatsApp" />
+        <span class="tooltip">How can I help you?</span>
+      </a> -->
+    </div>
   </body>
 </html>

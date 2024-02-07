@@ -29,11 +29,11 @@
   margin-top: -179px;
 }
 
-.aboutus_img{
+.aboutus_img {
   border-radius: 160px;
 }
 
-.aboutus_img2{
+.aboutus_img2 {
   border-radius: 160px;
 }
 
@@ -72,23 +72,23 @@
   background-image: linear-gradient(to bottom right, #007adf, #00ecbc);
 }
 .aboutus_ourvision_text_container_p {
-  font-size: 27px;
-  line-height: 1.5;
+  font-size: 25px;
+  line-height: 34px;
   width: 105%;
-  font-weight: 100;
+  font-weight: 400;
   margin-top: 28px;
 }
 
 .aboutus_info {
   text-align: center;
   margin-left: auto;
-  max-width: 1175px;
+  max-width: 1020px;
   margin-right: auto;
   color: var(--primary-color);
   font-size: 22px;
   font-weight: 500;
   line-height: 32px;
-  margin-top: 58px;
+  margin-top: 15px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -103,7 +103,7 @@
   flex: 0.9 1;
   color: white;
   background-color: transparent;
-  margin-top: 95px;
+  margin-top: 25px;
 }
 
 .card-container {
@@ -117,7 +117,6 @@
 }
 
 @media (max-width: 500px) {
-
   .card-container {
     display: block;
     max-width: fit-content;
@@ -126,23 +125,24 @@
     padding: 0px;
     margin-top: 46px !important;
   }
-  .aboutus_container{
+  .aboutus_container {
     margin-top: -53px;
   }
-  .aboutus_ourvision_main_container3{
+  .aboutus_ourvision_main_container3 {
     margin-top: -9px !important;
   }
-  .aboutus_ourvision_image_container_img{
+  .aboutus_ourvision_image_container_img {
     margin-top: -33px;
   }
-  .aboutus_ourcommitment_text_container_h31{
+  .aboutus_ourcommitment_text_container_h31 {
     font-size: 45px !important;
   }
   .aboutus_whychoose_traiad_container {
     padding-top: 5rem;
     padding-bottom: 5rem;
     margin-top: -13px !important;
-}}
+  }
+}
 
 @media (max-width: 768px) {
   .aboutus_ourvision_main_container {
@@ -633,6 +633,17 @@
   margin-top: 90px;
 }
 
+.aboutus_content2 a {
+  color: white;
+}
+
+.aboutus_ourcommitment_aboutus_text_container img {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 500px) {
   .aboutus_bottom_section {
     width: 100%;
@@ -657,7 +668,7 @@
     text-align: center;
     width: 98%;
   }
-  .aboutus_ourcommitment_aboutus_text_container{
+  .aboutus_ourcommitment_aboutus_text_container {
     margin-top: 3px !important;
   }
 
@@ -705,6 +716,7 @@
   .aboutus_ourvision_text_container_p {
     text-align: center;
     font-size: 21px;
+    line-height: 27px;
   }
   .aboutus_ourvision_text_container_h3 {
     font-size: 41px;
@@ -721,11 +733,12 @@
   .aboutus_ourvision_image_container_img {
     width: 93% !important;
     margin-top: 12px !important;
-    }
+  }
 }
 
 @media (max-width: 500px) {
-  .aboutus_info{
+  .aboutus_info {
+    line-height: 24px;
     font-size: 18px;
     margin-top: 23px;
   }
@@ -782,49 +795,44 @@
   .aboutus_ourvision_main_container {
     margin-top: 70px;
   }
-    .aboutus_ourvision_main_container {
-      display: flex;
-      max-width: 1400px;
-      margin-left: auto;
-      margin-right: auto;
-      place-items: center;
-      margin-top: 70px;
-      margin-top: 137px;
+  .aboutus_ourvision_main_container {
+    display: flex;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    margin-top: 70px;
+    margin-top: 137px;
   }
   .aboutus_bottom_section {
     border-radius: 15px;
     width: 100%;
   }
-  .aboutus_bottom_section{
+  .aboutus_bottom_section {
     display: block;
     overflow: hidden;
     height: 727px;
   }
-  .aboutus_content p{
+  .aboutus_content p {
     margin: 56px auto !important;
   }
   .aboutus_img img {
     width: 707px;
-}
+  }
 
+  .aboutus_bottom_section2 {
+    border-radius: 15px !important;
+    width: 100% !important;
+    display: block;
+    overflow: hidden;
+    height: 895px;
+  }
+  .aboutus_img2 img {
+    margin-top: 0px;
+    width: 749px;
+  }
 
-.aboutus_bottom_section2 {
-  border-radius: 15px !important;
-  width: 100% !important;
-  display: block;
-  overflow: hidden;
-  height: 895px;
-}
-.aboutus_img2 img{
-  margin-top: 0px;
-  width: 749px;
-}
-
-
-
-
-
-/* .aboutus_bottom_section2 {
+  /* .aboutus_bottom_section2 {
   border-radius: 15px;
   width: 100%;
 }
@@ -846,41 +854,41 @@
  */
 }
 
-
-@media(min-width:441px) and (max-width:768px){
+@media (min-width: 441px) and (max-width: 768px) {
   .aboutus_ourvision_main_container {
     margin-top: 294px;
   }
-
-
-
 }
 
-@media(min-width:1600px){
+@media (min-width: 1600px) {
+  .aboutus_ourcommitment_aboutus_text_container img {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .aboutus_whychoose_traiad_container {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
-  .card-container{
+  .card-container {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
-  .aboutus_bottom_section{
+  .aboutus_bottom_section {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
-  .aboutus_bottom_section2{
+  .aboutus_bottom_section2 {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-
-@media(min-width:793px) and (max-width:1205px){
+@media (min-width: 793px) and (max-width: 1205px) {
   .aboutus_content h3 {
     color: var(--primary-color);
     font-family: "Roboto", sans-serif;
@@ -891,14 +899,14 @@
     margin-left: auto;
     margin-top: 50px;
     font-size: 20px;
-}
+  }
   .aboutus_img img {
     display: none;
-}
-.aboutus_img2 img {
-  display: none;
-}
-.aboutus_content2 h3{
-  font-size: 40px;
-}
+  }
+  .aboutus_img2 img {
+    display: none;
+  }
+  .aboutus_content2 h3 {
+    font-size: 40px;
+  }
 }

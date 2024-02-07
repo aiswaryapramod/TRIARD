@@ -1,26 +1,35 @@
-import React from 'react'
-import "./Car.css"
+import React from 'react';
+import "./Car.css";
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
-import carvideo from "../../assets/car_video.mp4"
-import carpage1 from "../../assets/car-page1.png"
-import carpage2 from "../../assets/car-page2.png"
-import carpage3 from "../../assets/car-page3.png"
+import carvideo from "../../assets/car_video.mp4";
+import carpage1 from "../../assets/car-page1.png";
+import carpage2 from "../../assets/car-page2.png";
+import carpage3 from "../../assets/car-page3.png";
+import { Helmet } from "react-helmet";
 
 function Car() {
-  return (
-    <div>
-        <Navbar/>
-           <div className='car_max-section'>
-              
-           <div className='car_top'>
+    return (
+        <div>
+
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>3D Configuration and AR for Automotive Industry | Triard</title>
+                <meta name="description" content="Explore the 3D configuration and AR solutions for automotive industry at Triard. Boost your sales with our innovative technology. Visit now!"></meta>
+            </Helmet>
+
+
+            <Navbar />
+            <div className='car_max-section'>
+
+                <div className='car_top'>
                     <h3>Revolutionize Car Shopping with 3D Configuration and AR</h3>
                     <p>Are you an e-commerce business operating in the automotive industry? It's time to take your online vehicle sales to the next level. Imagine you could design your car just the way you like it before even going to the car lot. Where You can pick the color, add fancy seats, and choose some of the features you want.Triard is changing the way you shop for cars. With our 3D and AR tech, you're in control of your car-buying journey. No more guessing, Triard's real-time 3D configurator brings this dream to life. We offer tailor-made solutions that can transform your website into a dynamic and engaging platform for potential car buyers. Say goodbye to static images and limited options. With our configurator, you have the freedom to customize your car to your heart's content. </p>
                 </div>
 
 
                 <div className='car_video'>
-                <video width={'70%'} height={'10%'} autoPlay playsInline muted loop ><source src={carvideo} type='video/mp4'></source></video>
+                    <video width={'70%'} height={'10%'} autoPlay playsInline muted loop ><source src={carvideo} type='video/mp4'></source></video>
                 </div>
 
                 <div className='car_subtop'>
@@ -36,21 +45,21 @@ function Car() {
                     </div>
                     <div className='car_awaits_info_section'>
                         <div className='car_info'>
-                           <img src={carpage1} alt=''></img>
-                           <h3>Augmented Reality Magic Awaits</h3>
-                           <p>Triard doesn't stop at 3D configuration. We take the next step by harnessing the magic of Augmented Reality. Our AR technology allows you to bring your customized car into the real world, virtually. Using your smartphone you can project your dream car into your driveway, garage, or anywhere else you desire.</p>
+                            <img src={carpage1} alt='Magic Awaits'></img>
+                            <h3>Augmented Reality Magic Awaits</h3>
+                            <p>Triard doesn't stop at 3D configuration. We take the next step by harnessing the magic of Augmented Reality. Our AR technology allows you to bring your customized car into the real world, virtually. Using your smartphone you can project your dream car into your driveway, garage, or anywhere else you desire.</p>
                         </div>
 
                         <div className='car_info'>
-                           <img src={carpage2} alt=''></img>
-                           <h3>Comprehensive Vehicle Catalog</h3>
-                           <p>Triard understands that car shoppers have diverse tastes and needs. That's why we offer an extensive catalog of car makes and models, all conveniently accessible in one place. Whether you're a fan of compact cars, SUVs, or luxury sedans, we've got you covered.</p>
+                            <img src={carpage2} alt='Comprehensive'></img>
+                            <h3>Comprehensive Vehicle Catalog</h3>
+                            <p>Triard understands that car shoppers have diverse tastes and needs. That's why we offer an extensive catalog of car makes and models, all conveniently accessible in one place. Whether you're a fan of compact cars, SUVs, or luxury sedans, we've got you covered.</p>
                         </div>
 
                         <div className='car_info'>
-                           <img src={carpage3} alt=''></img>
-                           <h3>Boost Sales and Customer Satisfaction</h3>
-                           <p>Stand out in the competitive e-commerce automotive market with Triard's innovative technology. Offer customers a unique and interactive shopping experience that encourages them to stay longer on your website.</p>
+                            <img src={carpage3} alt='Satisfaction'></img>
+                            <h3>Boost Sales and Customer Satisfaction</h3>
+                            <p>Stand out in the competitive e-commerce automotive market with Triard's innovative technology. Offer customers a unique and interactive shopping experience that encourages them to stay longer on your website.</p>
                         </div>
                     </div>
                     <br></br>
@@ -64,31 +73,31 @@ function Car() {
                 <div className='car_bottom_li'>
                     <ul>
                         <li>
-                        Our solutions are designed to enhance the online car-buying journey, making it more engaging and informative.
+                            Our solutions are designed to enhance the online car-buying journey, making it more engaging and informative.
                         </li>
                         <li>
-                        By partnering with Triard, you'll differentiate your e-commerce automotive business and gain a competitive edge.
+                            By partnering with Triard, you'll differentiate your e-commerce automotive business and gain a competitive edge.
                         </li>
                         <li>
-                        The automotive industry is continually evolving. Triard keeps you ahead of the curve by offering the latest in 3D configuration and AR technology.
+                            The automotive industry is continually evolving. Triard keeps you ahead of the curve by offering the latest in 3D configuration and AR technology.
                         </li>
                         <li>
-                        Triard doesn't offer one-size-fits-all solutions. We understand that every e-commerce automotive business is unique. Our services are customizable to align perfectly with your specific needs and goals.
+                            Triard doesn't offer one-size-fits-all solutions. We understand that every e-commerce automotive business is unique. Our services are customizable to align perfectly with your specific needs and goals.
                         </li>
                         <li>
-                        By offering Triard's innovative technology, you'll set your e-commerce automotive business apart from the competition. Stand out in a crowded market and be seen as a forward-thinking industry leader.
+                            By offering Triard's innovative technology, you'll set your e-commerce automotive business apart from the competition. Stand out in a crowded market and be seen as a forward-thinking industry leader.
                         </li>
                         <li>
-                        Triard doesn't just provide a product and walk away. We offer ongoing support and guidance to ensure you're making the most of our technology. Our team is available to answer questions and address any concerns.
+                            Triard doesn't just provide a product and walk away. We offer ongoing support and guidance to ensure you're making the most of our technology. Our team is available to answer questions and address any concerns.
                         </li>
                     </ul>
                 </div>
 
 
-           </div>
-        <Footer/>
-    </div>
-  )
+            </div>
+            <Footer />
+        </div>
+    );
 }
 
-export default Car
+export default Car;

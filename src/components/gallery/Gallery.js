@@ -221,15 +221,15 @@ function Gallery() {
             <div className='gallery_image_carousal'>
                 <div className="slideshow-container">
                     <div className="mySlides fade" ref={(el) => (slidesRef.current[0] = el)}>
-                        <img className='gitex1' src={gitex1} alt=''></img>
+                        <img className='gitex1' src={gitex1} alt='gitex1'></img>
                     </div>
 
                     <div className="mySlides fade" ref={(el) => (slidesRef.current[1] = el)}>
-                        <img className='gitex2' src={gitex2} alt=''></img>
+                        <img className='gitex2' src={gitex2} alt='gitex2'></img>
                     </div>
 
                     <div className="mySlides fade" ref={(el) => (slidesRef.current[2] = el)}>
-                        <img className='gitex3' src={gitex3} alt=''></img>
+                        <img className='gitex3' src={gitex3} alt='gitex3'></img>
                     </div>
 
 
@@ -287,7 +287,7 @@ function Gallery() {
 
                 <div className='gallery_btm_sec'>
                     <div className='gallery_bottom'>
-                        <img src={imagebottom} alt=''></img>
+                        <img src={imagebottom} alt='gallery image'></img>
                     </div>
                     <div className='g_bottom_text'>
                         <h4>If you have any other questions or requests, please feel free to contact us. We are always happy to assist you in any way we can.</h4>

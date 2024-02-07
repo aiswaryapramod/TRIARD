@@ -3,20 +3,30 @@ import "./Faq.css";
 import Footer from '../footer/Footer';
 import Navbar from '../navbar/Navbar';
 import { useParams } from 'react-router';
+import { Helmet } from "react-helmet";
 
 function Faq() {
   const { slug } = useParams();
 
   useEffect(() => {
     window.scrollTo({
-        behavior: 'smooth',
-        top: 0,
-        left: 0
+      behavior: 'smooth',
+      top: 0,
+      left: 0
     });
-}, [ slug ]);
+  }, [slug]);
 
   return (
     <>
+
+
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>FAQ | Triard</title>
+        <meta name="description" content="Find answers to common questions on our FAQ page. Learn about our products & services. Get the information you need quickly and easily. Visit now!"></meta>
+      </Helmet>
+
+
       <Navbar />
       <div className='main_faq'>
 
@@ -88,11 +98,11 @@ function Faq() {
 
 
           <div className='faq_cta'>
-           <h1>CONTACT US</h1>
-           <h4> If you have any other questions or need further assistance, don't hesitate to contact us. Our team is here to help you unlock the full potential of Triard for your business.</h4>
-           <div className='faq_btn'>
-           <a href='/contact-us'><button > Contact Now</button></a>
-           </div>
+            <h1>CONTACT US</h1>
+            <h4> If you have any other questions or need further assistance, don't hesitate to contact us. Our team is here to help you unlock the full potential of Triard for your business.</h4>
+            <div className='faq_btn'>
+              <a href='/contact-us'><button > Contact Now</button></a>
+            </div>
           </div>
 
         </div>

@@ -409,25 +409,26 @@
     width: 100%;
     margin-top: 25px;
   }
-  .usecase_experience p{
+  .usecase_experience p {
     font-size: 17px;
   }
 
-  .usecase_experience a{
+  .usecase_experience a {
     padding: 0px;
     font-size: 16px;
   }
 
   .usecase_experience h2 {
-    font-size: 35px;
-    line-height: 42px;
+    font-size: 30px;
+    line-height: 35px;
   }
   .usecase_experience {
     margin-top: 115px;
   }
   .usecase_heading h1 {
     margin-top: 25px;
-    font-size: 50px;
+    font-size: 45px;
+    line-height: 44px;
   }
   .usecase_heading p {
     padding: 20px;
@@ -442,6 +443,12 @@
     margin-top: 77px;
     margin-bottom: 40px;
     border-radius: 610px 610px 0px 0px;
+  }
+  .usecase_heading p {
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
   }
 
   .usecase_revolution .grid-template-columns {
@@ -498,6 +505,7 @@
     text-align: center;
   }
   .case1_info p {
+    line-height: 29px;
   }
   .case1_info h2 {
     font-size: 45px;
@@ -511,6 +519,7 @@
     text-align: center;
   }
   .case2_info p {
+    line-height: 29px;
   }
   .case2_info h2 {
     font-size: 45px;
@@ -548,9 +557,8 @@
   }
 }
 
-
-@media(min-width:793px) and (max-width:1205px){
-  .revolution_img img{
+@media (min-width: 793px) and (max-width: 1205px) {
+  .revolution_img img {
     display: none;
   }
 }

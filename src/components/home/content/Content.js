@@ -11,6 +11,7 @@ import brand from "../../../assets/brand.png";
 import shoe from "../../../assets/shoe.png";
 import AR from "../../../assets/AR2.png";
 import bike from "../../../assets/automotive.png";
+import poster from "../../../assets/loader.gif";
 
 // import Video1 from "../../assets/video1.mp4";
 
@@ -18,152 +19,11 @@ import bike from "../../../assets/automotive.png";
 gsap.registerPlugin(ScrollTrigger);
 
 function Content() {
-  // const containerImage = useRef(null);
-  // const containerImage2 = useRef(null);
-  // const containerinfo = useRef(null);
-  // const containerinfo2 = useRef(null);
-  // const containerImage3 = useRef(null);
-  // const containerinfo3 = useRef(null);
-  // const containerinfo4 = useRef(null);
-  // const containerImage4 = useRef(null);
-  // const containerImage5 = useRef(null);
-  // const containerinfo5 = useRef(null);
   const containerhome1 = useRef(null);
   const containerhome2 = useRef(null);
   const containerhome3 = useRef(null);
   const containerhome4 = useRef(null);
   const containerhome5 = useRef(null);
-
-  // const containerhead = useRef(null);
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerImage.current, { translateX: '-20%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerImage.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 70%',
-  //             end: '+=300',
-  //         },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerImage2.current, { translateX: '20%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerImage2.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 70%',
-  //             end: '+=300',
-  //         },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerinfo.current, { translateX: '10%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerinfo.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 80%'
-  //         },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerinfo2.current, { translateX: '-20%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerinfo2.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 80%',
-  //             end:'top 50%'
-  //         },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerImage3.current, { translateX: '-30%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerImage3.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 70%',
-  //             end: '+=300',
-  //         },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerinfo3.current, { translateX: '10%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerinfo3.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 80%'
-  //         },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerinfo4.current, { translateX: '-10%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerinfo4.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 80%'
-  //         },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerImage4.current, { translateX: '20%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerImage4.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 70%',
-  //             end: '+=300',
-  //         },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerImage5.current, { translateX: '-30%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerImage5.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 70%',
-  //             end: '+=300',
-  //             },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
-  // useEffect(() => {
-  //     gsap.fromTo(containerinfo5.current, { translateX: '10%' }, {
-  //         scrollTrigger: {
-  //             trigger: containerinfo5.current,
-  //             immediateRender: false,
-  //             scrub: true,
-  //             start: 'top 80%'
-  //         },
-  //         translateX: '0%'
-  //     });
-  // }, []);
-
 
   // why us//
 
@@ -248,27 +108,27 @@ function Content() {
   //     });
   // }, []);
 
-  // const viewerRefhome = useRef(null);
+  const viewerRefhome = useRef(null);
 
-  // useEffect(() => {
-  //   showCarModel();
-  // }, []);
+  useEffect(() => {
+    showCarModel();
+  }, []);
 
-  // function applyColor(viewer, materialName, color) {
-  //   const model = viewer.current.model;
-  //   console.log(model);
-  //   const material = model.materials.find(mat => mat.name === materialName);
+  function applyColor(viewer, materialName, color) {
+    const model = viewer.current.model;
+    console.log(model);
+    const material = model.materials.find(mat => mat.name === materialName);
 
-  //   if (material) {
-  //     material.pbrMetallicRoughness.setBaseColorFactor(color);
-  //   }
-  // }
+    if (material) {
+      material.pbrMetallicRoughness.setBaseColorFactor(color);
+    }
+  }
 
 
 
-  // function showCarModel() {
-  //     viewerRefhome.current.src = '/model/tshirt.glb';
-  //   }
+  function showCarModel() {
+    viewerRefhome.current.src = '/model/sofa_new.glb';
+  }
 
 
 
@@ -289,10 +149,10 @@ function Content() {
   return (
     <div className='container'>
       <div className='content_wrapper1' ref={containerhome1}>
-        <img src={shoe} alt='' />
+        {/* <img src={shoe} alt='' /> */}
 
 
-         {/* <div>
+        <div>
           <model-viewer
             ref={viewerRefhome}
             disable-zoom
@@ -301,16 +161,25 @@ function Content() {
             camera-controls
             shadow-intensity="1"
             class="custom-camera-controls"
-          ></model-viewer>
+            poster={poster}
+
+          >
+
+            <div slot="poster" style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <img src={poster} alt="Poster" style={{ width: '50px', height: '50px' }} />
+            </div>
+
+
+          </model-viewer>
 
           <div className="controls_home">
-            <button className='btn_r_home' onClick={() => applyColor(viewerRefhome, 'Body_FRONT_2664', '#ffc300')}></button>
-            <button className='btn_g_home' onClick={() => applyColor(viewerRefhome, 'Body_FRONT_2664', 'blue')}></button>
-            <button className='btn_b_home' onClick={() => applyColor(viewerRefhome, 'Body_FRONT_2664', 'red')}></button>
+            <button className='btn_r_home' onClick={() => applyColor(viewerRefhome, 'Material.001', '#a5be00')}></button>
+            <button className='btn_g_home' onClick={() => applyColor(viewerRefhome, 'Material.001', '#780000')}></button>
+            <button className='btn_b_home' onClick={() => applyColor(viewerRefhome, 'Material.001', '#b27092')}></button>
           </div>
 
-        </div> 
- */}
+        </div>
+
 
         <div className='content_info'>
           <h3>Real-time & Personalised</h3>
@@ -331,7 +200,7 @@ function Content() {
             options and instantly visualise in real-time.</p>
         </div>
 
-        <img src={img2} alt=''/>
+        <img src={img2} alt='img2' />
 
       </div>
 
@@ -340,7 +209,7 @@ function Content() {
       <div className='content_wrapper3' ref={containerhome3}>
 
         {/* <div className='content_img' ref={containerImage3}> */}
-        <img src={bike} alt='' />
+        <img src={bike} alt='bike' />
         {/* </div> */}
 
         <div className='content_info' >
@@ -363,7 +232,7 @@ function Content() {
         </div>
 
         {/* <div className='content_img2' ref={containerImage4}> */}
-        <img src={img5} alt=''/>
+        <img src={img5} alt='wallet-friendly' />
         {/* </div> */}
 
       </div>
@@ -371,7 +240,7 @@ function Content() {
       <div className='content_wrapper3' ref={containerhome5}>
 
         {/* <div className='content_img' */}
-        <img src={AR} alt=''/>
+        <img src={AR} alt='AR' />
         {/* </div> */}
 
         <div className='content_info'>
@@ -395,6 +264,10 @@ function Content() {
             under a single customisable platform. Let your product be anything, we bring your
             vision to life.</p>
 
+          <div className='why-us-link-to-aboutus'>
+               <button><a href='/about-us'>Learn More About Triard</a></button>
+          </div>
+
           <div>
             {/* <iframe className='iframe' src="https://phpstack-947027-3563759.cloudwaysapps.com/glove" title="Iframe Example"></iframe> */}
           </div>
@@ -406,7 +279,7 @@ function Content() {
 
       <div className='content_cra'>
         <div className='cra_text'>Integrate seamlessly with the top ecommerce platforms</div>
-        <img src={brand} alt=''></img>
+        <img src={brand} alt='brand'></img>
       </div>
 
 

@@ -26,6 +26,13 @@ import Car from "./components/car-page/Car";
 import Baseball from "./components/baseball/Baseball";
 import Kitchen from "./components/kitchen-appliances/Kitchen";
 import Bloginner3 from "./components/bloginner3/Bloginner3";
+import Bloginner4 from "./components/bloginner4/Bloginner4";
+import Landingpage from "./components/landingpage/Landingpage";
+import Inviscasestudy from "./components/invis-case-study/Casestudy";
+import Bloginner5 from "./components/bloginner5/Bloginner5";
+import Bloginner6 from "./components/bloginner6/Bloginner6";
+import Bloginner7 from "./components/bloginner7/Bloginner7";
+// import Casestudies from "./components/case-studies/Casestudies";
 // import Gallery from "./components/gallery/Gallery";
 
 function App() {
@@ -49,9 +56,9 @@ function App() {
 
           <Route path="/blog" element={<Blog />} />
 
-          <Route path="/bloginner1" element={<Bloginner1 />} />
+          <Route path="/blog/augmented-reality-9-transformative-use-cases-that-redefine-reality" element={<Bloginner1 />} />
 
-          <Route path="/bloginner2" element={<Bloginner2 />} />
+          <Route path="/blog/the-power-of-3d-rendering-in-business" element={<Bloginner2 />} />
 
           <Route path="/jewellery" element={<Jewellery />} />
 
@@ -61,21 +68,35 @@ function App() {
 
           <Route path="/furniture" element={<Furniture />} />
 
-          <Route path="/car-page" element={<Car />} />
+          <Route path="/automotive" element={<Car />} />
 
           <Route path="/sports" element={<Baseball />} />
 
-          <Route path="/bloginner3" element={<Bloginner3 />} />
+          <Route path="/blog/the-benefits-of-product-customization-for-ecommerce-businesses" element={<Bloginner3 />} />
+
+          <Route path="/blog/triards-debut-at-gitex-2023-a-technological-Innovation-by-digitalbuddha" element={<Bloginner4 />} />
+
+          <Route path="/blog/triards-introduction-digitalbuddhas-revolutionary-showcase-at-huddle-global-2023" element={<Bloginner5 />} />
+
+          <Route path="/blog/how-3d-configurators-simplify-furniture-design" element={<Bloginner6 />} />
+
+          <Route path="/blog/the-impact-of-ar-on-industries-current-trends-and-future-prospects" element={<Bloginner7 />} />
 
           <Route path="/kitchen-appliances" element={<Kitchen />} />
-          
+
           {/* <Route path="/gallery" element={<Gallery />} /> */}
 
           <Route path="/terms-and-services" element={<Terms />} />
 
           <Route path="/privacy-policy" element={<Privacy />} />
 
+          {/* <Route path="/case-studies" element={<Casestudies />} /> */}
+
+          <Route path="/case-study-invis-furniture" element={<Inviscasestudy />} />
+
           <Route path="/pilot" element={<Blenderpilot />} />
+
+          <Route path="/3d-product-configurator-ar" element={<Landingpage />} />
 
           <Route path="*" element={<Missing />} />
         </Routes>

@@ -1,14 +1,24 @@
-import React from 'react'
-import "./Terms.css"
+import React from 'react';
+import "./Terms.css";
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
+import {Helmet} from "react-helmet";
 
 
 function Terms() {
-  return (
-    <div>
-        <Navbar/>
-        <div className='terms-and-conditions'>
+    return (
+        <div>
+
+
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Terms and Conditions | Triard</title>
+                <meta name="description" content="Learn about our terms of use, privacy policy, and more. Find everything you need to know about using our services responsibly. Visit now."></meta>
+            </Helmet>
+
+
+            <Navbar />
+            <div className='terms-and-conditions'>
                 <div className='terms-head'>
                     <h1>Terms and Condition</h1>
                     <p>Our website address is: <a href='https://triard.io/'>https://triard.io/</a></p>
@@ -38,7 +48,7 @@ function Terms() {
                     </p>
                 </div>
 
-                 <div className='terms'>
+                <div className='terms'>
                     <h4>3.License</h4>
                     <p>Triard’s <br></br>
                         Unless otherwise stated, Triard’s and/or its licensors own the intellectual property rights for all material on triard.io. All intellectual property rights are reserved. You may access this from triard.io for your own personal use subjected to restrictions set in these terms and conditions.
@@ -68,7 +78,7 @@ function Terms() {
                     </p>
                 </div>
 
-                 <div className='terms'>
+                <div className='terms'>
                     <h4>4.Hyperlinking to our Content</h4>
                     <p>
                         The following organizations may link to our Website without prior written approval:
@@ -106,14 +116,14 @@ function Terms() {
                 </div>
 
 
-               <div className='terms'>
+                <div className='terms'>
                     <h4>5.iFrames</h4>
                     <p>
                         Without prior approval and written permission, you may not create frames around our Web Pages that alter in any way the visual presentation or appearance of our Website.
                     </p>
                 </div>
 
-                 <div className='terms'>
+                <div className='terms'>
                     <h4>6.Content Liability</h4>
                     <p>
                         We shall not be held responsible for any content that appears on your Website. You agree to protect and defend us against all claims that are rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
@@ -142,9 +152,9 @@ function Terms() {
                         We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.
 
                     </p>
-                </div> 
+                </div>
 
-                 <div className='terms'>
+                <div className='terms'>
                     <h4>10.Disclaimer</h4>
                     <p>
                         To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:
@@ -157,7 +167,7 @@ function Terms() {
                         As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.
 
                     </p>
-                </div> 
+                </div>
 
 
 
@@ -166,9 +176,9 @@ function Terms() {
 
 
             </div>
-        <Footer/>
-    </div>
-  )
+            <Footer />
+        </div>
+    );
 }
 
-export default Terms
+export default Terms;
