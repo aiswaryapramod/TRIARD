@@ -1,172 +1,571 @@
-.case-study-wrapper {
-  margin-bottom: 100px;
-  margin-top: 165px;
-}
-
-.case-study-head {
-  background: linear-gradient(111deg, #00ecbc 50%, #007adf 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 54px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 62px; /* 103.333% */
-}
-
-.case-study-wrapper {
-  margin-top: 140px;
-  text-align: center;
-  max-width: 1400px;
+.invis-case-study {
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.case-study-wrapper h3 {
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 55px;
+.invis-digital-revolution {
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1px solid transparent;
+  background-color: #ffffff0a;
+  padding: 74px;
+  gap: 70px;
+  border-radius: 21px;
+  margin-bottom: 80px;
+}
+
+.invis-digitl-content h2 {
+  font-size: 40px;
+  line-height: 43px;
   font-weight: 700;
-  background: linear-gradient(173deg, #00ecbc 0%, #007adf 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Roboto", sans-serif;
+  background-image: var(--theme-color);
+  padding-bottom: 34px !important;
 }
 
-.case-main-img {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.case-main-img img {
-  width: 100%;
-  border-radius: 15px;
-}
-
-.case-study--info {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.case-content h2 {
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 40px;
-  margin-top: 87px;
-}
-
-.case-content p {
-  color: #fff;
-  font-size: 20px;
+.invis-digitl-content p {
+  font-size: 18px;
+  line-height: 25px;
   font-weight: 500;
-  line-height: 29px; /* 175% */
-  margin-top: 25px;
+}
+.invis-dogital-img img {
+  width: 87%;
+}
+.invis-introduction h2 {
+  font-size: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  margin-bottom: 80px;
 }
 
-.case2img {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 70px;
-}
-
-.case2img img {
+.invis-introduction img {
+  margin-bottom: 80px;
   width: 100%;
-  border-radius: 15px;
 }
 
-.case-study-info2 {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+.invis-introduction p {
+  font-size: 18px;
+  margin-bottom: 80px;
 }
 
-.case-content li {
+.invis-logo {
+  height: 240px;
+}
+
+.invis-logo h1 {
+  font-size: 16px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  margin-top: 24px;
+  margin-bottom: 5px;
+}
+
+.invis-logo h2 {
+  font-size: 20px;
+  margin-bottom: 42px;
+  font-weight: 500;
+}
+
+.invis-logo img {
+  margin-top: -20px;
+}
+
+.invis-content-left {
+  margin-top: -14px;
+  /* margin: -14px 0px 0px 59px; */
+  border-right: 2px solid white;
+}
+
+.invis-content-left h2 {
+  font-size: 16px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+}
+
+.invis-content-left h4 {
+  font-size: 16px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  margin-bottom: 6px;
+}
+
+.invis-content-left h3 {
+  font-size: 20px;
   margin-top: 5px;
+  margin-bottom: 15px;
+  font-weight: 500;
 }
 
-.case--result h1 {
-  background: linear-gradient(180deg, #00ecbc 0%, #007adf 100%);
-  background-clip: text;
+.invis-content-left h5 {
+  font-size: 20px;
+  margin-bottom: -34px;
+  font-weight: 500;
+}
+
+.invis-content-right {
+  /* margin-top: -27px; */
+  margin: -27px 0px 0px 132px;
+}
+
+.invis-content-right h2 {
+  font-size: 16px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 35px;
+  background-image: var(--theme-color);
 }
 
-.case--result h4 {
-  color: #fff;
+.invis-content-right h4 {
+  font-size: 16px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  margin-bottom: 6px;
+}
+
+.invis-content-right h3 {
   font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   font-weight: 500;
-  line-height: 45px;
 }
 
-.case--result a {
+.invis-content-right a {
   color: white;
 }
 
-.case-bottom--result {
-  max-width: 67%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 70px;
+.invis-content-right h5 {
+  font-size: 20px;
+  margin-bottom: -10px;
+  font-weight: 500;
+}
+
+.about-invis-section {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-row-gap: 50px;
-  grid-column-gap: 55px;
+  grid-template-columns: 40% 60%;
+}
+
+.invis-content {
+  flex: 1;
+  display: grid !important;
+  grid-template-columns: 50% 50% !important;
+}
+
+.invis-logo {
+  /* margin-right: auto;
+  margin-left: auto;
+  max-width: 90%; */
+  border: 1px solid transparent;
+  background-color: #ffffff0a;
+  border-radius: 21px;
+  padding: 76px;
+}
+
+.invis-content {
+  border: 1px solid transparent;
+  padding: 69px;
+  background-color: #ffffff08;
+  border-radius: 21px;
+  display: flex;
+  /* gap: 249px; */
+}
+
+.about-invis-section {
+  gap: 82px;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.invis-challenge h1 {
+  font-size: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  margin-bottom: 30px;
+}
+
+.invis-challenge h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.invis-challenge p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.invis-challenge h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.invis-challenge h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.invis-challenge {
+  margin-bottom: 80px;
+}
+
+.invis-our-approach h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+}
+
+.invis-our-approach p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.invis-our-approach img {
+  margin-bottom: 80px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.invis-outcome h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+}
+
+.invis-Advancements h1 {
+  font-size: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  margin-bottom: 30px;
+}
+
+.invis-Advancements h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.invis-Advancements p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.invis-Advancements h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.invis-Advancements h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.invis-Advancements {
+  margin-bottom: 80px;
+}
+
+.invis-outcome h1 {
+  font-size: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  margin-bottom: 30px;
+}
+
+.invis-outcome {
+  border-radius: 21px;
+  border: 1px solid transparent;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 75px;
+  margin-bottom: 80px;
+}
+
+.invis-outcome li {
+  font-size: 18px;
+  font-weight: 500;
+  list-style-type: square;
+}
+
+li::marker {
+  color: rgba(0, 236, 188, 1);
+}
+
+.invis-result h1 {
+  font-size: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: var(--theme-color);
+  margin-bottom: 30px;
+}
+
+.invis-result p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 80px;
+}
+
+.invis-content-left {
+  border-right-style: solid;
+  border-right-color: rgba(0, 236, 188, 1);
 }
 
 @media (max-width: 645px) {
-  .case-bottom--result {
+  .invis-introduction img {
+    margin-bottom: 25px;
+  }
+  .invis-introduction p {
+    font-size: 16px;
+  }
+  .invis-introduction h2 {
+    font-size: 34px;
+    margin-bottom: 24px;
+  }
+  .invis-dogital-img img {
+    width: 100%;
+  }
+  .invis-digital-revolution {
     display: flex;
     flex-direction: column;
+    padding: 15px;
   }
-  .case-study-info2 {
-    max-width: 83%;
-    margin-left: auto;
-    margin-right: auto;
+  .invis-digitl-content h2 {
+    font-size: 32px;
+    line-height: 34px;
+    padding-bottom: 21px;
   }
-  .case-study-wrapper h3 {
-    margin-top: -63px;
-    font-size: 46px;
+  .invis-digital-revolution {
+    margin-top: 90px;
   }
-  .case-study-wrapper {
-    margin-bottom: 40px;
-  }
-  .case-content h2 {
-    margin-top: 37px;
-  }
-  .case-content p {
+  .invis-digitl-content p {
     font-size: 16px;
-    line-height: 25px;
-    margin-top: 13px;
+    line-height: 23px;
+    font-weight: 500;
   }
-  .case-bottom--result {
-    max-width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+  .about-invis-section {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px;
   }
-  .case--result h1 {
-    font-size: 23px;
+  .invis-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 120px;
+    padding: 30px;
   }
-  .case--result h4 {
-    margin-top: -7px;
+  .invis-logo {
+    padding: 22px;
   }
-  .case--result {
-    margin-top: -17px;
+  .invis-logo img {
+    margin-top: 27px;
+  }
+
+  .invis-logo img {
+    margin: 27px 0px 0px 9px;
+  }
+  .invis-logo h1 {
+    margin: 27px 0px 0px 9px;
+  }
+  .invis-logo h2 {
+    margin: 9px 0px 0px 9px;
+  }
+  .invis-content-right {
+    margin: -27px 0px 0px 132px;
+  }
+  .invis-content-left {
+    border-right: none;
+  }
+  .invis-content-right {
+    margin: -27px 0px 0px 0px;
+  }
+  .invis-challenge h1 {
+    font-size: 32px;
+  }
+  .invis-challenge h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
+  .invis-challenge p {
+    font-size: 16px;
+  }
+  .invis-challenge h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
+  .invis-challenge h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
+  .invis-our-approach h1 {
+    margin-bottom: 11px;
+    font-size: 32px;
+  }
+  .invis-our-approach p {
+    font-size: 16px;
+  }
+  .invis-our-approach img {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .invis-Advancements h1 {
+    margin-top: 25px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .invis-Advancements h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
+  .invis-Advancements p {
+    font-size: 16px;
+  }
+  .invis-Advancements h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
+  .invis-Advancements h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
+  .invis-outcome {
+    padding: 30px;
+  }
+  .invis-outcome h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  .invis-outcome li {
+    font-size: 16px;
+  }
+  .invis-result h1 {
+    font-size: 34px;
+    margin-bottom: 11px;
+  }
+  .invis-result p {
+    font-size: 16px;
+    margin-bottom: 65px;
   }
 }
 
-@media (min-width: 670px) and (max-width: 1014px) {
-  .case-bottom--result {
-    display: grid;
-    grid-template-columns: 50% 50%;
+@media (min-width: 640px) and (max-width: 768px) {
+  .about-invis-section {
+    gap: 82px;
+    display: flex;
+    flex-direction: column;
+  }
+  .invis-content-right {
+    margin-top: -17px;
+  }
+  .invis-logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .invis-logo img {
+    width: 37%;
+    display: flex;
+    margin: -20px 0px 0px 154px;
+  }
+  .invis-digital-revolution {
+    display: flex;
+    flex-direction: column;
+  }
+  .invis-dogital-img img {
+    width: 100%;
+  }
+  .invis-content {
+    text-align: center;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 1200px) {
+  .invis-content-left {
+    margin-top: -14px;
+    /* margin: -14px 0px 0px 59px; */
+    border-right: none;
+  }
+  .invis-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 83px;
+  }
+  .invis-logo {
+    height: 394px;
+  }
+  .invis-logo img {
+    margin-top: 57px;
+  }
+  .invis-content-right {
+    margin: -27px 0px 0px 0px;
+  }
+  .invis-digital-revolution {
+    display: flex;
+    flex-direction: column;
+  }
+  .invis-dogital-img img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .invis-digital-revolution {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65%;
+  }
+  .invis-introduction {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-invis-section {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .invis-challenge {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .invis-our-approach {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .invis-Advancements {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .invis-outcome {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .invis-result {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

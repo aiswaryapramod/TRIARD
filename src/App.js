@@ -11,7 +11,7 @@ import Demo from "./components/demos/Demo";
 import Missing from "./components/missing/Missing";
 
 import AboutUs from "./components/aboutUs/AboutUs";
-// import Slider from "./components/slider/Slider"
+// import Slider from "./components/slider/Slider";
 import Blog from "./components/blog/Blog";
 import Jewellery from "./components/jewellery/Jewellery";
 import Bloginner1 from "./components/bloginner1/Bloginner1";
@@ -32,6 +32,7 @@ import Inviscasestudy from "./components/invis-case-study/Casestudy";
 import Bloginner5 from "./components/bloginner5/Bloginner5";
 import Bloginner6 from "./components/bloginner6/Bloginner6";
 import Bloginner7 from "./components/bloginner7/Bloginner7";
+import Casestudies from "./components/case-studies/Casestudies";
 // import Casestudies from "./components/case-studies/Casestudies";
 // import Gallery from "./components/gallery/Gallery";
 
@@ -92,7 +93,10 @@ function App() {
 
           {/* <Route path="/case-studies" element={<Casestudies />} /> */}
 
-          <Route path="/case-study-invis-furniture" element={<Inviscasestudy />} />
+          <Route path="/case-studies-invis-furniture" element={<Inviscasestudy />} />
+
+          <Route path="/case-studies" element={<Casestudies />} />
+
 
           <Route path="/pilot" element={<Blenderpilot />} />
 

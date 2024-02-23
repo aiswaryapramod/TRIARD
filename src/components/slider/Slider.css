@@ -1,4 +1,4 @@
- /* body {
+/* body {
   --progress-bar-color: transparent;
 }
 
@@ -465,3 +465,97 @@
   left: 12%;
   bottom: 1px;
 }  */
+
+/* horizontal scroll */
+
+/* body {
+  overflow-x: hidden;
+  margin: 0;
+}
+.row,
+.section,
+section {
+  position: relative;
+  overflow: hidden;
+}
+.section,
+section {
+  padding: 80px 0;
+  text-align: center;
+}
+section:nth-child(1) {
+  background: blue;
+  color: white;
+}
+section:nth-child(3) {
+  background: green;
+  color: white;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.horiz-gallery-strip,
+.horiz-gallery-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  will-change: transform;
+  position: relative;
+}
+
+.project-wrap {
+  width: 50vw;
+  padding: 2rem;
+  box-sizing: content-box;
+}
+.project-wrap img {
+  width: 100%;
+  height: auto;
+} */
+
+/* horizontal scroll */
+
+/* done */
+/* ::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#PageWrap {
+  height: 100vh;
+  width: 300vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#SectionA {
+  background: rgb(104, 104, 104);
+}
+
+#SectionC {
+  background: rgb(36, 36, 36);
+}
+
+#SectionB {
+  background: rgb(167, 167, 167);
+} */
+
+/* another */
+/* 
