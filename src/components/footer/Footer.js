@@ -240,7 +240,7 @@ function Footer() {
                                 <a href="/terms-and-services">Terms & Conditions</a>
                             </li>
                             <li>
-                                <a href="/case-study-invis-furniture">Case study</a>
+                                <a href="/case-studies">Case study</a>
                             </li>
 
                         </ul>
